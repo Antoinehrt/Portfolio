@@ -1,2 +1,35 @@
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+:root{
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: #fff;
+  --main-color: #00ffee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, Roboto, "Helvetica Neue", sans-serif;
+}
+
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+}
+
+body{
+  background: var(--bg-color);
+  color: var(--text-color);
+}
