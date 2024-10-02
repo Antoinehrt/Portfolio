@@ -3,18 +3,18 @@
     Antoine
     <span>Hauret</span>
   </a>
-  <i class='bx bx-menu' id="menu-icon"></i>
+  <i class='bx bx-menu' id="menu-icon" #menuIcon (click)="toggleMenu()"></i>
 
-  <nav class="navbar">
-    <a href="#home" class="active">Home</a>
-    <a href="#education">Education</a>
-    <a href="#services">Services</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="#contact">Contact</a>
+  <nav class="navbar" #navbar>
+    <a href="#home" class="active" #navLinks>Home</a>
+    <a href="#education" #navLinks>Education</a>
+    <a href="#services" #navLinks>Services</a>
+    <a href="#testimonials" #navLinks>Testimonials</a>
+    <a href="#contact" #navLinks>Contact</a>
   </nav>
 </header>
 
-<section class="home" id="home">
+<section class="home" id="home" #sections>
   <div class="home-content">
     <h1>Hi, it's <span>Antoine</span></h1>
     <h3 class="text-animation"> I'm a <span></span></h3>
@@ -41,7 +41,7 @@
   </div>
 </section>
 
-<section class="education" id="education">
+<section class="education" id="education" #sections>
   <h2 class="heading">Education</h2>
   <div class="timeline-items">
     <div class="timeline-item">
@@ -127,7 +127,7 @@
   </div>
 </section>
 
-<section class="services" id="services">
+<section class="services" id="services" #sections>
   <h2 class="heading">Services</h2>
   <div class="services-container">
     <div class="service-box">
@@ -197,10 +197,123 @@
   </div>
 </section>
 
-<section class="testimonials" id="testimonials">
+<section class="testimonials" id="testimonials" #sections>
+  <div class="testimonials-box">
+    <h2 class="heading">Testimonials</h2>
+    <div class="wrapper">
+      <div class="testimonial-item">
+        <img src="../../../assets/img/profile_pictures/square_profile_pic.jpg" alt="Test image">
+        <h2>Marilyn</h2>
+        <div class="rating">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit
+          anim id est laborum
+        </p>
+      </div>
+      <div class="testimonial-item">
+        <img src="../../../assets/img/profile_pictures/square_profile_pic.jpg" alt="Test image">
+        <h2>Julia</h2>
+        <div class="rating">
 
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit
+          anim id est laborum
+        </p>
+      </div>
+      <div class="testimonial-item">
+        <img src="../../../assets/img/profile_pictures/square_profile_pic.jpg" alt="Test image">
+        <h2>Rebecca</h2>
+        <div class="rating">
+
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit
+          anim id est laborum
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="contact" id="contact"></section>
+<section class="contact" id="contact" #sections>
+  <h2 class="heading">
+    Contact <span>Me</span>
+  </h2>
+
+  <form action="">
+    <div class="input-group">
+      <div class="input-box">
+        <input type="text" name="name" id="name" placeholder="Full name">
+        <input type="email" name="email" id="email" placeholder="email">
+      </div>
+      <div class="input-box">
+        <input type="number" name="phone" id="phone" placeholder="Phone number">
+        <input type="text" name="subject" id="subject" placeholder="Subject">
+      </div>
+    </div>
+    <div class="input-group-2">
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send message" class="btn">
+    </div>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="social">
+    <a href="https://www.linkedin.com/in/antoine-hauret-453a16330/"><i class="bx bxl-linkedin"></i></a>
+    <a href="https://github.com/Antoinehrt"><i class="bx bxl-github"></i></a>
+    <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+    <a href="#"><i class="bx bxl-twitter"></i></a>
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="#">FAQ</a>
+    </li>
+    <li>
+      <a href="#home">About Me</a>
+    </li>
+    <li>
+      <a href="#services">Services</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+    <li>
+      <a href="#testimonials">Testimonials</a>
+    </li>
+  </ul>
+  <p class="copyright">
+    © 2024 Antoine Hauret | All rights reserved.
+  </p>
+</footer>
 
 
