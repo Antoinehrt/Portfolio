@@ -223,7 +223,7 @@ span {
 @keyframes words {
   0%,
   20% {
-    content: "Fullstack Developer";
+    content: "Backend Developer";
   }
   21%,
   40% {
@@ -231,15 +231,15 @@ span {
   }
   41%,
   60% {
-    content: "Backend Developer";
+    content: "Fullstack Developer";
   }
   61%,
   80% {
-    content: "Lorem Ipsum";
+    content: "Mobile Developer";
   }
   81%,
   100% {
-    content: "Lorem Ipsum";
+    content: "Software Developer";
   }
 }
 
