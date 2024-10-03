@@ -9,7 +9,7 @@
     <a href="#home" class="active" #navLinks>Home</a>
     <a href="#education" #navLinks>Education</a>
     <a href="#services" #navLinks>Services</a>
-    <a href="#testimonials" #navLinks>Testimonials</a>
+    <a href="#projects" #navLinks>Projects</a>
     <a href="#contact" #navLinks>Contact</a>
   </nav>
 </header>
@@ -43,158 +43,17 @@
 
 <section class="education" id="education" #sections>
   <h2 class="heading">Education</h2>
-  <div class="timeline-items">
-    <div class="timeline-item">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">
-        2013
-      </div>
-      <div class="timeline-content">
-        <h3>High School</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">
-        2019
-      </div>
-      <div class="timeline-content">
-        <h3>University</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">
-        2021
-      </div>
-      <div class="timeline-content">
-        <h3>University College</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">
-        2024
-      </div>
-      <div class="timeline-content">
-        <h3>Internship</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-  </div>
+  <app-education></app-education>
 </section>
 
 <section class="services" id="services" #sections>
   <h2 class="heading">Services</h2>
-  <div class="services-container">
-    <div class="service-box">
-      <div class="service-info">
-        <h4>UI Design</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-    <div class="service-box">
-      <div class="service-info">
-        <h4>Backend Development</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-    <div class="service-box">
-      <div class="service-info">
-        <h4>FullStack Development</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-    <div class="service-box">
-      <div class="service-info">
-        <h4>Test</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-  </div>
+  <app-services></app-services>
 </section>
 
-<section class="testimonials" id="testimonials" #sections>
-  <div class="testimonials-box">
-    <h2 class="heading">Testimonials</h2>
-    <div class="wrapper">
-      <div class="testimonial-item">
-        <img src="../../../assets/img/square_profile_pic.jpg" alt="Test image">
-        <h2>Marilyn</h2>
-        <div class="rating">
-          <i class='bx bxs-star star'></i>
-          <i class='bx bxs-star star'></i>
-          <i class='bx bxs-star star'></i>
-          <i class='bx bxs-star star'></i>
-          <i class='bx bxs-star star'></i>
-          </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-      <div class="testimonial-item">
-        <img src="../../../assets/img/square_profile_pic.jpg" alt="Test image">
-        <h2>Julia</h2>
-        <div class="rating">
-
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-      <div class="testimonial-item">
-        <img src="../../../assets/img/square_profile_pic.jpg" alt="Test image">
-        <h2>Rebecca</h2>
-        <div class="rating">
-
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-  </div>
+<section class="projects" id="projects" #sections>
+  <h2 class="heading">Projects</h2>
+  <app-projects></app-projects>
 </section>
 
 <section class="contact" id="contact" #sections>
@@ -242,7 +101,7 @@
       <a href="#contact">Contact</a>
     </li>
     <li>
-      <a href="#testimonials">Testimonials</a>
+      <a href="#projects">Projects</a>
     </li>
   </ul>
   <p class="copyright">

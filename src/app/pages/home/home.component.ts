@@ -3,12 +3,18 @@ import {ElementRef, HostListener, Renderer2, ViewChildren, QueryList, AfterViewI
 
 import {MatIcon} from '@angular/material/icon';
 import {NgOptimizedImage} from "@angular/common";
+import {EducationComponent} from "../education/education.component";
+import {ServicesComponent} from "../services/services.component";
+import {ProjectsComponent} from "../projects/projects.component";
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
     MatIcon,
-    NgOptimizedImage
+    NgOptimizedImage,
+    EducationComponent,
+    ServicesComponent,
+    ProjectsComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
