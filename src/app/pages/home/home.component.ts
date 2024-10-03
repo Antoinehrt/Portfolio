@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
-import {ElementRef, HostListener, Renderer2, ViewChildren, QueryList, AfterViewInit } from '@angular/core';
+import {Component} from '@angular/core';
+import {ElementRef, HostListener, Renderer2, ViewChildren, QueryList, AfterViewInit} from '@angular/core';
 
 import {MatIcon} from '@angular/material/icon';
 import {NgOptimizedImage} from "@angular/common";
 import {EducationComponent} from "../education/education.component";
 import {ServicesComponent} from "../services/services.component";
 import {ProjectsComponent} from "../projects/projects.component";
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -24,12 +25,13 @@ export class HomeComponent implements AfterViewInit {
   pictureFilePath: string = '../../../assets/images/profile.jpg';
   myAge: number = new Date().getFullYear() - 2001;
 
-@ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
+  @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
   @ViewChildren('navbar') navbar!: QueryList<ElementRef>;
   @ViewChildren('sections') sections!: QueryList<ElementRef>;
   @ViewChildren('navLinks') navLinks!: QueryList<ElementRef>;
 
-  constructor(private renderer: Renderer2) {}
+  constructor(private renderer: Renderer2) {
+  }
 
   ngAfterViewInit() {
     // Initialisation après le chargement des éléments du DOM
