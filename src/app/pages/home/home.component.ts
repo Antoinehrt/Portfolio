@@ -22,6 +22,7 @@ import {ProjectsComponent} from "../projects/projects.component";
 
 export class HomeComponent implements AfterViewInit {
   pictureFilePath: string = '../../../assets/images/profile.jpg';
+  myAge: number = new Date().getFullYear() - 2001;
 
 @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
   @ViewChildren('navbar') navbar!: QueryList<ElementRef>;
