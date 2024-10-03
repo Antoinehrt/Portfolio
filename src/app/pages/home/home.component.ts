@@ -2,18 +2,22 @@ import { Component } from '@angular/core';
 import {ElementRef, HostListener, Renderer2, ViewChildren, QueryList, AfterViewInit } from '@angular/core';
 
 import {MatIcon} from '@angular/material/icon';
+import {NgOptimizedImage} from "@angular/common";
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
-    MatIcon
+    MatIcon,
+    NgOptimizedImage
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 
 export class HomeComponent implements AfterViewInit {
-  @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
+  pictureFilePath: string = '../../../assets/images/profile.jpg';
+
+@ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
   @ViewChildren('navbar') navbar!: QueryList<ElementRef>;
   @ViewChildren('sections') sections!: QueryList<ElementRef>;
   @ViewChildren('navLinks') navLinks!: QueryList<ElementRef>;

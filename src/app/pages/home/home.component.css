@@ -185,10 +185,16 @@ span {
   font-size: 34px;
   font-weight: 600;
   min-width: 280px;
+  line-height: 1; /*Added*/
+  vertical-align: middle; /*Added*/
 }
 
 .text-animation span {
   position: relative;
+  display: inline-block; /*Added*/
+  height: 1em; /*Added*/
+  overflow: hidden; /*Added*/
+  vertical-align: middle; /*Added*/
 }
 
 .text-animation span::before {
@@ -196,7 +202,7 @@ span {
   color: var(--main-color);
   animation: words 20s infinite;
 }
-<!-- TODO correct the speller -->
+
 .text-animation span::after {
   content: "";
   background-color: var(--bg-color);
@@ -321,7 +327,7 @@ span {
   width: 21px;
   background-color: var(--main-color);
   box-shadow: 0 0 25px var(--main-color),
-  0 0 50px var(--main-color),;
+  0 0 50px var(--main-color);
   position: absolute;
   left: calc(50% - 8px);
   border-radius: 50%;
@@ -484,7 +490,7 @@ span {
   font-size: 1.3rem;
 }
 
-#star {
+.star {
   color: gold;
   font-size: 2rem;
 }
@@ -519,7 +525,7 @@ span {
   padding: 2.5rem;
   font-size: 1.8rem;
   color: var(--text-color);
-  background-color: var(--second-bg-color);
+  background: var(--second-bg-color);
   border-radius: 2rem;
   border: 2px solid var(--main-color);
   margin: 1.5rem 0;
@@ -610,7 +616,7 @@ span {
 
 @media (max-width: 991px) {
   header {
-    padding: 2rem 3%
+    padding: 2rem 3%;
   }
 
   section {
@@ -620,6 +626,12 @@ span {
   .timeline-items::before {
     left: 7px;
   }
+
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+
   .timeline-item:nth-child(odd),
   .timeline-item:nth-child(even) {
     padding: 37px;
