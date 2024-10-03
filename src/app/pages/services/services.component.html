@@ -1,42 +1,10 @@
 <div class="services-container">
-  <div class="service-box">
-    <div class="service-info">
-      <h4>UI Design</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-      </p>
+  <ng-template ngFor let-service [ngForOf]="services">
+    <div class="service-box">
+      <div class="service-info">
+        <h4>{{ service.name }}</h4>
+        <p>{{ service.description }}</p>
+      </div>
     </div>
-  </div>
-  <div class="service-box">
-    <div class="service-info">
-      <h4>Backend Development</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-      </p>
-    </div>
-  </div>
-  <div class="service-box">
-    <div class="service-info">
-      <h4>FullStack Development</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-      </p>
-    </div>
-  </div>
-  <div class="service-box">
-    <div class="service-info">
-      <h4>Test</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-      </p>
-    </div>
-  </div>
+  </ng-template>
 </div>
