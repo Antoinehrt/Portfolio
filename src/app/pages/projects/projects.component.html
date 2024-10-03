@@ -1,44 +1,16 @@
-<div class="testimonials-box">
+<div class="projects-box">
   <div class="wrapper">
-    <div class="testimonial-item">
-      <img src="../../../assets/img/square_profile_pic.jpg" alt="Test image">
-      <h2>Marilyn</h2>
-      <div class="rating">
-        <i class='bx bxs-star star'></i>
-        <i class='bx bxs-star star'></i>
-        <i class='bx bxs-star star'></i>
-        <i class='bx bxs-star star'></i>
-        <i class='bx bxs-star star'></i>
+    <ng-template ngFor let-project [ngForOf]="projects">
+      <div class="project">
+        <img src="{{project.imageUrl}}" alt="Test image">
+        <h2>{{project.name}}</h2>
+        <div class="rating">
+          <i class='bx bxs-star star'></i>
+        </div>
+        <p>
+          {{project.description}}
+        </p>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-      </p>
-    </div>
-    <div class="testimonial-item">
-      <img src="../../../assets/img/square_profile_pic.jpg" alt="Test image">
-      <h2>Julia</h2>
-      <div class="rating">
-
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-      </p>
-    </div>
-    <div class="testimonial-item">
-      <img src="../../../assets/img/square_profile_pic.jpg" alt="Test image">
-      <h2>Rebecca</h2>
-      <div class="rating">
-
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-      </p>
-    </div>
+    </ng-template>
   </div>
 </div>
