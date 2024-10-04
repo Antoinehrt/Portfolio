@@ -4,7 +4,7 @@ import {ElementRef, HostListener, Renderer2, ViewChildren, QueryList, AfterViewI
 import {MatIcon} from '@angular/material/icon';
 import {NgOptimizedImage} from "@angular/common";
 import {EducationComponent} from "../education/education.component";
-import {ServicesComponent} from "../services/services.component";
+import {TechnologiesComponent} from "../technologies/technologies.component";
 import {ProjectsComponent} from "../projects/projects.component";
 
 @Component({
@@ -14,7 +14,7 @@ import {ProjectsComponent} from "../projects/projects.component";
     MatIcon,
     NgOptimizedImage,
     EducationComponent,
-    ServicesComponent,
+    TechnologiesComponent,
     ProjectsComponent
   ],
   templateUrl: './home.component.html',

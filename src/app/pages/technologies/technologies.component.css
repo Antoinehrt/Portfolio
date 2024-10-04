@@ -43,4 +43,13 @@
   max-height: 100px;
   line-height: 1.7;
   margin: auto;
+  text-align: center;
+}
+
+.service-info p svg {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 7rem;
+  height: 7rem;
+
 }
