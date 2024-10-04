@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ElementRef, HostListener, Renderer2, ViewChildren, QueryList, AfterViewInit} from '@angular/core';
 
 import {MatIcon} from '@angular/material/icon';
@@ -21,9 +21,14 @@ import {ProjectsComponent} from "../projects/projects.component";
   styleUrl: './home.component.css'
 })
 
-export class HomeComponent implements AfterViewInit {
+export class HomeComponent implements AfterViewInit, OnInit {
   pictureFilePath: string = '../../../assets/images/profile.jpg';
-  myAge: number = new Date().getFullYear() - 2001;
+
+  birthDate: Date = new Date(2001, 7, 4);
+
+  today: Date = new Date();
+
+   myAge: number = 0;
 
   @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
   @ViewChildren('navbar') navbar!: QueryList<ElementRef>;
@@ -31,13 +36,16 @@ export class HomeComponent implements AfterViewInit {
   @ViewChildren('navLinks') navLinks!: QueryList<ElementRef>;
 
   constructor(private renderer: Renderer2) {
+    this.calculateAge();
   }
+
+  ngOnInit(): void {
+        this.calculateAge();
+    }
 
   ngAfterViewInit() {
-    // Initialisation après le chargement des éléments du DOM
   }
 
-  // Méthode pour gérer le clic sur l'icône du menu
   toggleMenu() {
     const menuIcon = this.menuIcon.first.nativeElement;
     const navbar = this.navbar.first.nativeElement;
@@ -55,7 +63,6 @@ export class HomeComponent implements AfterViewInit {
     }
   }
 
-  // Méthode pour gérer le scroll
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     const top = window.scrollY;
@@ -75,5 +82,12 @@ export class HomeComponent implements AfterViewInit {
         });
       }
     });
+  }
+
+  calculateAge() {
+    this.myAge = this.today.getFullYear() - this.birthDate.getFullYear();
+    if (this.today.getMonth() < this.birthDate.getMonth() && this.today.getDate() < this.birthDate.getDate()) {
+      this.myAge--;
+    }
   }
 }
