@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
-import {ElementRef, HostListener, Renderer2, ViewChildren, QueryList, AfterViewInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {ElementRef, HostListener, Renderer2, ViewChildren, QueryList, AfterViewInit} from '@angular/core';
 
 import {MatIcon} from '@angular/material/icon';
 import {NgOptimizedImage} from "@angular/common";
 import {EducationComponent} from "../education/education.component";
-import {ServicesComponent} from "../services/services.component";
+import {TechnologiesComponent} from "../technologies/technologies.component";
 import {ProjectsComponent} from "../projects/projects.component";
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -13,28 +14,38 @@ import {ProjectsComponent} from "../projects/projects.component";
     MatIcon,
     NgOptimizedImage,
     EducationComponent,
-    ServicesComponent,
+    TechnologiesComponent,
     ProjectsComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 
-export class HomeComponent implements AfterViewInit {
+export class HomeComponent implements AfterViewInit, OnInit {
   pictureFilePath: string = '../../../assets/images/profile.jpg';
 
-@ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
+  birthDate: Date = new Date(2001, 7, 4);
+
+  today: Date = new Date();
+
+   myAge: number = 0;
+
+  @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
   @ViewChildren('navbar') navbar!: QueryList<ElementRef>;
   @ViewChildren('sections') sections!: QueryList<ElementRef>;
   @ViewChildren('navLinks') navLinks!: QueryList<ElementRef>;
 
-  constructor(private renderer: Renderer2) {}
-
-  ngAfterViewInit() {
-    // Initialisation après le chargement des éléments du DOM
+  constructor(private renderer: Renderer2) {
+    this.calculateAge();
   }
 
-  // Méthode pour gérer le clic sur l'icône du menu
+  ngOnInit(): void {
+        this.calculateAge();
+    }
+
+  ngAfterViewInit() {
+  }
+
   toggleMenu() {
     const menuIcon = this.menuIcon.first.nativeElement;
     const navbar = this.navbar.first.nativeElement;
@@ -52,7 +63,6 @@ export class HomeComponent implements AfterViewInit {
     }
   }
 
-  // Méthode pour gérer le scroll
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     const top = window.scrollY;
@@ -72,5 +82,12 @@ export class HomeComponent implements AfterViewInit {
         });
       }
     });
+  }
+
+  calculateAge() {
+    this.myAge = this.today.getFullYear() - this.birthDate.getFullYear();
+    if (this.today.getMonth() < this.birthDate.getMonth() && this.today.getDate() < this.birthDate.getDate()) {
+      this.myAge--;
+    }
   }
 }

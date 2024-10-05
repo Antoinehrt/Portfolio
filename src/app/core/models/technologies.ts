@@ -1,4 +1,4 @@
-export interface Service {
+export interface Technologies {
   name: string,
   description: string;
 }

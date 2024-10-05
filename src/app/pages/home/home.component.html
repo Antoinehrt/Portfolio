@@ -9,7 +9,7 @@
     <a href="#home" class="active" #navLinks>Home</a>
     <a href="#education" #navLinks>Education</a>
     <a href="#services" #navLinks>Services</a>
-    <a href="#projects" #navLinks>Projects</a>
+    <!--<a href="#projects" #navLinks>Projects</a>-->
     <a href="#contact" #navLinks>Contact</a>
   </nav>
 </header>
@@ -18,11 +18,13 @@
   <div class="home-content">
     <h1>Hi, it's <span>Antoine</span></h1>
     <h3 class="text-animation"> I'm a <span></span></h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-      anim id est laborum
+    <p>
+      A Belgian with a passion for creating efficient, scalable systems. <b style="color: var(--main-color);">I graduated with distinction in September 2024 with a bachelor's degree in Computer Science, majoring in applications development.</b>
+      At {{myAge}}, I’ve developed expertise in backend technologies like Python, Java, and ASP.NET Core, while also enjoying front-end work using Angular.
+      <br> <br>
+      In addition to programming, I have experience with Docker, SQL, Git, and I work with Agile methodologies to deliver solutions.
+      Whether it’s building backend systems or working across the full stack, I’m always eager for new challenges. <br>
+      Feel free to explore my projects and get in touch if you'd like to collaborate!
     </p>
     <div class="social-icons">
       <a href="https://www.linkedin.com/in/antoine-hauret-453a16330/"><i class="bx bxl-linkedin"></i></a>
@@ -47,14 +49,14 @@
 </section>
 
 <section class="services" id="services" #sections>
-  <h2 class="heading">Services</h2>
-  <app-services></app-services>
+  <h2 class="heading">Technologies</h2>
+  <app-technologies></app-technologies>
 </section>
 
-<section class="projects" id="projects" #sections>
+<!--<section class="projects" id="projects" #sections>
   <h2 class="heading">Projects</h2>
   <app-projects></app-projects>
-</section>
+</section>-->
 
 <section class="contact" id="contact" #sections>
   <h2 class="heading">

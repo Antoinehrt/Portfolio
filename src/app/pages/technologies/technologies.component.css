@@ -1,14 +1,3 @@
-
-.services {
-  background-color: var(--bg-color);
-  color: #000000;
-}
-
-.services h2 {
-  margin-bottom: 5rem;
-  color: #ffffff;
-}
-
 .services-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -54,4 +43,13 @@
   max-height: 100px;
   line-height: 1.7;
   margin: auto;
+  text-align: center;
+}
+
+.service-info p svg {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 7rem;
+  height: 7rem;
+
 }
