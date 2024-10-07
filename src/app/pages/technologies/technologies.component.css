@@ -46,24 +46,52 @@
   text-align: center;
 }
 
-.technology-info p svg {
+.technology-info p {
   margin-right: 1rem;
   margin-bottom: 1rem;
-  width: 7rem;
-  height: 7rem;
-
 }
 
-@media (max-width: 1285px) {
+.technology-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Espace entre les icônes */
+}
+
+.technology-icon svg {
+  width: 7rem; /* Taille par défaut des icônes */
+  height: 7rem;
+  overflow: hidden;
+}
+
+@media (max-width: 1400px) {
   .technology-container {
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 5rem;
+  }
+
+  .technology-icon svg {
+    width: 6rem; /* Taille des icônes pour les écrans moyens */
+    height: 6rem;
   }
 }
 
 @media(max-width: 895px){
   .technology-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .technology-icon svg {
+    width: 5rem; /* Taille des icônes pour les petits écrans */
+    height: 5rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .technology-icon svg {
+    width: 4rem; /* Taille des icônes pour les petits écrans */
+    height: 4rem;
   }
 }
