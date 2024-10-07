@@ -33,7 +33,7 @@ form {
  }
 
 .btn-disabled {
-  background-color: grey;
+  background-color: #BBDEFB;
   cursor: not-allowed;
   opacity: 0.5;
   box-shadow: none;
