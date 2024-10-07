@@ -1,11 +1,11 @@
-.services-container {
+.technology-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
 }
 
-.service-box {
+.technology-box {
   background-color: var(--main-color);
   height: 300px;
   border-radius: 3rem;
@@ -14,14 +14,14 @@
   transition: 0.4s easin-in-out;
 }
 
-.service-box:hover {
+.technology-box:hover {
   background: #ffffff;
   color: #000000;
   border: 5px solid var(--main-color);
   transform: scale(1.03);
 }
 
-.service-box .service-info {
+.technology-box .technology-info {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -31,13 +31,13 @@
   padding: 5rem 5rem;
 }
 
-.service-info h4 {
+.technology-info h4 {
   font-size: 3rem;
   font-weight: 800;
   line-height: 2;
 }
 
-.service-info p {
+.technology-info p {
   font-size: 1.6rem;
   font-weight: 600;
   max-height: 100px;
@@ -46,10 +46,24 @@
   text-align: center;
 }
 
-.service-info p svg {
+.technology-info p svg {
   margin-right: 1rem;
   margin-bottom: 1rem;
   width: 7rem;
   height: 7rem;
 
+}
+
+@media (max-width: 1285px) {
+  .technology-container {
+    padding-bottom: 7rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 5rem;
+  }
+}
+
+@media(max-width: 895px){
+  .technology-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
