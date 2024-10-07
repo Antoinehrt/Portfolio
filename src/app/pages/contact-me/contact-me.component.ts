@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
+import {NgClass, NgIf} from "@angular/common";
 
 @Component({
   selector: 'app-contact-me',
   standalone: true,
   imports: [
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgIf,
+    NgClass
   ],
   templateUrl: './contact-me.component.html',
   styleUrl: './contact-me.component.css'
