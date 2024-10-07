@@ -6,6 +6,7 @@ import {NgOptimizedImage} from "@angular/common";
 import {EducationComponent} from "../education/education.component";
 import {TechnologiesComponent} from "../technologies/technologies.component";
 import {ProjectsComponent} from "../projects/projects.component";
+import {ContactMeComponent} from "../contact-me/contact-me.component";
 
 @Component({
   selector: 'app-home',
@@ -15,7 +16,8 @@ import {ProjectsComponent} from "../projects/projects.component";
     NgOptimizedImage,
     EducationComponent,
     TechnologiesComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactMeComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
