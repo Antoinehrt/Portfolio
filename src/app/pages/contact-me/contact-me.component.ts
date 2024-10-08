@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
 import {NgClass, NgIf} from "@angular/common";
 import emailjs from '@emailjs/browser';
+import {ToastrService} from "ngx-toastr";
 import {environment} from "../../../environments/environment";
 
 @Component({
@@ -10,7 +11,7 @@ import {environment} from "../../../environments/environment";
   imports: [
     ReactiveFormsModule,
     NgIf,
-    NgClass
+    NgClass,
   ],
   templateUrl: './contact-me.component.html',
   styleUrl: './contact-me.component.css'
@@ -18,7 +19,7 @@ import {environment} from "../../../environments/environment";
 export class ContactMeComponent {
   contactForm: FormGroup;
 
-  constructor(private _fb: FormBuilder) {
+  constructor(private _fb: FormBuilder, private _toastr: ToastrService) {
     this.contactForm = this._fb.group({
       name: ['', [Validators.required, Validators.minLength(3)]],
       email: ['', [Validators.required, Validators.email]],
@@ -39,11 +40,15 @@ export class ContactMeComponent {
       subject: this.contactForm.value.subject,
       message: this.contactForm.value.message
     })
-      // TODO: en faire un toast et clear le form en cas de success
-      .then(function(response) {
+
+      .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-      }, function(error) {
+        this._toastr.success('Message sent successfully');
+        this.contactForm.reset();
+      })
+      .catch((error) => {
         console.log('FAILED...', error);
-    })
+        this._toastr.error('Failed to send the message');
+      });
   }
 }
