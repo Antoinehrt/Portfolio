@@ -1,4 +1,5 @@
 @import url('https://boxicons.com/css/boxicons.min.css');
+@import '../../core/style/btn-shared.css';
 
 .header {
   position: fixed;
@@ -144,32 +145,6 @@ span {
   background-color: var(--main-color);
 }
 
-.btn {
-  display: inline-block;
-  padding: 1rem 2.8rem;
-  background: var(--main-color);
-  box-shadow: 0 0 25px var(--main-color);
-  border-radius: 4rem;
-  font-size: 1.6rem;
-  color: #000;
-  border: 2px solid transparent;
-  letter-spacing: 0.1rem;
-  font-weight: 600;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 50px var(--main-color);
-}
-
-.btn-group {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
 .btn-group a:nth-of-type(2) {
   background-color: black;
   color: var(--main-color);
@@ -307,37 +282,7 @@ span {
   color: #ffffff;
 }
 
-.contact form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  margin: 5rem auto;
-  text-align: center;
-}
 
-.contact form .input-box {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea {
-  width: 100%;
-  padding: 2.5rem;
-  font-size: 1.8rem;
-  color: var(--text-color);
-  background: var(--second-bg-color);
-  border-radius: 2rem;
-  border: 2px solid var(--main-color);
-  margin: 1.5rem 0;
-  resize: none;
-}
-
-.contact form .btn {
-  margin-top: 2rem;
-}
 
 .footer {
   position: relative;
@@ -416,10 +361,6 @@ span {
 
   .technology{
     padding-bottom: 7rem;
-  }
-
-  .contact form{
-    flex-direction: column;
   }
 
   .footer{
