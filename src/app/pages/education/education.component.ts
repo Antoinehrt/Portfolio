@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {TimelineItem} from "../../core/models/timeline-item";
 import {CommonModule, NgFor, NgForOf} from "@angular/common";
-import {Router} from "@angular/router";
+import {Router, RouterOutlet} from "@angular/router";
 
 @Component({
   selector: 'app-education',
@@ -9,7 +9,8 @@ import {Router} from "@angular/router";
   imports: [
     NgForOf,
     NgFor,
-    CommonModule
+    CommonModule,
+    RouterOutlet
   ],
   templateUrl: './education.component.html',
   styleUrl: './education.component.css'

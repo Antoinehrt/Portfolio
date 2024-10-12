@@ -6,13 +6,9 @@ import {UniversityComponent} from "./pages/education-detailed/university/univers
 
 export const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'home', component: HomeComponent}, {
-    path: 'education',
-    component: EducationComponent,
-    children: [
-      { path: 'high-school', component: HighSchoolComponent },
-      { path: 'university', component: UniversityComponent }
-    ]
-  },
+  {path: 'home', component: HomeComponent},
+  {path: 'education',    component: EducationComponent },
+  { path: 'education/high-school', component: HighSchoolComponent },
+  { path: 'education/university', component: UniversityComponent },
   {path: '**', redirectTo: 'home'}
 ];
