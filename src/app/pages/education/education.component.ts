@@ -46,4 +46,11 @@ export class EducationComponent {
     }
   ];
 
+  constructor(private router: Router) {
+  }
+
+  navigateToDetail(item: TimelineItem) {
+    this.router.navigate([`/education/${item.component}`]);
+  }
+
 }

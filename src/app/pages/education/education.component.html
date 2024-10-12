@@ -1,6 +1,6 @@
 <div class="timeline-items">
   <ng-template ngFor let-item [ngForOf]="timelineItems.slice().reverse()">
-    <div class="timeline-item">
+    <div class="timeline-item" (click)="navigateToDetail(item)">
       <div class="timeline-dot"></div>
       <div class="timeline-date">
         {{ item.date | date: 'yyyy' }}
