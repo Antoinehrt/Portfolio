@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, ElementRef, HostListener, QueryList, Renderer2, ViewChildren} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {HomeComponent} from "./pages/home/home.component";
 
@@ -11,4 +11,53 @@ import {HomeComponent} from "./pages/home/home.component";
 })
 export class AppComponent {
   title = 'Portfolio';
+
+  @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
+  @ViewChildren('navbar') navbar!: QueryList<ElementRef>;
+  @ViewChildren('sections') sections!: QueryList<ElementRef>;
+  @ViewChildren('navLinks') navLinks!: QueryList<ElementRef>;
+
+  constructor(private renderer: Renderer2) {
+  }
+
+
+  toggleMenu() {
+    const menuIcon = this.menuIcon.first.nativeElement;
+    const navbar = this.navbar.first.nativeElement;
+
+    if (menuIcon.classList.contains('bx-x')) {
+      this.renderer.removeClass(menuIcon, 'bx-x');
+    } else {
+      this.renderer.addClass(menuIcon, 'bx-x');
+    }
+
+    if (navbar.classList.contains('active')) {
+      this.renderer.removeClass(navbar, 'active');
+    } else {
+      this.renderer.addClass(navbar, 'active');
+    }
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  onScroll() {
+    const top = window.scrollY;
+
+    this.sections.forEach((sec: ElementRef) => {
+      const section = sec.nativeElement;
+      const offset = section.offsetTop - 150;
+      const height = section.offsetHeight;
+      const id = section.getAttribute('id');
+
+      if (top >= offset && top < offset + height) {
+        this.navLinks.forEach((link: ElementRef) => {
+          this.renderer.removeClass(link.nativeElement, 'active');
+          if (link.nativeElement.getAttribute('href') === `#${id}`) {
+            this.renderer.addClass(link.nativeElement, 'active');
+          }
+        });
+      }
+    });
+  }
+
+
 }
