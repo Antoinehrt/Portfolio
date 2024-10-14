@@ -1,4 +1,6 @@
-import {Component, ElementRef, HostListener, QueryList, Renderer2, ViewChildren} from '@angular/core';
+import {Component, ElementRef, HostListener, QueryList, Renderer2, ViewChildren, AfterViewInit} from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
 import { RouterOutlet } from '@angular/router';
 import {HomeComponent} from "./pages/home/home.component";
 
@@ -9,7 +11,7 @@ import {HomeComponent} from "./pages/home/home.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   title = 'Portfolio';
 
   @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
@@ -17,9 +19,25 @@ export class AppComponent {
   @ViewChildren('sections') sections!: QueryList<ElementRef>;
   @ViewChildren('navLinks') navLinks!: QueryList<ElementRef>;
 
-  constructor(private renderer: Renderer2) {
+  constructor(private renderer: Renderer2, private router: Router) {
   }
 
+  ngAfterViewInit() {
+    this.router.events.pipe(
+      filter(event => event instanceof NavigationEnd)
+    ).subscribe(() => {
+      this.updateSections();
+    });
+  }
+
+  updateSections() {
+    this.sections = new QueryList<ElementRef>();
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+      this.sections.reset([...this.sections.toArray(), new ElementRef(section)]);
+    });
+    this.sections.notifyOnChanges();
+  }
 
   toggleMenu() {
     const menuIcon = this.menuIcon.first.nativeElement;
@@ -58,6 +76,4 @@ export class AppComponent {
       }
     });
   }
-
-
 }

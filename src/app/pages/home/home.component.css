@@ -137,16 +137,16 @@ span {
   font-size: 34px;
   font-weight: 600;
   min-width: 280px;
-  line-height: 1; /*Added*/
-  vertical-align: middle; /*Added*/
+  line-height: 1;
+  vertical-align: middle;
 }
 
 .text-animation span {
   position: relative;
-  display: inline-block; /*Added*/
-  height: 1em; /*Added*/
-  overflow: hidden; /*Added*/
-  vertical-align: middle; /*Added*/
+  display: inline-block;
+  height: 1em;
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 .text-animation span::before {
@@ -257,10 +257,7 @@ span {
   color: #ffffff;
 }
 
-
-
 @media (max-width: 991px) {
-
   .technology {
     padding-bottom: 7rem;
   }
