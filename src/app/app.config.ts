@@ -6,5 +6,9 @@ import {provideAnimationsAsync} from '@angular/platform-browser/animations/async
 import {ToastrModule} from "ngx-toastr";
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({eventCoalescing: true}), provideRouter(routes), provideAnimationsAsync(), importProvidersFrom(ToastrModule.forRoot())]
+  providers: [
+    provideZoneChangeDetection({eventCoalescing: true}),
+    provideRouter(routes),
+    provideAnimationsAsync(),
+    importProvidersFrom(ToastrModule.forRoot())]
 };
