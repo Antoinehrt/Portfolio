@@ -1,8 +1,8 @@
 import {Routes} from '@angular/router';
 import {EducationComponent} from './pages/education/education.component';
-import {HighSchoolComponent} from './pages/education-detailed/high-school/high-school.component';
 import {HomeComponent} from "./pages/home/home.component";
-import {UniversityComponent} from "./pages/education-detailed/university/university.component";
+import {HighSchoolComponent} from "./pages/education/high-school/high-school.component";
+import {UniversityComponent} from "./pages/education/university/university.component";
 
 export const routes: Routes = [
   {path: '', component: HomeComponent},
