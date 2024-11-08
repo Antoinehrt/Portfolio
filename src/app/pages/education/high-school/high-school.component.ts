@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
-import {EducationComponent} from "../../education/education.component";
 
 @Component({
   selector: 'app-high-school',
   standalone: true,
-    imports: [
-        EducationComponent
-    ],
+  imports: [],
   templateUrl: './high-school.component.html',
   styleUrl: './high-school.component.css'
 })
