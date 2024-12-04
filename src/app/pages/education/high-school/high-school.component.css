@@ -1,0 +1,12 @@
+.home-content h1 {
+  font-size: 8rem;
+  margin-top: 3rem;
+}
+
+.education-detail{
+  height: 50vh;
+}
+
+h2 span{
+  color: var(--main-color);
+}

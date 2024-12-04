@@ -51,7 +51,9 @@ export class EducationComponent {
   }
 
   navigateToDetail(item: TimelineItem) {
-    this.router.navigate([`/education/${item.component}`]);
+    if (item.component) {
+      this.router.navigate([`/education/${item.component}`]);
+    }
   }
 
 }
