@@ -25,7 +25,6 @@ import {NgIf} from "@angular/common";
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-
 export class HomeComponent implements AfterViewInit, OnInit {
   birthDate: Date = new Date(2001, 7, 4);
   today: Date = new Date();
@@ -42,6 +41,7 @@ export class HomeComponent implements AfterViewInit, OnInit {
     this._educationService.componentToDisplay$.subscribe(component => {
       this.componentToDisplay = component;
     });
+    console.log('init' + this.componentToDisplay)
   }
 
   ngAfterViewInit() {

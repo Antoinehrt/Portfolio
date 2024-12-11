@@ -53,7 +53,7 @@ export class EducationComponent {
 
   navigateToDetail(item: TimelineItem) {
     if (item.component) {
-      this._educationService.componentToDisplay = item.name
+      this._educationService.componentToDisplay = item.component
     }
   }
 
