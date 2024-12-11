@@ -48,9 +48,7 @@ export class HomeComponent implements AfterViewInit, OnInit {
   }
 
   calculateAge() {
-    this.myAge = this.today.getFullYear() - this.birthDate.getFullYear();
-    if (this.today.getMonth() < this.birthDate.getMonth() && this.today.getDate() < this.birthDate.getDate()) {
-      this.myAge--;
-    }
+    const diff = new Date().getTime() - this.birthDate.getTime();
+    this.myAge = Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
   }
 }
