@@ -41,11 +41,11 @@
 
 <section class="education" id="education" #sections>
   <h2 class="heading">Education</h2>
-  <app-education *ngIf="componentToDisplay === 'education'"></app-education>
-  <app-high-school *ngIf="componentToDisplay === 'high-school'"></app-high-school>
-  <app-university *ngIf="componentToDisplay === 'university'"></app-university>
-  <app-university-college *ngIf="componentToDisplay === 'university-college'"></app-university-college>
-  <app-internship *ngIf="componentToDisplay === 'internship'"></app-internship>
+  <app-education *ngIf="(currentComponent$ | async) === 'education'"></app-education>
+  <app-high-school *ngIf="(currentComponent$ | async) === 'high-school'"></app-high-school>
+  <app-university *ngIf="(currentComponent$ | async) === 'university'"></app-university>
+  <app-university-college *ngIf="(currentComponent$ | async) === 'university-college'"></app-university-college>
+  <app-internship *ngIf="(currentComponent$ | async) === 'internship'"></app-internship>
 </section>
 
 <section class="technology" id="services" #sections>

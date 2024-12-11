@@ -5,16 +5,16 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class EducationService {
-  private _componentToDisplay: BehaviorSubject<string> = new BehaviorSubject<string>('education');
-  componentToDisplay$ = this._componentToDisplay.asObservable();
+  private _currentComponent: BehaviorSubject<string> = new BehaviorSubject<string>('education');
+  currentComponent$ = this._currentComponent.asObservable();
 
   constructor() { }
 
-  get componentToDisplay(): string {
-    return this._componentToDisplay.value;
+  get currentComponent(): string {
+    return this._currentComponent.value;
   }
 
-  set componentToDisplay(value: string) {
-    this._componentToDisplay.next(value);
+  set currentComponent(value: string) {
+    this._currentComponent.next(value);
   }
 }

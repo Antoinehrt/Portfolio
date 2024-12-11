@@ -7,7 +7,8 @@ import {HighSchoolComponent} from "../education/high-school/high-school.componen
 import {UniversityComponent} from "../education/university/university.component";
 import {UniversityCollegeComponent} from "../education/university-college/university-college.component";
 import {InternshipComponent} from "../education/internship/internship.component";
-import {NgIf} from "@angular/common";
+import {AsyncPipe, NgIf} from "@angular/common";
+import {Observable} from "rxjs";
 
 @Component({
   selector: 'app-home',
@@ -20,7 +21,8 @@ import {NgIf} from "@angular/common";
     UniversityComponent,
     UniversityCollegeComponent,
     InternshipComponent,
-    NgIf
+    NgIf,
+    AsyncPipe
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
@@ -29,7 +31,7 @@ export class HomeComponent implements AfterViewInit, OnInit {
   birthDate: Date = new Date(2001, 7, 4);
   today: Date = new Date();
   myAge: number = 0;
-  componentToDisplay: string = 'education';
+  currentComponent$?: Observable<string>
 
   constructor(private _educationService: EducationService) {
     this.calculateAge();
@@ -37,11 +39,8 @@ export class HomeComponent implements AfterViewInit, OnInit {
 
   ngOnInit(): void {
     this.calculateAge();
-    this.componentToDisplay = this._educationService.componentToDisplay;
-    this._educationService.componentToDisplay$.subscribe(component => {
-      this.componentToDisplay = component;
-    });
-    console.log('init' + this.componentToDisplay)
+    this.currentComponent$ = this._educationService.currentComponent$;
+
   }
 
   ngAfterViewInit() {
