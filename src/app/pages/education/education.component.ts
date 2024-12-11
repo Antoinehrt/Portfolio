@@ -1,8 +1,9 @@
 import {Component} from '@angular/core';
-import {TimelineItem} from "../../core/models/timeline-item";
+import {educationTimeline} from "../../core/models/education-timeline";
 import {CommonModule, NgFor, NgForOf} from "@angular/common";
 import {RouterOutlet} from "@angular/router";
 import {EducationService} from "../../core/services/education.service";
+import {YearOnlyPipe} from "../../core/pipes/year-only.pipe";
 
 @Component({
   selector: 'app-education',
@@ -11,13 +12,13 @@ import {EducationService} from "../../core/services/education.service";
     NgForOf,
     NgFor,
     CommonModule,
-    RouterOutlet
+    YearOnlyPipe
   ],
   templateUrl: './education.component.html',
   styleUrl: './education.component.css'
 })
 export class EducationComponent {
-  timelineItems: TimelineItem[] = [
+  timelineItems: educationTimeline[] = [
     {
       name: 'High School',
       date: new Date('2013'),
@@ -51,9 +52,9 @@ export class EducationComponent {
   constructor(private _educationService: EducationService) {
   }
 
-  navigateToDetail(item: TimelineItem) {
+  navigateToDetail(item: educationTimeline) {
     if (item.component) {
-      this._educationService.componentToDisplay = item.component
+      this._educationService.currentComponent = item.component
     }
   }
 
