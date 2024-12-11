@@ -1,44 +1,49 @@
-import {Component, OnInit} from '@angular/core';
-import {Renderer2, AfterViewInit} from '@angular/core';
-
-import {MatIcon} from '@angular/material/icon';
-import {NgOptimizedImage} from "@angular/common";
+import {AfterViewInit, Component, OnInit, Renderer2} from '@angular/core';
 import {EducationComponent} from "../education/education.component";
 import {TechnologiesComponent} from "../technologies/technologies.component";
-import {ProjectsComponent} from "../projects/projects.component";
 import {ContactMeComponent} from "../contact-me/contact-me.component";
+import {EducationService} from "../../core/services/education.service";
+import {HighSchoolComponent} from "../education/high-school/high-school.component";
+import {UniversityComponent} from "../education/university/university.component";
+import {UniversityCollegeComponent} from "../education/university-college/university-college.component";
+import {InternshipComponent} from "../education/internship/internship.component";
+import {NgIf} from "@angular/common";
+import {BehaviorSubject} from "rxjs";
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
-    MatIcon,
-    NgOptimizedImage,
     EducationComponent,
     TechnologiesComponent,
-    ProjectsComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    HighSchoolComponent,
+    UniversityComponent,
+    UniversityCollegeComponent,
+    InternshipComponent,
+    NgIf
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 
 export class HomeComponent implements AfterViewInit, OnInit {
-  pictureFilePath: string = '../../../assets/images/profile.jpg';
-
   birthDate: Date = new Date(2001, 7, 4);
-
   today: Date = new Date();
+  myAge: number = 0;
+  componentToDisplay: string = 'education';
 
-   myAge: number = 0;
-
-  constructor(private renderer: Renderer2) {
+  constructor(private _educationService: EducationService) {
     this.calculateAge();
   }
 
   ngOnInit(): void {
-        this.calculateAge();
-    }
+    this.calculateAge();
+    this.componentToDisplay = this._educationService.componentToDisplay;
+    this._educationService.componentToDisplay$.subscribe(component => {
+      this.componentToDisplay = component;
+    });
+  }
 
   ngAfterViewInit() {
   }

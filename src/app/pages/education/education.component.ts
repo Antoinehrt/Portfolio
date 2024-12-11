@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {TimelineItem} from "../../core/models/timeline-item";
 import {CommonModule, NgFor, NgForOf} from "@angular/common";
 import {Router, RouterOutlet} from "@angular/router";
+import {EducationService} from "../../core/services/education.service";
 
 @Component({
   selector: 'app-education',
@@ -47,12 +48,12 @@ export class EducationComponent {
     }
   ];
 
-  constructor(private router: Router) {
+  constructor(private _educationService: EducationService) {
   }
 
   navigateToDetail(item: TimelineItem) {
     if (item.component) {
-      this.router.navigate([`/education/${item.component}`]);
+      this._educationService.componentToDisplay = item.name
     }
   }
 
