@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {TimelineItem} from "../../core/models/timeline-item";
 import {CommonModule, NgFor, NgForOf} from "@angular/common";
-import {Router, RouterOutlet} from "@angular/router";
+import {RouterOutlet} from "@angular/router";
 import {EducationService} from "../../core/services/education.service";
 
 @Component({

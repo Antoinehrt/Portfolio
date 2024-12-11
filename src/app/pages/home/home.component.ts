@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, OnInit, Renderer2} from '@angular/core';
+import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {EducationComponent} from "../education/education.component";
 import {TechnologiesComponent} from "../technologies/technologies.component";
 import {ContactMeComponent} from "../contact-me/contact-me.component";
@@ -8,7 +8,6 @@ import {UniversityComponent} from "../education/university/university.component"
 import {UniversityCollegeComponent} from "../education/university-college/university-college.component";
 import {InternshipComponent} from "../education/internship/internship.component";
 import {NgIf} from "@angular/common";
-import {BehaviorSubject} from "rxjs";
 
 @Component({
   selector: 'app-home',
