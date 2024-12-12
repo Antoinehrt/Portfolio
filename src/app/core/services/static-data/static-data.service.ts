@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Observable} from "rxjs";
+import {map, Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
 import {ExperienceEntry} from "../../models/experience-entry";
 
@@ -13,7 +13,14 @@ export class StaticDataService {
   }
 
   getStaticData(): Observable<{ experienceEntries: ExperienceEntry[] }> {
-    return this.http.get<{ experienceEntries: ExperienceEntry[] }>(this.jsonUrl);
+    return this.http.get<{ experienceEntries: ExperienceEntry[] }>(this.jsonUrl).pipe(
+      map(data => {
+        data.experienceEntries.forEach(entry => {
+          entry.date = new Date(entry.date);
+        });
+        return data;
+      })
+    );
   }
 
 }

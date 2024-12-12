@@ -5,8 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   standalone: true
 })
 export class YearOnlyPipe implements PipeTransform {
-  transform(value: string): string {
-    let date: Date = new Date(value)
-    return date.getFullYear().toString();
+  transform(value: Date): string {
+    return value.getFullYear().toString();
   }
 }
