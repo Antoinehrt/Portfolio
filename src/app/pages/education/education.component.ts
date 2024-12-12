@@ -1,7 +1,6 @@
 import {Component} from '@angular/core';
-import {educationTimeline} from "../../core/models/education-timeline";
+import {ExperienceEntry} from "../../core/models/experience-entry";
 import {CommonModule, NgFor, NgForOf} from "@angular/common";
-import {RouterOutlet} from "@angular/router";
 import {EducationService} from "../../core/services/education.service";
 import {YearOnlyPipe} from "../../core/pipes/year-only.pipe";
 
@@ -18,7 +17,7 @@ import {YearOnlyPipe} from "../../core/pipes/year-only.pipe";
   styleUrl: './education.component.css'
 })
 export class EducationComponent {
-  timelineItems: educationTimeline[] = [
+  experienceEntry: ExperienceEntry[] = [
     {
       name: 'High School',
       date: new Date('2013'),
@@ -43,7 +42,7 @@ export class EducationComponent {
     {
       name: 'Internship',
       date: new Date('2024'),
-      description: 'I completed a <b> 3-month internship at ETNIC in the R&D department</b>, where I participated in the development of a <b> RAG </b>. ' +
+      description: 'I completed a <b> 3-month internship at ETNIC in the R&D department as a fullstack developer</b>, where I participated in the development of a <b> RAG </b>. ' +
         'This internship enabled me to apply my theoretical knowledge in a professional context while working as part of a team on a concrete project.',
       component: 'internship'
     }
@@ -52,7 +51,7 @@ export class EducationComponent {
   constructor(private _educationService: EducationService) {
   }
 
-  navigateToDetail(item: educationTimeline) {
+  navigateToDetail(item: ExperienceEntry) {
     if (item.component) {
       this._educationService.currentComponent = item.component
     }
