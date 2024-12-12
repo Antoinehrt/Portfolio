@@ -32,7 +32,7 @@
       "type": "education",
       "name": "Atelier Créactifs - FastAI",
       "date": "2024-10-09T00:00:00.000Z",
-      "description": "Training in the use of the <b>FASTAI</b> library to create and configure artificial intelligences.",
+      "description": "\"Completed a training course on <b> building AI models using Python, PyTorch, and FastAI</b>, focusing on creating, training, and evaluating neural network architectures, with hands-on experience in data preparation, model training, and performance evaluation using metrics like accuracy and ROC curves.\"",
       "component": "fastai"
     }
   ]
