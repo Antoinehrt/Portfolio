@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
+import {ExperienceEntry} from "../../models/experience-entry";
 
 @Injectable({
   providedIn: 'root',
@@ -11,7 +12,8 @@ export class StaticDataService {
   constructor(private http: HttpClient) {
   }
 
-  getStaticData(): Observable<any> {
-    return this.http.get(this.jsonUrl);
+  getStaticData(): Observable<{ experienceEntries: ExperienceEntry[] }> {
+    return this.http.get<{ experienceEntries: ExperienceEntry[] }>(this.jsonUrl);
   }
+
 }
