@@ -7,7 +7,7 @@ import {HighSchoolComponent} from "../education/high-school/high-school.componen
 import {UniversityComponent} from "../education/university/university.component";
 import {UniversityCollegeComponent} from "../education/university-college/university-college.component";
 import {InternshipComponent} from "../education/internship/internship.component";
-import {AsyncPipe, NgIf} from "@angular/common";
+import {AsyncPipe, NgIf, NgSwitch, NgSwitchCase} from "@angular/common";
 import {Observable} from "rxjs";
 
 @Component({
@@ -22,7 +22,9 @@ import {Observable} from "rxjs";
     UniversityCollegeComponent,
     InternshipComponent,
     NgIf,
-    AsyncPipe
+    AsyncPipe,
+    NgSwitch,
+    NgSwitchCase
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
