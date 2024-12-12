@@ -9,6 +9,7 @@ import {UniversityCollegeComponent} from "../education/university-college/univer
 import {InternshipComponent} from "../education/internship/internship.component";
 import {AsyncPipe, NgSwitch, NgSwitchCase} from "@angular/common";
 import {Observable} from "rxjs";
+import {FastaiComponent} from "../education/fastai/fastai.component";
 
 @Component({
   selector: 'app-home',
@@ -23,7 +24,8 @@ import {Observable} from "rxjs";
     InternshipComponent,
     AsyncPipe,
     NgSwitch,
-    NgSwitchCase
+    NgSwitchCase,
+    FastaiComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
