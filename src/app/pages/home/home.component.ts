@@ -21,7 +21,6 @@ import {Observable} from "rxjs";
     UniversityComponent,
     UniversityCollegeComponent,
     InternshipComponent,
-    NgIf,
     AsyncPipe,
     NgSwitch,
     NgSwitchCase

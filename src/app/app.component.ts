@@ -2,12 +2,11 @@ import {Component, ElementRef, HostListener, QueryList, Renderer2, ViewChildren,
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { RouterOutlet } from '@angular/router';
-import {HomeComponent} from "./pages/home/home.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
