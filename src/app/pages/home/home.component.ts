@@ -7,7 +7,7 @@ import {HighSchoolComponent} from "../education/high-school/high-school.componen
 import {UniversityComponent} from "../education/university/university.component";
 import {UniversityCollegeComponent} from "../education/university-college/university-college.component";
 import {InternshipComponent} from "../education/internship/internship.component";
-import {AsyncPipe, NgIf, NgSwitch, NgSwitchCase} from "@angular/common";
+import {AsyncPipe, NgSwitch, NgSwitchCase} from "@angular/common";
 import {Observable} from "rxjs";
 
 @Component({
