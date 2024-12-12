@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {ExperienceEntry} from "../../core/models/experience-entry";
 import {CommonModule, NgFor, NgForOf} from "@angular/common";
-import {EducationService} from "../../core/services/education.service";
+import {EducationService} from "../../core/services/education/education.service";
 import {YearOnlyPipe} from "../../core/pipes/year-only.pipe";
 
 @Component({

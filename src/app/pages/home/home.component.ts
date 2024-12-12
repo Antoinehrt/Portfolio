@@ -2,7 +2,7 @@ import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {EducationComponent} from "../education/education.component";
 import {TechnologiesComponent} from "../technologies/technologies.component";
 import {ContactMeComponent} from "../contact-me/contact-me.component";
-import {EducationService} from "../../core/services/education.service";
+import {EducationService} from "../../core/services/education/education.service";
 import {HighSchoolComponent} from "../education/high-school/high-school.component";
 import {UniversityComponent} from "../education/university/university.component";
 import {UniversityCollegeComponent} from "../education/university-college/university-college.component";
