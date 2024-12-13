@@ -231,11 +231,13 @@ span {
 .education {
   padding: 100px 15px;
   background: var(--second-bg-color);
-
 }
 
 .education h2 {
   margin-bottom: 5rem;
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
 
 .technology {
@@ -246,6 +248,8 @@ span {
 .technology h2 {
   margin-bottom: 5rem;
   color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
 
 .contact {
@@ -255,6 +259,8 @@ span {
 .contact h2 {
   margin-bottom: 3rem;
   color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
 
 @media (max-width: 991px) {
