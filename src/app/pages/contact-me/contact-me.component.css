@@ -9,14 +9,14 @@ form {
   text-align: center;
 }
 
- form .input-box {
+form .input-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
- form .input-box input,
- form textarea {
+form .input-box input,
+form textarea {
   width: 100%;
   padding: 2.5rem;
   font-size: 1.8rem;
@@ -28,9 +28,9 @@ form {
   resize: none;
 }
 
- form .btn {
+form .btn {
   margin-top: 2rem;
- }
+}
 
 .btn-disabled {
   background-color: #BBDEFB;
@@ -38,12 +38,13 @@ form {
   opacity: 0.5;
   box-shadow: none;
 }
+
 .btn {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 @media (max-width: 991px) {
-   form{
+  form {
     flex-direction: column;
   }
 

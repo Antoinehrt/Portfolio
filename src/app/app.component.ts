@@ -1,7 +1,6 @@
-import {Component, ElementRef, HostListener, QueryList, Renderer2, ViewChildren, AfterViewInit} from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
-import { filter } from 'rxjs/operators';
-import { RouterOutlet } from '@angular/router';
+import {AfterViewInit, Component, ElementRef, HostListener, QueryList, Renderer2, ViewChildren} from '@angular/core';
+import {NavigationEnd, Router, RouterOutlet} from '@angular/router';
+import {filter} from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',

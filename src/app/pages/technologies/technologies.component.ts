@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+
 @Component({
   selector: 'app-technologies',
   standalone: true,
-  imports: [
-  ],
+  imports: [],
   templateUrl: './technologies.component.html',
   styleUrl: './technologies.component.css'
 })

@@ -80,7 +80,7 @@
   }
 }
 
-@media(max-width: 895px){
+@media (max-width: 895px) {
   .technology-container {
     grid-template-columns: repeat(1, 1fr);
   }

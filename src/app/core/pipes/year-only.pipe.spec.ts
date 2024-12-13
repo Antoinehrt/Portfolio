@@ -1,4 +1,4 @@
-import { YearOnlyPipe } from './year-only.pipe';
+import {YearOnlyPipe} from './year-only.pipe';
 
 describe('YearOnlyPipe', () => {
   it('create an instance', () => {

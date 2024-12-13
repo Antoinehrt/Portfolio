@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { UniversityComponent } from './university.component';
+import {UniversityComponent} from './university.component';
 
 describe('UniversityComponent', () => {
   let component: UniversityComponent;
@@ -10,7 +10,7 @@ describe('UniversityComponent', () => {
     await TestBed.configureTestingModule({
       imports: [UniversityComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(UniversityComponent);
     component = fixture.componentInstance;

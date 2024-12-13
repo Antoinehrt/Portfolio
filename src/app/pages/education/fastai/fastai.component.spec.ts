@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { FastaiComponent } from './fastai.component';
+import {FastaiComponent} from './fastai.component';
 
 describe('FastaiComponent', () => {
   let component: FastaiComponent;
@@ -10,7 +10,7 @@ describe('FastaiComponent', () => {
     await TestBed.configureTestingModule({
       imports: [FastaiComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(FastaiComponent);
     component = fixture.componentInstance;
