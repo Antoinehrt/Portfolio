@@ -33,7 +33,8 @@ export class EducationComponent implements OnInit {
 
   navigateToDetail(item: ExperienceEntry) {
     if (item.component) {
-      this._educationService.currentComponent = item.component
+      this._educationService.currentComponent = item.component;
+      document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
