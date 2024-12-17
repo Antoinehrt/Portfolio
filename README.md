@@ -75,4 +75,4 @@ Logos used in this portfolio are the property of their respective owners and are
 Feel free to reach out if you have any questions or feedback:
 
 - **Email**: hauret.antoine@gmail.com
-- **LinkedIn**: [/in/antoine-hauret](www.linkedin.com/in/antoine-hauret)
+- **LinkedIn**: [/in/antoine-hauret](https://www.linkedin.com/in/antoine-hauret)
