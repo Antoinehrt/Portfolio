@@ -34,37 +34,89 @@ Make sure you have the following installed:
 ```
 
 3. Install dependencies
+
 ```bash
   npm install
 ```
 
+## API Keys
+
+This project requires a properly configured environment file to enable the Contact Me section of the portfolio. The EmailJS integration depends on three key variables:
+
+- `EMAILJS_USER_ID`: Your EmailJS User ID.
+- `EMAILJS_SERVICE_ID`: Your EmailJS Service ID.
+- `EMAILJS_TEMPLATE_ID`: Your EmailJS Template ID.
+
+1. configure the environment file
+
+   Create environment using this command:
+
+```bash
+  ng generate environments
+```
+
+2. Add Your EmailJS Credentials
+
+   Open src/environments/environment.local.ts and populate it with your EmailJS credentials:
+
+```ts
+export const environment = {
+  production: false,
+  EMAILJS_USER_ID: 'your-emailjs-user-id',
+  EMAILJS_SERVICE_ID: 'your-emailjs-service-id',
+  EMAILJS_TEMPLATE_ID: 'your-emailjs-template-id',
+};
+```
+
+3. Update Your Angular Build Configuration (Optional)
+
+  If you need to use different credentials for different environments (e.g., development and production), modify your angular.json file to include appropriate environment replacements.
+
+Example for local environment:
+
+```json
+"configurations": {
+  "local": {
+    "fileReplacements": [
+      {
+        "replace": "src/environments/environment.ts",
+        "with": "src/environments/environment.local.ts"
+      }
+    ]
+  }
+}
+  ```
+
 ## Development Server
+
 Run the development server locally:
+
 ```bash
   ng server
 ```
 
 ## Build for Production
+
 To build the project for production:
+
 ```bash
   ng build --prod
 ```
+
 # File Structure
 
 ```scss
 src/
 ├── app/
-│   ├── pages/ // Page-level components (e.g., Home, Timeline, Projects)
-│   └── core/            
-│       ├── models/ // TypeScript interfaces and models
-│       ├── pipes/ // Pipes for transforming data
-│       ├── services/ // Services for state management
-│       └── styles/ // Global styles and SCSS variables 
-├── assets/               // Images, icons, and other static assets
-└── environments/         // Environment-specific configurations
+│ ├── pages/ // Page-level components (e.g., Home, Timeline, Projects)
+│ └── core/
+│     ├── models/ // TypeScript interfaces and models
+│     ├── pipes/ // Pipes for transforming data
+│     ├── services/ // Services for state management
+│     └── styles/ // Global styles and SCSS variables 
+├── assets/ // Images, icons, and other static assets
+└── environments/ // Environment-specific configurations
 ```
-
-
 
 # License
 
