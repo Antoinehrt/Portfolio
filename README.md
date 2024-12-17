@@ -1,27 +1,78 @@
-# Portfolio
+# My Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+This repository contains the source code for my personal portfolio, built using [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6. The portfolio is designed to showcase my skills, experiences, projects, and educational background in a clean, interactive, and professional way.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Dynamic Timeline**: Interactive timeline highlighting my education, internships, and professional experiences.
+- **Project Showcase**: Detailed sections for each project, including descriptions, technologies used, and key outcomes.
+- **Technology Stack**: Comprehensive overview of the tools and technologies I’ve mastered.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
 
-## Code scaffolding
+# Getting started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisites
 
-## Build
+Make sure you have the following installed:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js (v16 or higher)
+- Angular CLI (v17 or higher)
+- A package manager (npm or yarn)
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository
 
-## Running end-to-end tests
+```bash
+  git clone https://github.com/Antoinehrt/Portfolio.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Navigate to the project directory
 
-## Further help
+```bash
+  cd portfolio
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. Install dependencies
+```bash
+  npm install
+```
+
+## Development Server
+Run the development server locally:
+```bash
+  ng server
+```
+
+## Build for Production
+To build the project for production:
+```bash
+  ng build --prod
+```
+# File Structure
+
+```scss
+src/
+├── app/
+│   ├── pages/ // Page-level components (e.g., Home, Timeline, Projects)
+│   └── core/            
+│       ├── models/ // TypeScript interfaces and models
+│       ├── pipes/ // Pipes for transforming data
+│       ├── services/ // Services for state management
+│       └── styles/ // Global styles and SCSS variables 
+├── assets/               // Images, icons, and other static assets
+└── environments/         // Environment-specific configurations
+```
+
+
+
+# License
+
+Logos used in this portfolio are the property of their respective owners and are shown here for illustrative purposes only. No copyright infringement is intended.
+
+# Contact
+
+Feel free to reach out if you have any questions or feedback:
+
+- **Email**: hauret.antoine@gmail.com
+- **LinkedIn**: [/in/antoine-hauret](www.linkedin.com/in/antoine-hauret)
