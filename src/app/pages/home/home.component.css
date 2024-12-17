@@ -1,56 +1,6 @@
 @import url('https://boxicons.com/css/boxicons.min.css');
 @import '../../core/style/btn-shared.css';
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 4rem 12% 4rem;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 5;
-}
-
-.logo {
-  font-size: 3rem;
-  color: var(--text-color);
-  font-weight: 800;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.logo:hover {
-  transform: scale(1.1);
-}
-
-.logo span {
-  text-shadow: 0 0 25px var(--main-color);
-}
-
-.navbar a {
-  font-size: 1.8rem;
-  color: var(--text-color);
-  margin-left: 4rem;
-  font-weight: 500;
-  transition: 0.3s ease;
-  border-bottom: 3px solid transparent;
-}
-
-.navbar a:hover,
-.navbar a.active {
-  color: var(--main-color);
-  border-bottom: 3px solid var(--main-color);
-}
-
-#menu-icon {
-  font-size: 3.6rem;
-  color: var(--main-color);
-  display: none;
-}
 
 section {
   min-height: 100vh;
@@ -75,10 +25,6 @@ section {
 }
 
 span {
-  color: var(--main-color);
-}
-
-.logo span {
   color: var(--main-color);
 }
 
@@ -191,16 +137,16 @@ span {
   font-size: 34px;
   font-weight: 600;
   min-width: 280px;
-  line-height: 1; /*Added*/
-  vertical-align: middle; /*Added*/
+  line-height: 1;
+  vertical-align: middle;
 }
 
 .text-animation span {
   position: relative;
-  display: inline-block; /*Added*/
-  height: 1em; /*Added*/
-  overflow: hidden; /*Added*/
-  vertical-align: middle; /*Added*/
+  display: inline-block;
+  height: 1em;
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 .text-animation span::before {
@@ -285,11 +231,13 @@ span {
 .education {
   padding: 100px 15px;
   background: var(--second-bg-color);
-
 }
 
 .education h2 {
   margin-bottom: 5rem;
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
 
 .technology {
@@ -300,6 +248,8 @@ span {
 .technology h2 {
   margin-bottom: 5rem;
   color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
 
 .contact {
@@ -309,124 +259,17 @@ span {
 .contact h2 {
   margin-bottom: 3rem;
   color: #ffffff;
-}
-
-
-.footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  padding: 40px 0;
-  background-color: var(--second-bg-color);
-}
-
-.footer .social {
-  text-align: center;
-  padding-bottom: 25px;
-  color: var(--main-color);
-}
-
-.footer .social a {
-  font-size: 25px;
-  color: var(--main-color);
-  border: 2px solid var(--main-color);
-  width: 42px;
-  height: 42px;
-  line-height: 42px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  margin: 0 10px;
-  transition: 0.3s ease-in-out;
-}
-
-.footer .social a:hover {
-  transform: scale(1.2) translateY(-10px);
-  background-color: var(--main-color);
-  color: #000000;
-  box-shadow: 0 0 25px var(--main-color);
-}
-
-.footer ul {
-  margin-top: 0;
-  padding: 0;
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.footer ul li a {
-  color: #ffffff;
-  border-bottom: 3px solid transparent;
-  transition: 0.3s ease-in-out;
-}
-
-.footer ul li a:hover {
-  border-bottom: 3px solid var(--main-color);
-}
-
-.footer ul li {
-  display: inline-block;
-  padding: 0 15px;
-}
-
-.footer .copyright {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 16px;
-  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
 
 @media (max-width: 991px) {
-  header {
-    padding: 2rem 3%;
-  }
-
-  section {
-    padding: 10rem 3% 2rem;
-  }
-
   .technology {
     padding-bottom: 7rem;
   }
-
-  .footer {
-    padding: 2rem 3%;
-  }
 }
 
-
 @media (max-width: 895px) {
-  #menu-icon {
-    display: block;
-  }
-
-  .navbar {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 50%;
-    padding: 1rem 3%;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(20px);
-    border-bottom-left-radius: 2rem;
-    border-left: 2px solid var(--main-color);
-    border-bottom: 2px solid var(--main-color);
-    display: none;
-  }
-
-  .navbar.active {
-    display: block;
-  }
-
-  .navbar a {
-    display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
-    color: #ffffff;
-  }
-
   .home {
     flex-direction: column-reverse;
     margin: 5rem 4rem;

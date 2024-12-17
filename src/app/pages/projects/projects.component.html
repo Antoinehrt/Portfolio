@@ -3,12 +3,12 @@
     <ng-template ngFor let-project [ngForOf]="projects">
       <div class="project">
         <img src="{{project.imageUrl}}" alt="Test image">
-        <h2>{{project.name}}</h2>
+        <h2>{{ project.name }}</h2>
         <div class="rating">
           <i class='bx bxs-star star'></i>
         </div>
         <p>
-          {{project.description}}
+          {{ project.description }}
         </p>
       </div>
     </ng-template>

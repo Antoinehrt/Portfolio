@@ -1,1 +1,48 @@
-<app-home></app-home>
+<header class="header">
+  <a href="#home" class="logo">
+    Antoine
+    <span>Hauret</span>
+  </a>
+  <i class='bx bx-menu' id="menu-icon" #menuIcon (click)="toggleMenu()"></i>
+
+  <nav class="navbar" #navbar>
+    <a href="#home" class="active" #navLinks>Home</a>
+    <a href="#education" #navLinks>Education</a>
+    <a href="#services" #navLinks>Technologies</a>
+    <!--<a href="#projects" #navLinks>Projects</a>-->
+    <a href="#contact" #navLinks>Contact</a>
+  </nav>
+</header>
+
+<div class="content-container">
+  <router-outlet class="router-outlet"></router-outlet>
+</div>
+
+<footer class="footer">
+  <div class="social">
+    <a href="https://www.linkedin.com/in/antoine-hauret/"><i class="bx bxl-linkedin"></i></a>
+    <a href="https://github.com/Antoinehrt"><i class="bx bxl-github"></i></a>
+    <a href="/assets/CV/CV_Antoine_Hauret.pdf" download><i class="bx bx-file"></i></a>
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="#">FAQ</a>
+    </li>
+    <li>
+      <a href="#home">About Me</a>
+    </li>
+    <li>
+      <a href="#services">Technologies</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+    <!--<li>
+      <a href="#projects">Projects</a>
+    </li>-->
+  </ul>
+  <p class="copyright">
+    © 2024 Antoine Hauret | All rights reserved.
+  </p>
+</footer>
