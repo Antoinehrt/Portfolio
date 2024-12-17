@@ -88,6 +88,16 @@ img {
   height: auto;
 }
 
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--main-color);
+  text-decoration: underline;
+  text-shadow: 0 0 25px var(--main-color);
+}
 
 @media (max-width: 1000px) {
   .education-detail {
