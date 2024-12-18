@@ -1,0 +1,67 @@
+@import "../../core/style/btn-shared.css";
+.content-container-notfound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  padding: 10vh;
+  position: relative;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  z-index: 1;
+  height: 100%;
+  width: 35vw;
+}
+
+.text h2{
+  font-size: 10rem;
+  font-weight: 200;
+}
+
+.text p{
+  line-height: 4rem;
+  font-size: 3rem;
+  font-weight: 100;
+  text-align: justify;
+}
+
+.text h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0 0 50px var(--main-color);
+  text-align: center;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.space{
+  position: absolute;
+  width: 25vh;
+}
+
+.black-hole{
+  top: 0;
+  right: 0;
+}
+
+.space-shuttle{
+  top: 0;
+  left: 0;
+}
