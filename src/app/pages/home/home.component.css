@@ -224,8 +224,10 @@ span {
 .heading {
   font-size: 8rem;
   text-align: center;
-  margin: 5rem 0;
-
+  margin: 5rem 0 3rem;
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
 
 .education {
@@ -233,35 +235,16 @@ span {
   background: var(--second-bg-color);
 }
 
-.education h2 {
-  margin-bottom: 5rem;
-  color: #ffffff;
-  font-weight: 800;
-  letter-spacing: 5px;
-}
 
 .technology {
   background-color: var(--bg-color);
   color: #000000;
 }
 
-.technology h2 {
-  margin-bottom: 5rem;
-  color: #ffffff;
-  font-weight: 800;
-  letter-spacing: 5px;
-}
-
 .contact {
   background-color: var(--bg-color);
 }
 
-.contact h2 {
-  margin-bottom: 3rem;
-  color: #ffffff;
-  font-weight: 800;
-  letter-spacing: 5px;
-}
 
 @media (max-width: 991px) {
   .technology {
@@ -273,6 +256,11 @@ span {
   .home {
     flex-direction: column-reverse;
     margin: 5rem 4rem;
+  }
+
+  .heading{
+    letter-spacing: 0;
+    font-size: 7rem;
   }
 
   .home-content h3 {
