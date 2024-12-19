@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
-import {NgClass, NgIf} from "@angular/common";
+import {NgClass} from "@angular/common";
 import emailjs from '@emailjs/browser';
 import {ToastrService} from "ngx-toastr";
 import {environment} from "../../../environments/environment";
@@ -10,7 +10,6 @@ import {environment} from "../../../environments/environment";
   standalone: true,
   imports: [
     ReactiveFormsModule,
-    NgIf,
     NgClass,
   ],
   templateUrl: './contact-me.component.html',

@@ -1,27 +1,130 @@
-# Portfolio
+# My Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+This repository contains the source code for my personal portfolio, built using [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6. The portfolio is designed to showcase my skills, experiences, projects, and educational background in a clean, interactive, and professional way.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Dynamic Timeline**: Interactive timeline highlighting my education, internships, and professional experiences.
+- **Project Showcase**: Detailed sections for each project, including descriptions, technologies used, and key outcomes.
+- **Technology Stack**: Comprehensive overview of the tools and technologies I’ve mastered.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
 
-## Code scaffolding
+# Getting started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisites
 
-## Build
+Make sure you have the following installed:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js (v16 or higher)
+- Angular CLI (v17 or higher)
+- A package manager (npm or yarn)
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository
 
-## Running end-to-end tests
+```bash
+  git clone https://github.com/Antoinehrt/Portfolio.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Navigate to the project directory
 
-## Further help
+```bash
+  cd portfolio
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. Install dependencies
+
+```bash
+  npm install
+```
+
+## API Keys
+
+This project requires a properly configured environment file to enable the Contact Me section of the portfolio. The EmailJS integration depends on three key variables:
+
+- `EMAILJS_USER_ID`: Your EmailJS User ID.
+- `EMAILJS_SERVICE_ID`: Your EmailJS Service ID.
+- `EMAILJS_TEMPLATE_ID`: Your EmailJS Template ID.
+
+1. configure the environment file
+
+   Create environment using this command:
+
+```bash
+  ng generate environments
+```
+
+2. Add Your EmailJS Credentials
+
+   Open src/environments/environment.local.ts and populate it with your EmailJS credentials:
+
+```ts
+export const environment = {
+  production: false,
+  EMAILJS_USER_ID: 'your-emailjs-user-id',
+  EMAILJS_SERVICE_ID: 'your-emailjs-service-id',
+  EMAILJS_TEMPLATE_ID: 'your-emailjs-template-id',
+};
+```
+
+3. Update Your Angular Build Configuration (Optional)
+
+  If you need to use different credentials for different environments (e.g., development and production), modify your angular.json file to include appropriate environment replacements.
+
+Example for local environment:
+
+```json
+"configurations": {
+  "local": {
+    "fileReplacements": [
+      {
+        "replace": "src/environments/environment.ts",
+        "with": "src/environments/environment.local.ts"
+      }
+    ]
+  }
+}
+  ```
+
+## Development Server
+
+Run the development server locally:
+
+```bash
+  ng server
+```
+
+## Build for Production
+
+To build the project for production:
+
+```bash
+  ng build --prod
+```
+
+# File Structure
+
+```scss
+src/
+├── app/
+│ ├── pages/ // Page-level components (e.g., Home, Timeline, Projects)
+│ └── core/
+│     ├── models/ // TypeScript interfaces and models
+│     ├── pipes/ // Pipes for transforming data
+│     ├── services/ // Services for state management
+│     └── styles/ // Global styles and SCSS variables 
+├── assets/ // Images, icons, and other static assets
+└── environments/ // Environment-specific configurations
+```
+
+# License
+
+Logos used in this portfolio are the property of their respective owners and are shown here for illustrative purposes only. No copyright infringement is intended.
+
+# Contact
+
+Feel free to reach out if you have any questions or feedback:
+
+- **Email**: hauret.antoine@gmail.com
+- **LinkedIn**: [/in/antoine-hauret](https://www.linkedin.com/in/antoine-hauret)

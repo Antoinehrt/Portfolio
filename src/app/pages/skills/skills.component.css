@@ -1,11 +1,11 @@
-.technology-container {
+.skills-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
 }
 
-.technology-box {
+.skill-box {
   background-color: var(--main-color);
   height: 300px;
   border-radius: 3rem;
@@ -14,14 +14,14 @@
   transition: 0.4s easin-in-out;
 }
 
-.technology-box:hover {
+.skill-box:hover {
   background: #ffffff;
   color: #000000;
   border: 5px solid var(--main-color);
   transform: scale(1.03);
 }
 
-.technology-box .technology-info {
+.skill-box .skill-info {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -31,13 +31,13 @@
   padding: 5rem 5rem;
 }
 
-.technology-info h4 {
+.skill-info h4 {
   font-size: 3rem;
   font-weight: 800;
   line-height: 2;
 }
 
-.technology-info p {
+.skill-info p {
   font-size: 1.6rem;
   font-weight: 600;
   max-height: 100px;
@@ -46,12 +46,12 @@
   text-align: center;
 }
 
-.technology-info p {
+.skill-info p {
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
 
-.technology-icon {
+.skill-icon {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -61,35 +61,72 @@
   margin-bottom: 1rem;
 }
 
-.technology-icon svg {
+.skill-icon svg {
   width: 7rem;
   height: 7rem;
   overflow: hidden;
 }
 
 @media (max-width: 1500px) {
-  .technology-container {
+  .skill-box {
+    height: 250px;
+  }
+
+  .skills-container {
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 5rem;
   }
-
-  .technology-icon svg {
-    width: 5rem;
-    height: 5rem;
+  .skill-icon svg {
+    width: 4rem;
+    height: 4rem;
   }
 }
 
-@media(max-width: 895px){
-  .technology-container {
+@media (max-width: 1115px){
+  .skill-icon svg {
+    width: 3rem;
+    height: 3rem;
+  }
+  .skill-box {
+    height: 275px;
+  }
+}
+
+@media (max-width: 895px) {
+  .skill-box {
+    height: 225px;
+  }
+
+  .skills-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .skill-icon svg {
+    width: 4rem;
+    height: 4rem;
+  }
+
+}
+
+@media (max-width: 770px) {
+  .skill-box {
+    height: 200px;
+  }
+
+  .skill-icon svg {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 
-@media (max-width: 480px) {
-  .technology-icon svg {
+@media (max-width: 600px) {
+  .skill-box {
+    height: 400px;
+  }
+
+  .skill-icon svg {
     width: 4rem;
     height: 4rem;
   }

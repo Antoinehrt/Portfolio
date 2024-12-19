@@ -1,19 +1,3 @@
-<header class="header">
-  <a href="#home" class="logo">
-    Antoine
-    <span>Hauret</span>
-  </a>
-  <i class='bx bx-menu' id="menu-icon" #menuIcon (click)="toggleMenu()"></i>
-
-  <nav class="navbar" #navbar>
-    <a href="#home" class="active" #navLinks>Home</a>
-    <a href="#education" #navLinks>Education</a>
-    <a href="#services" #navLinks>Services</a>
-    <!--<a href="#projects" #navLinks>Projects</a>-->
-    <a href="#contact" #navLinks>Contact</a>
-  </nav>
-</header>
-
 <section class="home" id="home" #sections>
   <div class="home-content">
     <h1>Hi, it's <span>Antoine</span></h1>
@@ -27,8 +11,8 @@
       <br> <br>
       In addition to programming, I have experience with Docker, SQL, Git, and I work with Agile methodologies to
       deliver solutions.
-      Whether it’s building backend systems or working across the full stack, I’m always eager for new challenges. <br>
-      Feel free to explore my projects and get in touch if you'd like to collaborate!
+      Whether it’s building backend systems or working across the fullstack, I’m always eager for new challenges. <br>
+      Feel free to<!-- explore my projects and--> get in touch if you'd like to collaborate!
     </p>
     <div class="social-icons">
       <div class="social-icon">
@@ -57,13 +41,22 @@
 
 <section class="education" id="education" #sections>
   <h2 class="heading">Education</h2>
-  <app-education></app-education>
+  <div [ngSwitch]="currentComponent$ | async">
+    <app-education *ngSwitchCase="'education'"></app-education>
+    <app-high-school *ngSwitchCase="'high-school'"></app-high-school>
+    <app-university *ngSwitchCase="'university'"></app-university>
+    <app-university-college *ngSwitchCase="'university-college'"></app-university-college>
+    <app-internship *ngSwitchCase="'internship'"></app-internship>
+    <app-fastai *ngSwitchCase="'fastai'"></app-fastai>
+  </div>
+
 </section>
 
-<section class="technology" id="services" #sections>
-  <h2 class="heading">Technologies</h2>
-  <app-technologies></app-technologies>
+<section class="technology" id="skills" #sections>
+  <h2 class="heading">Skills</h2>
+  <app-skills></app-skills>
 </section>
+
 
 <!--<section class="projects" id="projects" #sections>
   <h2 class="heading">Projects</h2>
@@ -76,34 +69,3 @@
   </h2>
   <app-contact-me></app-contact-me>
 </section>
-
-<footer class="footer">
-  <div class="social">
-    <a href="https://www.linkedin.com/in/antoine-hauret/"><i class="bx bxl-linkedin"></i></a>
-    <a href="https://github.com/Antoinehrt"><i class="bx bxl-github"></i></a>
-    <a href="/assets/CV/CV_Antoine_Hauret.pdf" download><i class="bx bx-file"></i></a>
-  </div>
-
-  <ul class="list">
-    <li>
-      <a href="#">FAQ</a>
-    </li>
-    <li>
-      <a href="#home">About Me</a>
-    </li>
-    <li>
-      <a href="#services">Services</a>
-    </li>
-    <li>
-      <a href="#contact">Contact</a>
-    </li>
-    <li>
-      <a href="#projects">Projects</a>
-    </li>
-  </ul>
-  <p class="copyright">
-    © 2024 Antoine Hauret | All rights reserved.
-  </p>
-</footer>
-
-

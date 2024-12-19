@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {Project} from "../../core/models/project";
 import {NgForOf} from "@angular/common";
 
