@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {EducationService} from "../../../core/services/education/education.service";
+import {ExperienceService} from "../../../core/services/experience/experience.service";
 import {MatIcon} from "@angular/material/icon";
 
 @Component({
@@ -13,10 +13,10 @@ import {MatIcon} from "@angular/material/icon";
 })
 export class HighSchoolComponent {
 
-  constructor(private _educationService: EducationService) {
+  constructor(private _educationService: ExperienceService) {
   }
 
   navigateBack() {
-    this._educationService.currentComponent = "education"
+    this._educationService.currentComponent = "experience"
   }
 }

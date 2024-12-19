@@ -1,12 +1,12 @@
 import {Component, OnInit} from '@angular/core';
 import {ExperienceEntry} from "../../core/models/experience-entry";
 import {CommonModule, NgFor, NgForOf} from "@angular/common";
-import {EducationService} from "../../core/services/education/education.service";
+import {ExperienceService} from "../../core/services/experience/experience.service";
 import {YearOnlyPipe} from "../../core/pipes/year-only.pipe";
 import {StaticDataService} from "../../core/services/static-data/static-data.service";
 
 @Component({
-  selector: 'app-education',
+  selector: 'app-experience',
   standalone: true,
   imports: [
     NgForOf,
@@ -14,13 +14,13 @@ import {StaticDataService} from "../../core/services/static-data/static-data.ser
     CommonModule,
     YearOnlyPipe
   ],
-  templateUrl: './education.component.html',
-  styleUrl: './education.component.css'
+  templateUrl: './experiences.component.html',
+  styleUrl: './experiences.component.css'
 })
-export class EducationComponent implements OnInit {
+export class ExperiencesComponent implements OnInit {
   public experienceEntry: ExperienceEntry[] = []
 
-  constructor(private _educationService: EducationService, private _staticDataService: StaticDataService) {
+  constructor(private _educationService: ExperienceService, private _staticDataService: StaticDataService) {
   }
 
   ngOnInit(): void {
@@ -34,7 +34,7 @@ export class EducationComponent implements OnInit {
   navigateToDetail(item: ExperienceEntry) {
     if (item.component) {
       this._educationService.currentComponent = item.component;
-      document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
     }
   }
 

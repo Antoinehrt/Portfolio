@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {MatIcon} from "@angular/material/icon";
-import {EducationService} from "../../../core/services/education/education.service";
+import {ExperienceService} from "../../../core/services/experience/experience.service";
 
 @Component({
   selector: 'app-internship',
@@ -12,10 +12,10 @@ import {EducationService} from "../../../core/services/education/education.servi
   styleUrl: './internship.component.css'
 })
 export class InternshipComponent {
-  constructor(private _educationService: EducationService) {
+  constructor(private _educationService: ExperienceService) {
   }
 
   navigateBack() {
-    this._educationService.currentComponent = "education"
+    this._educationService.currentComponent = "experience"
   }
 }
