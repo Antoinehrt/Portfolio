@@ -1,6 +1,6 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {EducationComponent} from "../education/education.component";
-import {TechnologiesComponent} from "../technologies/technologies.component";
+import {SkillsComponent} from "../skills/skills.component";
 import {ContactMeComponent} from "../contact-me/contact-me.component";
 import {EducationService} from "../../core/services/education/education.service";
 import {HighSchoolComponent} from "../education/high-school/high-school.component";
@@ -16,7 +16,7 @@ import {FastaiComponent} from "../education/fastai/fastai.component";
   standalone: true,
   imports: [
     EducationComponent,
-    TechnologiesComponent,
+    SkillsComponent,
     ContactMeComponent,
     HighSchoolComponent,
     UniversityComponent,
