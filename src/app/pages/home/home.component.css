@@ -72,7 +72,7 @@ span {
 .social-icons {
   display: flex;
   align-items: center;
-  gap: 1.5rem; /* Contrôle l'espacement horizontal */
+  gap: 1.5rem;
   height: 10vh;
 }
 
@@ -90,38 +90,38 @@ span {
 
 .social-icon span {
   position: absolute;
-  left: calc(100% + 0.5rem); /* Place le texte à droite */
-  white-space: nowrap; /* Empêche le texte de passer à la ligne */
-  opacity: 0; /* Cache le texte par défaut */
+  left: calc(100% + 0.5rem);
+  white-space: nowrap;
+  opacity: 0;
   font-size: 1.5rem;
   color: var(--main-color);
   transition: opacity 0.3s ease-in-out;
 }
 
 .social-icon:hover {
-  transform: translateX(1rem); /* Décale légèrement l'icône vers la droite */
+  transform: translateX(1rem);
   color: var(--text-color);
   box-shadow: 0 0 25px var(--main-color);
   background-color: var(--main-color);
 }
 
 .social-icon:hover span {
-  opacity: 1; /* Affiche le texte */
+  opacity: 1;
 }
 
 .social-icon:hover span {
   display: inline-block;
 }
 
-.social-icon a:hover ~ .social-icon {
-  transform: translateX(1.5rem);
+.social-icon:hover ~ .social-icon {
+  transform: translateX(8rem);
 }
 
 .social-icons a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; /* Prend tout l'espace de .social-icon */
+  width: 100%;
   height: 100%;
   background: transparent;
   font-size: 2.5rem;
