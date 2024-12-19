@@ -1,19 +1,19 @@
 @import url('https://boxicons.com/css/boxicons.min.css');
 @import '../../core/style/btn-shared.css';
 
-
+/* General Section Styles */
 section {
   min-height: 100vh;
   padding: 10rem 12% 10rem;
 }
 
+/* Home Section */
 .home {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15rem;
 }
-
 
 .home-content {
   display: flex;
@@ -24,10 +24,6 @@ section {
   margin-top: 3rem;
 }
 
-span {
-  color: var(--main-color);
-}
-
 .home-content h1 {
   font-size: 7rem;
   font-weight: 700;
@@ -36,11 +32,23 @@ span {
 }
 
 .home-content h3 {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin: 1rem 0 2rem;
   font-size: 3.5rem;
 }
 
+.home-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+span {
+  color: var(--main-color);
+}
+
+/* Home Image */
 .home-img {
   border-radius: 50%;
 }
@@ -57,69 +65,73 @@ span {
 
 .home-img img:hover {
   box-shadow: 0 0 25px var(--main-color),
-  0 0 50px var(--main-color),
-  0 0 100px var(--main-color);
+              0 0 50px var(--main-color),
+              0 0 100px var(--main-color);
 }
 
-.home-content p {
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.8;
-  max-width: 1000px;
-  text-align: justify;
-}
-
+/* Social Icons */
 .social-icons {
   display: flex;
   align-items: center;
+  gap: 1.5rem;
+  height: 10vh;
 }
 
 .social-icon {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
-  margin-right: 1.5rem;
-  transition: transform 0.5s ease-in-out;
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
 }
 
 .social-icon span {
-  display: none;
-  font-size: 20px;
-  font-weight: 500;
-  margin-left: 0.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.social-icon:hover span {
-  display: inline-block;
-}
-
-.social-icon a:hover ~ .social-icon {
-  transform: translateX(1.5rem);
-}
-
-.social-icons a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 4.5rem;
-  height: 4.5rem;
-  background: transparent;
-  border: 2px solid var(--main-color);
-  font-size: 2.5rem;
-  border-radius: 50%;
+  position: absolute;
+  left: calc(100% + 0.5rem);
+  white-space: nowrap;
+  opacity: 0;
+  font-size: 1.5rem;
   color: var(--main-color);
-  margin: 3rem 1.5rem 3rem 0;
-  transition: 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
-.social-icons a:hover {
+.social-icon:hover {
+  transform: translateX(1rem);
   color: var(--text-color);
-  transform: scale(1.3) translateY(-5px);
   box-shadow: 0 0 25px var(--main-color);
   background-color: var(--main-color);
 }
 
+.social-icon:hover span {
+  opacity: 1;
+  display: inline-block;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 2.5rem;
+  color: var(--main-color);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon:hover ~ .social-icon {
+  transform: translateX(8rem);
+}
+
+.social-icons a:hover {
+  color: var(--text-color);
+}
+
+/* Button Group */
 .btn-group a:nth-of-type(2) {
   background-color: black;
   color: var(--main-color);
@@ -133,6 +145,7 @@ span {
   color: #000;
 }
 
+/* Text Animation */
 .text-animation {
   font-size: 34px;
   font-weight: 600;
@@ -196,31 +209,15 @@ span {
 }
 
 @keyframes typing {
-  10%,
-  15%,
-  30%,
-  35%,
-  50%,
-  55%,
-  70%,
-  75%,
-  90%,
-  95% {
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
     width: 0;
   }
-  5%,
-  20%,
-  25%,
-  40%,
-  45%,
-  60%,
-  65%,
-  80%,
-  85% {
+  5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
     width: calc(100% + 8px);
   }
 }
 
+/* Heading */
 .heading {
   font-size: 8rem;
   text-align: center;
@@ -230,22 +227,24 @@ span {
   letter-spacing: 5px;
 }
 
+/* Education */
 .education {
   padding: 100px 15px;
   background: var(--second-bg-color);
 }
 
-
+/* Technology */
 .technology {
   background-color: var(--bg-color);
   color: #000000;
 }
 
+/* Contact */
 .contact {
   background-color: var(--bg-color);
 }
 
-
+/* Media Queries */
 @media (max-width: 991px) {
   .technology {
     padding-bottom: 7rem;
