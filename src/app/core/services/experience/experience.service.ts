@@ -4,8 +4,8 @@ import {BehaviorSubject} from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class EducationService {
-  private _currentComponent: BehaviorSubject<string> = new BehaviorSubject<string>('education');
+export class ExperienceService {
+  private _currentComponent: BehaviorSubject<string> = new BehaviorSubject<string>('experience');
   currentComponent$ = this._currentComponent.asObservable();
 
   constructor() {

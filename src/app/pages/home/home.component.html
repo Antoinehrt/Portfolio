@@ -39,10 +39,10 @@
   </div>
 </section>
 
-<section class="education" id="education" #sections>
-  <h2 class="heading">Education</h2>
+<section class="experience" id="experience" #sections>
+  <h2 class="heading">Experience</h2>
   <div [ngSwitch]="currentComponent$ | async">
-    <app-education *ngSwitchCase="'education'"></app-education>
+    <app-experience *ngSwitchCase="'experience'"></app-experience>
     <app-high-school *ngSwitchCase="'high-school'"></app-high-school>
     <app-university *ngSwitchCase="'university'"></app-university>
     <app-university-college *ngSwitchCase="'university-college'"></app-university-college>
