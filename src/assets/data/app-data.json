@@ -11,7 +11,7 @@
       "type": "education",
       "name": "University",
       "date": "2019-09-15T00:00:00.000Z",
-      "description": "I began a <b>Bachelor's degree in Computer Science</b> at the UCLouvain polytechnic school, where I studied for two years. Although I successfully passed most of my courses, I did not pass the ones related to mathematics and electricity.",
+      "description": "I began a <b>Bachelor's degree in Computer Science</b> at the UCLouvain polytechnic school, focused on programming in Python and Java, algorithm design, and foundational computer science concepts.",
       "component": "university"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "type": "education",
-      "name": "Atelier Créactifs - FastAI",
+      "name": "Ateliers Créactifs - FastAI",
       "date": "2024-10-09T00:00:00.000Z",
       "description": "\"Completed a training course on <b> building AI models using Python, PyTorch, and FastAI</b>, focusing on creating, training, and evaluating neural network architectures, with hands-on experience in data preparation, model training, and performance evaluation using metrics like accuracy and ROC curves.\"",
       "component": "fastai"
