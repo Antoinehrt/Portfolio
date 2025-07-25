@@ -31,8 +31,7 @@ import {FastaiComponent} from "../experiences/fastai/fastai.component";
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements AfterViewInit, OnInit {
-  birthDate: Date = new Date(2001, 7, 4);
-  today: Date = new Date();
+  birthDate: Date = new Date(2001, 6, 4);
   myAge: number = 0;
   currentComponent$?: Observable<string>
 
@@ -50,7 +49,19 @@ export class HomeComponent implements AfterViewInit, OnInit {
   }
 
   calculateAge() {
-    const diff = new Date().getTime() - this.birthDate.getTime();
-    this.myAge = Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
+    const today = new Date();
+
+    let age: number = today.getFullYear() - this.birthDate.getFullYear();
+
+    const hasHadBirthdayThisYear =
+      today.getMonth() > this.birthDate.getMonth() ||
+      (today.getMonth() === this.birthDate.getMonth() && today.getDate() >= this.birthDate.getDate());
+
+    if (!hasHadBirthdayThisYear) {
+      age--;
+    }
+
+    this.myAge = age;
   }
+
 }
