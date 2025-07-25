@@ -284,4 +284,8 @@ span {
   .technology h2 {
     margin-bottom: 3rem;
   }
+  .mobile-break {
+    display: block;
+    width: 100%;
+  }
 }
