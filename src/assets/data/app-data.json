@@ -3,21 +3,21 @@
     {
       "type": "education",
       "name": "High School",
-      "date": "2013-09-15T00:00:00.000Z",
+      "date": "2019-09-15T00:00:00.000Z",
       "description": "I obtained my <b>CESS</b> in general education at Collège Saint-Stanislas, where I pursued a track in advanced sciences with English immersion. My curriculum also included Latin and English immersion, which allowed me to develop strong language and analytical skills.",
       "component": "high-school"
     },
     {
       "type": "education",
       "name": "University",
-      "date": "2019-09-15T00:00:00.000Z",
+      "date": "2021-09-15T00:00:00.000Z",
       "description": "I began a <b>Bachelor's degree in Computer Science</b> at the UCLouvain polytechnic school, focused on programming in Python and Java, algorithm design, and foundational computer science concepts.",
       "component": "university"
     },
     {
       "type": "education",
       "name": "University college",
-      "date": "2021-09-15T00:00:00.000Z",
+      "date": "2024-09-15T00:00:00.000Z",
       "description": "I earned a <b>Bachelor's degree in Computer Science, specializing in application development</b>, at HELHa in Mons. This program allowed me to gain deep technical skills and develop my expertise in programming and project management.",
       "component": "university-college"
     },
