@@ -100,7 +100,7 @@ Run the development server locally:
 To build the project for production:
 
 ```bash
-  ng build --prod
+  ng build --configuration production
 ```
 
 # File Structure

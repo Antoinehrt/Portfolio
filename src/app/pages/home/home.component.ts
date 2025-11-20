@@ -10,6 +10,7 @@ import {InternshipComponent} from "../experiences/internship/internship.componen
 import {AsyncPipe, NgSwitch, NgSwitchCase} from "@angular/common";
 import {Observable} from "rxjs";
 import {FastaiComponent} from "../experiences/fastai/fastai.component";
+import {ForemDutchComponent} from "../experiences/forem-dutch/forem-dutch.component";
 
 @Component({
   selector: 'app-home',
@@ -25,7 +26,8 @@ import {FastaiComponent} from "../experiences/fastai/fastai.component";
     AsyncPipe,
     NgSwitch,
     NgSwitchCase,
-    FastaiComponent
+    FastaiComponent,
+    ForemDutchComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
