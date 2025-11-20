@@ -34,6 +34,13 @@
       "date": "2024-10-09T00:00:00.000Z",
       "description": "\"Completed a training course on <b> building AI models using Python, PyTorch, and FastAI</b>, focusing on creating, training, and evaluating neural network architectures, with hands-on experience in data preparation, model training, and performance evaluation using metrics like accuracy and ROC curves.\"",
       "component": "fastai"
+    },
+    {
+      "type": "education",
+      "name": "Forem - Dutch Language Training",
+      "date": "2025-10-01T00:00:00.000Z",
+      "description": "Completed a series of <b>Dutch language courses at Forem Mons</b>, starting at level A0 with no prior knowledge and progressing through levels A1, A2, and finally achieving B1. Each level was certified by Forem through ELAO testing, providing proficiency in reading, writing, listening, and speaking.",
+      "component": "forem-dutch"
     }
   ]
 }
