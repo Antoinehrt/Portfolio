@@ -11,59 +11,61 @@ import {AsyncPipe, NgSwitch, NgSwitchCase} from "@angular/common";
 import {Observable} from "rxjs";
 import {FastaiComponent} from "../experiences/fastai/fastai.component";
 import {ForemDutchComponent} from "../experiences/forem-dutch/forem-dutch.component";
+import {ProjectsComponent} from "../projects/projects.component";
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [
-    ExperiencesComponent,
-    SkillsComponent,
-    ContactMeComponent,
-    HighSchoolComponent,
-    UniversityComponent,
-    UniversityCollegeComponent,
-    InternshipComponent,
-    AsyncPipe,
-    NgSwitch,
-    NgSwitchCase,
-    FastaiComponent,
-    ForemDutchComponent
-  ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+    selector: 'app-home',
+    standalone: true,
+    imports: [
+        ExperiencesComponent,
+        SkillsComponent,
+        ContactMeComponent,
+        HighSchoolComponent,
+        UniversityComponent,
+        UniversityCollegeComponent,
+        InternshipComponent,
+        AsyncPipe,
+        NgSwitch,
+        NgSwitchCase,
+        FastaiComponent,
+        ForemDutchComponent,
+        ProjectsComponent
+    ],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css'
 })
 export class HomeComponent implements AfterViewInit, OnInit {
-  birthDate: Date = new Date(2001, 6, 4);
-  myAge: number = 0;
-  currentComponent$?: Observable<string>
+    birthDate: Date = new Date(2001, 6, 4);
+    myAge: number = 0;
+    currentComponent$?: Observable<string>
 
-  constructor(private _educationService: ExperienceService) {
-    this.calculateAge();
-  }
-
-  ngOnInit(): void {
-    this.calculateAge();
-    this.currentComponent$ = this._educationService.currentComponent$;
-
-  }
-
-  ngAfterViewInit() {
-  }
-
-  calculateAge() {
-    const today = new Date();
-
-    let age: number = today.getFullYear() - this.birthDate.getFullYear();
-
-    const hasHadBirthdayThisYear =
-      today.getMonth() > this.birthDate.getMonth() ||
-      (today.getMonth() === this.birthDate.getMonth() && today.getDate() >= this.birthDate.getDate());
-
-    if (!hasHadBirthdayThisYear) {
-      age--;
+    constructor(private _educationService: ExperienceService) {
+        this.calculateAge();
     }
 
-    this.myAge = age;
-  }
+    ngOnInit(): void {
+        this.calculateAge();
+        this.currentComponent$ = this._educationService.currentComponent$;
+
+    }
+
+    ngAfterViewInit() {
+    }
+
+    calculateAge() {
+        const today = new Date();
+
+        let age: number = today.getFullYear() - this.birthDate.getFullYear();
+
+        const hasHadBirthdayThisYear =
+            today.getMonth() > this.birthDate.getMonth() ||
+            (today.getMonth() === this.birthDate.getMonth() && today.getDate() >= this.birthDate.getDate());
+
+        if (!hasHadBirthdayThisYear) {
+            age--;
+        }
+
+        this.myAge = age;
+    }
 
 }
