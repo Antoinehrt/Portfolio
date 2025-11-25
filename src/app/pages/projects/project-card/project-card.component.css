@@ -168,14 +168,16 @@
 
 /* ===== LANGUAGES SECTION ===== */
 .languages-section {
-    margin-top: auto;
+  margin-top: auto;
+  padding-top: 0.5rem;
 }
 
 .languages-title {
-    font-size: 14px;
-    margin: 0 0 0.5rem 0;
-    color: var(--main-color);
-    font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 0.8rem 0;
+  color: var(--main-color);
+  font-weight: 600;
+  text-align: center;
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
