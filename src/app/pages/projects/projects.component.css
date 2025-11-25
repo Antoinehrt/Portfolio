@@ -112,6 +112,12 @@
   justify-content: center;
 }
 
+.project-slide app-project-card {
+  width: 450px !important;
+  max-width: 450px !important;
+  min-width: 450px !important;
+}
+
 /* ===== BOUTONS DE NAVIGATION ===== */
 .carousel-btn {
   position: absolute;
@@ -158,7 +164,13 @@
   .project-slide {
     width: 400px;
   }
-  
+
+  .project-slide app-project-card {
+    width: 400px !important;
+    max-width: 400px !important;
+    min-width: 400px !important;
+  }
+
   .carousel-track {
     gap: 1.5rem;
   }
@@ -168,24 +180,30 @@
   .carousel-container {
     margin: 0 20px;
   }
-  
+
   .carousel-btn {
     width: 40px;
     height: 40px;
   }
-  
+
   .carousel-btn-left {
     left: -10px;
   }
-  
+
   .carousel-btn-right {
     right: -10px;
   }
-  
+
   .project-slide {
     width: 350px;
   }
-  
+
+  .project-slide app-project-card {
+    width: 350px !important;
+    max-width: 350px !important;
+    min-width: 350px !important;
+  }
+
   .carousel-track {
     gap: 1rem;
   }
@@ -195,19 +213,25 @@
   .carousel-container {
     margin: 0 10px;
   }
-  
+
   .carousel-btn {
-    display: none; /* Masquer les boutons sur très petit écran */
+    display: none; 
   }
-  
+
   .project-slide {
     width: 300px;
   }
-  
+
+  .project-slide app-project-card {
+    width: 300px !important;
+    max-width: 300px !important;
+    min-width: 300px !important;
+  }
+
   .carousel-track {
     padding: 0 0.5rem;
   }
-  
+
   .projects-box {
     padding: 1rem 0.5rem;
   }
