@@ -55,9 +55,9 @@ This project requires a properly configured environment file to enable the Conta
   ng generate environments
 ```
 
-2. Add Your EmailJS Credentials
+2. Add Your EmailJS Credentials & your github token
 
-   Open src/environments/environment.local.ts and populate it with your EmailJS credentials:
+   Open src/environments/environment.ts and populate it with your EmailJS credentials:
 
 ```ts
 export const environment = {
@@ -65,6 +65,7 @@ export const environment = {
   EMAILJS_USER_ID: 'your-emailjs-user-id',
   EMAILJS_SERVICE_ID: 'your-emailjs-service-id',
   EMAILJS_TEMPLATE_ID: 'your-emailjs-template-id',
+  GITHUB_TOKEN: 'your-github-token',
 };
 ```
 
