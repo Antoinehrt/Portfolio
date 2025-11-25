@@ -8,6 +8,7 @@ export interface Project {
   name: string;
   description: string;
   repoUrl: string;
+  liveUrl: string;
   createdAt: Date;
   updateAt: Date;
   size: number;
