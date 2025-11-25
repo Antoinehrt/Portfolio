@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {ExperienceEntry} from "../../core/models/experience-entry";
 import {CommonModule, NgFor, NgForOf} from "@angular/common";
 import {ExperienceService} from "../../core/services/experience/experience.service";
-import {YearOnlyPipe} from "../../core/pipes/year-only.pipe";
+import {YearOnlyPipe} from "../../core/pipes/date/year-only.pipe";
 import {StaticDataService} from "../../core/services/static-data/static-data.service";
 
 @Component({
