@@ -10,7 +10,7 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem; /* Augmentation du padding */
 }
 
 .projects .heading {
@@ -90,7 +90,7 @@
   scroll-behavior: smooth;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE/Edge */
-  padding: 1rem 0;
+  padding: 4rem 0; /* Augmentation pour accommoder l'ombre de 50px */
   margin: 0 60px; /* Espace pour les boutons */
 }
 
@@ -102,7 +102,7 @@
   display: flex;
   gap: 2rem;
   width: fit-content;
-  padding: 0 1rem;
+  padding: 1.5rem 1rem 2rem 1rem; /* Padding augmenté pour l'ombre */
 }
 
 .project-slide {
@@ -179,6 +179,7 @@
 @media (max-width: 768px) {
   .carousel-container {
     margin: 0 20px;
+    padding: 3rem 0; /* Padding adapté pour l'ombre sur mobile */
   }
 
   .carousel-btn {
@@ -206,16 +207,15 @@
 
   .carousel-track {
     gap: 1rem;
+    padding: 1.2rem 1rem 1.8rem 1rem; /* Padding ajusté pour tablette */
   }
-}
-
-@media (max-width: 480px) {
+}@media (max-width: 480px) {
   .carousel-container {
     margin: 0 10px;
   }
 
   .carousel-btn {
-    display: none; 
+    display: none;
   }
 
   .project-slide {
