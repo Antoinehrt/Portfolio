@@ -11,6 +11,7 @@ import {filter} from 'rxjs/operators';
 })
 export class AppComponent implements AfterViewInit {
   title = 'Portfolio';
+  currentYear: number = new Date().getFullYear();
 
   @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
   @ViewChildren('navbar') navbar!: QueryList<ElementRef>;
