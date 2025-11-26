@@ -55,23 +55,18 @@ export class AppComponent implements AfterViewInit {
         }
     }
 
-    @HostListener('window:scroll', ['$event'])
+    @HostListener('window:scroll')
     onScroll() {
-        const top = window.scrollY;
+        const sections = document.querySelectorAll('section[id]');
+        const scrollPos = window.scrollY + 150;
 
-        this.sections.forEach((sec: ElementRef) => {
-            const section = sec.nativeElement;
-            const offset = section.offsetTop - 150;
-            const height = section.offsetHeight;
-            const id = section.getAttribute('id');
+        sections.forEach(section => {
+            const element = section as HTMLElement;
+            const navLink = document.querySelector(`a[href="#${element.id}"]`);
 
-            if (top >= offset && top < offset + height) {
-                this.navLinks.forEach((link: ElementRef) => {
-                    this.renderer.removeClass(link.nativeElement, 'active');
-                    if (link.nativeElement.getAttribute('href') === `#${id}`) {
-                        this.renderer.addClass(link.nativeElement, 'active');
-                    }
-                });
+            if (scrollPos >= element.offsetTop && scrollPos < element.offsetTop + element.offsetHeight) {
+                document.querySelectorAll('.navbar a').forEach(link => link.classList.remove('active'));
+                navLink?.classList.add('active');
             }
         });
     }
