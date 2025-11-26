@@ -1,5 +1,7 @@
 # My Portfolio
 
+![Preview](src/assets/img/preview.png)
+
 This repository contains the source code for my personal portfolio, built using [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6. The portfolio is designed to showcase my skills, experiences, projects, and educational background in a clean, interactive, and professional way.
 
 ## Features
@@ -55,35 +57,36 @@ This project requires a properly configured environment file to enable the Conta
   ng generate environments
 ```
 
-2. Add Your EmailJS Credentials
+2. Add Your EmailJS Credentials & your github token
 
-   Open src/environments/environment.local.ts and populate it with your EmailJS credentials:
+   Open src/environments/environment.ts and populate it with your EmailJS credentials:
 
 ```ts
 export const environment = {
-  production: false,
-  EMAILJS_USER_ID: 'your-emailjs-user-id',
-  EMAILJS_SERVICE_ID: 'your-emailjs-service-id',
-  EMAILJS_TEMPLATE_ID: 'your-emailjs-template-id',
+    production: false,
+    EMAILJS_USER_ID: 'your-emailjs-user-id',
+    EMAILJS_SERVICE_ID: 'your-emailjs-service-id',
+    EMAILJS_TEMPLATE_ID: 'your-emailjs-template-id',
+    GITHUB_TOKEN: 'your-github-token',
 };
 ```
 
 3. Update Your Angular Build Configuration (Optional)
 
-  If you need to use different credentials for different environments (e.g., development and production), modify your angular.json file to include appropriate environment replacements.
+If you need to use different credentials for different environments (e.g., development and production), modify your angular.json file to include appropriate environment replacements.
 
 Example for local environment:
 
 ```json
 "configurations": {
-  "local": {
-    "fileReplacements": [
-      {
-        "replace": "src/environments/environment.ts",
-        "with": "src/environments/environment.local.ts"
-      }
-    ]
-  }
+"local": {
+"fileReplacements": [
+{
+"replace": "src/environments/environment.ts",
+"with": "src/environments/environment.local.ts"
+}
+]
+}
 }
   ```
 
@@ -110,10 +113,10 @@ src/
 ├── app/
 │ ├── pages/ // Page-level components (e.g., Home, Timeline, Projects)
 │ └── core/
-│     ├── models/ // TypeScript interfaces and models
-│     ├── pipes/ // Pipes for transforming data
-│     ├── services/ // Services for state management
-│     └── styles/ // Global styles and SCSS variables 
+│ ├── models/ // TypeScript interfaces and models
+│ ├── pipes/ // Pipes for transforming data
+│ ├── services/ // Services for state management
+│ └── styles/ // Global styles and SCSS variables 
 ├── assets/ // Images, icons, and other static assets
 └── environments/ // Environment-specific configurations
 ```

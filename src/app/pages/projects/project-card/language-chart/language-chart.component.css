@@ -1,0 +1,95 @@
+.chart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+.chart-wrapper {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.2s ease;
+}
+
+.legend-item:hover {
+    color: var(--main-color);
+    transform: translateX(2px);
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease;
+}
+
+.legend-item:hover .legend-color {
+    transform: scale(1.1);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.legend-label {
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+}
+
+/* Responsive design pour mobile */
+@media (max-width: 480px) {
+    .chart-container {
+        flex-direction: column;
+        gap: 0.8rem;
+        max-width: 200px;
+        align-items: center;
+    }
+
+    .chart-wrapper {
+        width: 70px;
+        height: 70px;
+    }
+
+    .custom-legend {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .legend-item {
+        font-size: 10px;
+    }
+
+    .legend-color {
+        width: 10px;
+        height: 10px;
+    }
+}

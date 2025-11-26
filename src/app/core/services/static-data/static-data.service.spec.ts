@@ -3,14 +3,14 @@ import {TestBed} from '@angular/core/testing';
 import {StaticDataService} from './static-data.service';
 
 describe('StaticDataService', () => {
-  let service: StaticDataService;
+    let service: StaticDataService;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(StaticDataService);
-  });
+    beforeEach(() => {
+        TestBed.configureTestingModule({});
+        service = TestBed.inject(StaticDataService);
+    });
 
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
+    it('should be created', () => {
+        expect(service).toBeTruthy();
+    });
 });
