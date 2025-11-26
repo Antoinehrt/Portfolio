@@ -61,6 +61,19 @@ span {
     font-size: 3.6rem;
     color: var(--main-color);
     display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: 0.3s ease;
+}
+
+#menu-icon:hover,
+#menu-icon:focus {
+    transform: scale(1.1);
+    outline: 2px solid var(--main-color);
+    outline-offset: 2px;
+    border-radius: 4px;
 }
 
 

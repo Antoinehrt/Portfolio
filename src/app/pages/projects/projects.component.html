@@ -11,25 +11,33 @@
     </div>
 
     <!-- Carrousel des projets -->
-    <div class="carousel-wrapper" *ngIf="!isLoading && !error && projects.length > 0">
+    <div class="carousel-wrapper" 
+         *ngIf="!isLoading && !error && projects.length > 0"
+         role="region" 
+         aria-label="Projects gallery">
         <!-- Bouton navigation gauche -->
         <button
             class="carousel-btn carousel-btn-left"
             [class.disabled]="!canScrollLeft"
             (click)="scrollLeft()"
             [disabled]="!canScrollLeft"
-            aria-label="Previous projects">
+            aria-label="Show previous projects"
+            [attr.aria-describedby]="canScrollLeft ? null : 'no-previous'">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round"/>
             </svg>
         </button>
+        <div id="no-previous" class="sr-only">No previous projects to show</div>
 
         <!-- Container du carrousel -->
         <div
             class="carousel-container"
             #carouselContainer
-            (scroll)="onScroll()">
+            (scroll)="onScroll()"
+            role="group"
+            aria-label="Project cards"
+            [attr.aria-live]="'polite'">
             <div class="carousel-track">
                 <div class="project-slide" *ngFor="let project of projects">
                     <app-project-card [project]="project"></app-project-card>
@@ -43,12 +51,14 @@
             [class.disabled]="!canScrollRight"
             (click)="scrollRight()"
             [disabled]="!canScrollRight"
-            aria-label="Next projects">
+            aria-label="Show next projects"
+            [attr.aria-describedby]="canScrollRight ? null : 'no-next'">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round"/>
             </svg>
         </button>
+        <div id="no-next" class="sr-only">No more projects to show</div>
     </div>
 
     <!-- État vide -->

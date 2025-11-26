@@ -1,12 +1,18 @@
 <header class="header">
-    <a href="#home" class="logo">
+    <a href="#home" class="logo" aria-label="Antoine Hauret - Home">
         Antoine
         <span>HAURET</span>
     </a>
-    <i class='bx bx-menu' id="menu-icon" #menuIcon (click)="toggleMenu()"></i>
+    <button class="bx bx-menu" 
+            id="menu-icon" 
+            #menuIcon 
+            (click)="toggleMenu()"
+            (keydown)="toggleMenu($event)"
+            aria-label="Toggle navigation menu"
+            [attr.aria-expanded]="isMenuOpen"></button>
 
-    <nav class="navbar" #navbar>
-        <a href="#home" class="active" #navLinks>Home</a>
+    <nav class="navbar" #navbar role="navigation" aria-label="Main navigation">
+        <a href="#home" class="active" #navLinks aria-current="page">Home</a>
         <a href="#experience" #navLinks>Experience</a>
         <a href="#skills" #navLinks>Skills</a>
         <a href="#projects" #navLinks>Projects</a>
@@ -20,9 +26,13 @@
 
 <footer class="footer">
     <div class="social">
-        <a href="https://www.linkedin.com/in/antoine-hauret/"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/Antoinehrt"><i class="bx bxl-github"></i></a>
-        <a href="/assets/CV/CV_Antoine_Hauret.pdf" download><i class="bx bx-file"></i></a>
+        <a href="https://www.linkedin.com/in/antoine-hauret/" 
+           aria-label="Visit my LinkedIn profile"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Antoinehrt" 
+           aria-label="Visit my GitHub repositories"><i class="bx bxl-github"></i></a>
+        <a href="/assets/CV/CV_Antoine_Hauret.pdf" 
+           download 
+           aria-label="Download my CV (PDF)"><i class="bx bx-file"></i></a>
     </div>
 
     <ul class="list">

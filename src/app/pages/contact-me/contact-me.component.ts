@@ -29,7 +29,6 @@ export class ContactMeComponent {
     }
 
     sendMessage() {
-        console.log(this.contactForm.value);
         emailjs.init(environment.EMAILJS_USER_ID)
 
         emailjs.send(environment.EMAILJS_SERVICE_ID, environment.EMAILJS_TEMPLATE_ID, {

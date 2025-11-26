@@ -12,6 +12,7 @@ import {filter} from 'rxjs/operators';
 export class AppComponent implements AfterViewInit {
     title = 'Portfolio';
     currentYear: number = new Date().getFullYear();
+    isMenuOpen = false;
 
     @ViewChildren('menuIcon') menuIcon!: QueryList<ElementRef>;
     @ViewChildren('navbar') navbar!: QueryList<ElementRef>;
@@ -38,14 +39,23 @@ export class AppComponent implements AfterViewInit {
         this.sections.notifyOnChanges();
     }
 
-    toggleMenu() {
+    toggleMenu(event?: KeyboardEvent) {
+        if (event && (event.key !== 'Enter' && event.key !== ' ')) {
+            return;
+        }
+        if (event?.key === ' ') {
+            event.preventDefault();
+        }
+        
         const menuIcon = this.menuIcon.first.nativeElement;
         const navbar = this.navbar.first.nativeElement;
 
         if (menuIcon.classList.contains('bx-x')) {
             this.renderer.removeClass(menuIcon, 'bx-x');
+            this.isMenuOpen = false;
         } else {
             this.renderer.addClass(menuIcon, 'bx-x');
+            this.isMenuOpen = true;
         }
 
         if (navbar.classList.contains('active')) {
