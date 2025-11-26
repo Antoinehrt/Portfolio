@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, OnDestroy} from '@angular/core';
 import {ExperienceEntry} from "../../core/models/experience-entry";
 import {CommonModule} from "@angular/common";
 import {ExperienceService} from "../../core/services/experience/experience.service";
 import {YearOnlyPipe} from "../../core/pipes/date/year-only.pipe";
 import {StaticDataService} from "../../core/services/static-data/static-data.service";
+import {Subject, takeUntil} from "rxjs";
 
 @Component({
     selector: 'app-experience',
@@ -15,10 +16,11 @@ import {StaticDataService} from "../../core/services/static-data/static-data.ser
     templateUrl: './experiences.component.html',
     styleUrl: './experiences.component.css'
 })
-export class ExperiencesComponent implements OnInit {
-    public experienceEntry: ExperienceEntry[] = []
+export class ExperiencesComponent implements OnInit, OnDestroy {
+    public experienceEntries: ExperienceEntry[] = []
+    private destroy$ = new Subject<void>();
 
-    constructor(private experienceService: ExperienceService, private _staticDataService: StaticDataService) {
+    constructor(private _experienceService: ExperienceService, private _staticDataService: StaticDataService) {
     }
 
     ngOnInit(): void {
@@ -38,7 +40,7 @@ export class ExperiencesComponent implements OnInit {
         }
 
         if (item.component) {
-            this.experienceService.currentComponent = item.component;
+            this._experienceService.currentComponent = item.component;
             document.getElementById('experience')?.scrollIntoView({behavior: 'smooth'});
         }
     }
