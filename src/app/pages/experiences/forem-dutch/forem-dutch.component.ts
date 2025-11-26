@@ -13,11 +13,11 @@ import {MatIcon} from "@angular/material/icon";
 })
 export class ForemDutchComponent {
 
-    constructor(private _educationService: ExperienceService) {
+    constructor(private _experienceService: ExperienceService) {
     }
 
     navigateBack() {
-        this._educationService.currentComponent = "experience"
+        this._experienceService.currentComponent = "experience"
     }
 
 }

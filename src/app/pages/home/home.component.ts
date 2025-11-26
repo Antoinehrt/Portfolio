@@ -39,13 +39,13 @@ export class HomeComponent implements AfterViewInit, OnInit {
     myAge: number = 0;
     currentComponent$?: Observable<string>
 
-    constructor(private _educationService: ExperienceService) {
+    constructor(private _experienceService: ExperienceService) {
         this.calculateAge();
     }
 
     ngOnInit(): void {
         this.calculateAge();
-        this.currentComponent$ = this._educationService.currentComponent$;
+        this.currentComponent$ = this._experienceService.currentComponent$;
 
     }
 

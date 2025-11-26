@@ -20,7 +20,7 @@ import {StaticDataService} from "../../core/services/static-data/static-data.ser
 export class ExperiencesComponent implements OnInit {
     public experienceEntry: ExperienceEntry[] = []
 
-    constructor(private _educationService: ExperienceService, private _staticDataService: StaticDataService) {
+    constructor(private _experienceService: ExperienceService, private _staticDataService: StaticDataService) {
     }
 
     ngOnInit(): void {
@@ -33,7 +33,7 @@ export class ExperiencesComponent implements OnInit {
 
     navigateToDetail(item: ExperienceEntry) {
         if (item.component) {
-            this._educationService.currentComponent = item.component;
+            this._experienceService.currentComponent = item.component;
             document.getElementById('experience')?.scrollIntoView({behavior: 'smooth'});
         }
     }

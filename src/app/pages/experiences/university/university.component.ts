@@ -12,10 +12,10 @@ import {ExperienceService} from "../../../core/services/experience/experience.se
     styleUrl: './university.component.css'
 })
 export class UniversityComponent {
-    constructor(private _educationService: ExperienceService) {
+    constructor(private _experienceService: ExperienceService) {
     }
 
     navigateBack() {
-        this._educationService.currentComponent = "experience"
+        this._experienceService.currentComponent = "experience"
     }
 }
