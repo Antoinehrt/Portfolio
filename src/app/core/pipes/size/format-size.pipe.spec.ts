@@ -1,8 +1,8 @@
-import { FormatSizePipe } from './format-size.pipe';
+import {FormatSizePipe} from './format-size.pipe';
 
 describe('FormatSizePipe', () => {
-  it('create an instance', () => {
-    const pipe = new FormatSizePipe();
-    expect(pipe).toBeTruthy();
-  });
+    it('create an instance', () => {
+        const pipe = new FormatSizePipe();
+        expect(pipe).toBeTruthy();
+    });
 });

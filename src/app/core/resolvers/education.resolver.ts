@@ -5,12 +5,12 @@ import {ExperienceEntry} from '../models/experience-entry';
 import {map} from 'rxjs';
 
 export const educationResolver: ResolveFn<{ experienceEntry: ExperienceEntry[] }> = (route, state) => {
-  const staticDataService = inject(StaticDataService);
-  console.log('Resolver triggered');
+    const staticDataService = inject(StaticDataService);
+    console.log('Resolver triggered');
 
-  return staticDataService.getStaticData().pipe(
-    map(data => {
-      console.log('Fetched static data in resolver:', data);
-      return {experienceEntry: data.experienceEntries};
-    }));
+    return staticDataService.getStaticData().pipe(
+        map(data => {
+            console.log('Fetched static data in resolver:', data);
+            return {experienceEntry: data.experienceEntries};
+        }));
 };

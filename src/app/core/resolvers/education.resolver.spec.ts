@@ -4,14 +4,14 @@ import {ResolveFn} from '@angular/router';
 import {educationResolver} from './education.resolver';
 
 describe('educationResolver', () => {
-  const executeResolver: ResolveFn<boolean> = (...resolverParameters) =>
-    TestBed.runInInjectionContext(() => educationResolver(...resolverParameters));
+    const executeResolver: ResolveFn<boolean> = (...resolverParameters) =>
+        TestBed.runInInjectionContext(() => educationResolver(...resolverParameters));
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-  });
+    beforeEach(() => {
+        TestBed.configureTestingModule({});
+    });
 
-  it('should be created', () => {
-    expect(executeResolver).toBeTruthy();
-  });
+    it('should be created', () => {
+        expect(executeResolver).toBeTruthy();
+    });
 });

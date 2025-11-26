@@ -1,11 +1,11 @@
 <div class="chart-container">
-  <div class="chart-wrapper">
-    <canvas #chartCanvas></canvas>
-  </div>
-  <div class="custom-legend" *ngIf="languages.length > 0">
-    <div class="legend-item" *ngFor="let language of languages; let i = index">
-      <span class="legend-color" [style.background-color]="language.color"></span>
-      <span class="legend-label">{{ language.name }}</span>
+    <div class="chart-wrapper">
+        <canvas #chartCanvas></canvas>
     </div>
-  </div>
+    <div class="custom-legend" *ngIf="languages.length > 0">
+        <div class="legend-item" *ngFor="let language of languages; let i = index">
+            <span class="legend-color" [style.background-color]="language.color"></span>
+            <span class="legend-label">{{ language.name }}</span>
+        </div>
+    </div>
 </div>

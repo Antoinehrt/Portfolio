@@ -20,9 +20,9 @@
 }
 
 .project-card:hover {
-  border: 3px solid var(--main-color);
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 0 50px var(--main-color);
+    border: 3px solid var(--main-color);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 0 50px var(--main-color);
 }
 
 /* ===== PROJECT HEADER ===== */

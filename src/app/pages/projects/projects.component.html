@@ -1,56 +1,58 @@
 <div class="projects-box">
-  <!-- États de chargement et d'erreur -->
-  <div class="loading-container" *ngIf="isLoading">
-    <div class="loading-spinner"></div>
-    <p>Loading projects...</p>
-  </div>
-  
-  <div class="error-container" *ngIf="error">
-    <p class="error-message">{{ error }}</p>
-    <button class="retry-btn" (click)="retryLoading()">Retry</button>
-  </div>
-
-  <!-- Carrousel des projets -->
-  <div class="carousel-wrapper" *ngIf="!isLoading && !error && projects.length > 0">
-    <!-- Bouton navigation gauche -->
-    <button 
-      class="carousel-btn carousel-btn-left" 
-      [class.disabled]="!canScrollLeft"
-      (click)="scrollLeft()"
-      [disabled]="!canScrollLeft"
-      aria-label="Previous projects">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </button>
-
-    <!-- Container du carrousel -->
-    <div 
-      class="carousel-container" 
-      #carouselContainer
-      (scroll)="onScroll()">
-      <div class="carousel-track">
-        <div class="project-slide" *ngFor="let project of projects">
-          <app-project-card [project]="project"></app-project-card>
-        </div>
-      </div>
+    <!-- États de chargement et d'erreur -->
+    <div class="loading-container" *ngIf="isLoading">
+        <div class="loading-spinner"></div>
+        <p>Loading projects...</p>
     </div>
 
-    <!-- Bouton navigation droite -->
-    <button 
-      class="carousel-btn carousel-btn-right" 
-      [class.disabled]="!canScrollRight"
-      (click)="scrollRight()"
-      [disabled]="!canScrollRight"
-      aria-label="Next projects">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </button>
-  </div>
+    <div class="error-container" *ngIf="error">
+        <p class="error-message">{{ error }}</p>
+        <button class="retry-btn" (click)="retryLoading()">Retry</button>
+    </div>
 
-  <!-- État vide -->
-  <div class="empty-state" *ngIf="!isLoading && !error && projects.length === 0">
-    <p>No projects found.</p>
-  </div>
+    <!-- Carrousel des projets -->
+    <div class="carousel-wrapper" *ngIf="!isLoading && !error && projects.length > 0">
+        <!-- Bouton navigation gauche -->
+        <button
+            class="carousel-btn carousel-btn-left"
+            [class.disabled]="!canScrollLeft"
+            (click)="scrollLeft()"
+            [disabled]="!canScrollLeft"
+            aria-label="Previous projects">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+        </button>
+
+        <!-- Container du carrousel -->
+        <div
+            class="carousel-container"
+            #carouselContainer
+            (scroll)="onScroll()">
+            <div class="carousel-track">
+                <div class="project-slide" *ngFor="let project of projects">
+                    <app-project-card [project]="project"></app-project-card>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bouton navigation droite -->
+        <button
+            class="carousel-btn carousel-btn-right"
+            [class.disabled]="!canScrollRight"
+            (click)="scrollRight()"
+            [disabled]="!canScrollRight"
+            aria-label="Next projects">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- État vide -->
+    <div class="empty-state" *ngIf="!isLoading && !error && projects.length === 0">
+        <p>No projects found.</p>
+    </div>
 </div>

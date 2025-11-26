@@ -3,20 +3,20 @@ import {ExperienceService} from "../../../core/services/experience/experience.se
 import {MatIcon} from "@angular/material/icon";
 
 @Component({
-  selector: 'app-high-school',
-  standalone: true,
-  imports: [
-    MatIcon
-  ],
-  templateUrl: './high-school.component.html',
-  styleUrl: './high-school.component.css'
+    selector: 'app-high-school',
+    standalone: true,
+    imports: [
+        MatIcon
+    ],
+    templateUrl: './high-school.component.html',
+    styleUrl: './high-school.component.css'
 })
 export class HighSchoolComponent {
 
-  constructor(private _educationService: ExperienceService) {
-  }
+    constructor(private _educationService: ExperienceService) {
+    }
 
-  navigateBack() {
-    this._educationService.currentComponent = "experience"
-  }
+    navigateBack() {
+        this._educationService.currentComponent = "experience"
+    }
 }
