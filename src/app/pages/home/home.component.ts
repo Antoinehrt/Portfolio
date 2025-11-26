@@ -12,6 +12,7 @@ import {Observable} from "rxjs";
 import {FastaiComponent} from "../experiences/fastai/fastai.component";
 import {ForemDutchComponent} from "../experiences/forem-dutch/forem-dutch.component";
 import {ProjectsComponent} from "../projects/projects.component";
+import {DateUtilityService} from "../../core/services/utility/date-utility.service";
 
 @Component({
     selector: 'app-home',
@@ -39,33 +40,14 @@ export class HomeComponent implements AfterViewInit, OnInit {
     myAge: number = 0;
     currentComponent$?: Observable<string>
 
-    constructor(private _educationService: ExperienceService) {
-        this.calculateAge();
+    constructor(private _experienceService: ExperienceService, private _dateUtility: DateUtilityService) {
+        this.myAge = this._dateUtility.calculateAge(this.birthDate);
     }
 
     ngOnInit(): void {
-        this.calculateAge();
-        this.currentComponent$ = this._educationService.currentComponent$;
-
+        this.currentComponent$ = this._experienceService.currentComponent$;
     }
 
     ngAfterViewInit() {
     }
-
-    calculateAge() {
-        const today = new Date();
-
-        let age: number = today.getFullYear() - this.birthDate.getFullYear();
-
-        const hasHadBirthdayThisYear =
-            today.getMonth() > this.birthDate.getMonth() ||
-            (today.getMonth() === this.birthDate.getMonth() && today.getDate() >= this.birthDate.getDate());
-
-        if (!hasHadBirthdayThisYear) {
-            age--;
-        }
-
-        this.myAge = age;
-    }
-
 }

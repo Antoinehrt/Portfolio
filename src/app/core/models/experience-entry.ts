@@ -2,9 +2,9 @@
  * Represents an experience timeline entry.
  */
 export interface ExperienceEntry {
-  type: string; // Type of the event (experience or work)
-  name: string;  // Name of the timeline entry
-  date: Date;    // Date
-  description: string; // Description
-  component: string; // Name of the associate Angular component
+    type: 'education' | 'professional'; // Au lieu de string
+    name: string;
+    date: Date;
+    description: string;
+    component: 'high-school' | 'university' | 'university-college' | 'internship' | 'fastai' | 'forem-dutch';
 }

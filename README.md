@@ -63,30 +63,30 @@ This project requires a properly configured environment file to enable the Conta
 
 ```ts
 export const environment = {
-  production: false,
-  EMAILJS_USER_ID: 'your-emailjs-user-id',
-  EMAILJS_SERVICE_ID: 'your-emailjs-service-id',
-  EMAILJS_TEMPLATE_ID: 'your-emailjs-template-id',
-  GITHUB_TOKEN: 'your-github-token',
+    production: false,
+    EMAILJS_USER_ID: 'your-emailjs-user-id',
+    EMAILJS_SERVICE_ID: 'your-emailjs-service-id',
+    EMAILJS_TEMPLATE_ID: 'your-emailjs-template-id',
+    GITHUB_TOKEN: 'your-github-token',
 };
 ```
 
 3. Update Your Angular Build Configuration (Optional)
 
-  If you need to use different credentials for different environments (e.g., development and production), modify your angular.json file to include appropriate environment replacements.
+If you need to use different credentials for different environments (e.g., development and production), modify your angular.json file to include appropriate environment replacements.
 
 Example for local environment:
 
 ```json
 "configurations": {
-  "local": {
-    "fileReplacements": [
-      {
-        "replace": "src/environments/environment.ts",
-        "with": "src/environments/environment.local.ts"
-      }
-    ]
-  }
+"local": {
+"fileReplacements": [
+{
+"replace": "src/environments/environment.ts",
+"with": "src/environments/environment.local.ts"
+}
+]
+}
 }
   ```
 
@@ -113,10 +113,10 @@ src/
 ├── app/
 │ ├── pages/ // Page-level components (e.g., Home, Timeline, Projects)
 │ └── core/
-│     ├── models/ // TypeScript interfaces and models
-│     ├── pipes/ // Pipes for transforming data
-│     ├── services/ // Services for state management
-│     └── styles/ // Global styles and SCSS variables 
+│ ├── models/ // TypeScript interfaces and models
+│ ├── pipes/ // Pipes for transforming data
+│ ├── services/ // Services for state management
+│ └── styles/ // Global styles and SCSS variables 
 ├── assets/ // Images, icons, and other static assets
 └── environments/ // Environment-specific configurations
 ```

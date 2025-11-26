@@ -1,72 +1,74 @@
 <section class="home" id="home" #sections>
-  <div class="home-content">
-    <h1>Hi, it's <span>Antoine</span></h1>
-    <h3 class="text-animation"> I'm a <span class="mobile-break"></span></h3>
-    <p>
-      A Belgian with a passion for creating programs and web applications. <b style="color: var(--main-color);">I
-      graduated with distinction in September 2024 with a bachelor's degree in Computer Science, majoring in
-      applications development.</b>
-      At {{ myAge }}, I’ve developed expertise in backend technologies like Python, Java, and ASP.NET Core, while also
-      enjoying front-end work using Angular.
-      <br> <br>
-      In addition to programming, I have experience with Docker, SQL, Git, and I work with Agile methodologies to
-      deliver solutions.
-      Whether it’s building backend systems or working across the fullstack, I’m always eager for new challenges. <br>
-      Feel free to explore my projects and get in touch if you'd like to collaborate!
-    </p>
-    <div class="social-icons">
-      <div class="social-icon">
-        <a href="https://www.linkedin.com/in/antoine-hauret/"><i class="bx bxl-linkedin"></i></a>
-        <span>Linkedin</span>
-      </div>
-      <div class="social-icon">
-        <a href="https://github.com/Antoinehrt"><i class="bx bxl-github"></i></a>
-        <span>Github</span>
-      </div>
-      <div class="social-icon">
-        <a href="/assets/CV/CV_Antoine_Hauret.pdf" download><i class="bx bx-file"></i></a>
-        <span>CV</span>
-      </div>
-    </div>
+    <div class="home-content">
+        <h1>Hi, it's <span>Antoine</span></h1>
+        <h3 class="text-animation"> I'm a <span class="mobile-break"></span></h3>
+        <p>
+            A Belgian with a passion for creating programs and web applications. <b style="color: var(--main-color);">I
+            graduated with distinction in September 2024 with a bachelor's degree in Computer Science, majoring in
+            applications development.</b>
+            At {{ myAge }}, I’ve developed expertise in backend technologies like Python, Java, and ASP.NET Core, while
+            also
+            enjoying front-end work using Angular.
+            <br> <br>
+            In addition to programming, I have experience with Docker, SQL, Git, and I work with Agile methodologies to
+            deliver solutions.
+            Whether it’s building backend systems or working across the fullstack, I’m always eager for new challenges.
+            <br>
+            Feel free to explore my projects and get in touch if you'd like to collaborate!
+        </p>
+        <div class="social-icons">
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/antoine-hauret/"><i class="bx bxl-linkedin"></i></a>
+                <span>Linkedin</span>
+            </div>
+            <div class="social-icon">
+                <a href="https://github.com/Antoinehrt"><i class="bx bxl-github"></i></a>
+                <span>Github</span>
+            </div>
+            <div class="social-icon">
+                <a href="/assets/CV/CV_Antoine_Hauret.pdf" download><i class="bx bx-file"></i></a>
+                <span>CV</span>
+            </div>
+        </div>
 
-    <div class="btn-group">
-      <a href="mailto:hauret.antoine@gmail.com?subject=Hiring Inquiry" class="btn">Hire</a>
-      <a href="#contact" class="btn">Contact</a>
+        <div class="btn-group">
+            <a href="mailto:hauret.antoine@gmail.com?subject=Hiring Inquiry" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
     </div>
-  </div>
-  <div class="home-img">
-    <img src="../../../assets/img/square_profile_pic.jpg" alt="Profile picture">
-  </div>
+    <div class="home-img">
+        <img src="../../../assets/img/square_profile_pic.jpg" alt="Profile picture">
+    </div>
 </section>
 
 <section class="experience" id="experience" #sections>
-  <h2 class="heading">Experience</h2>
-  <div [ngSwitch]="currentComponent$ | async">
-    <app-experience *ngSwitchCase="'experience'"></app-experience>
-    <app-high-school *ngSwitchCase="'high-school'"></app-high-school>
-    <app-university *ngSwitchCase="'university'"></app-university>
-    <app-university-college *ngSwitchCase="'university-college'"></app-university-college>
-    <app-internship *ngSwitchCase="'internship'"></app-internship>
-    <app-fastai *ngSwitchCase="'fastai'"></app-fastai>
-    <app-forem-dutch *ngSwitchCase="'forem-dutch'"></app-forem-dutch>
-  </div>
+    <h2 class="heading">Experience</h2>
+    <div [ngSwitch]="currentComponent$ | async">
+        <app-experience *ngSwitchCase="'experience'"></app-experience>
+        <app-high-school *ngSwitchCase="'high-school'"></app-high-school>
+        <app-university *ngSwitchCase="'university'"></app-university>
+        <app-university-college *ngSwitchCase="'university-college'"></app-university-college>
+        <app-internship *ngSwitchCase="'internship'"></app-internship>
+        <app-fastai *ngSwitchCase="'fastai'"></app-fastai>
+        <app-forem-dutch *ngSwitchCase="'forem-dutch'"></app-forem-dutch>
+    </div>
 
 </section>
 
 <section class="technology" id="skills" #sections>
-  <h2 class="heading">Skills</h2>
-  <app-skills></app-skills>
+    <h2 class="heading">Skills</h2>
+    <app-skills></app-skills>
 </section>
 
 
 <section class="projects" id="projects" #sections>
-  <h2 class="heading">Projects</h2>
-  <app-projects></app-projects>
+    <h2 class="heading">Projects</h2>
+    <app-projects></app-projects>
 </section>
 
 <section class="contact" id="contact" #sections>
-  <h2 class="heading">
-    Contact <span>Me</span>
-  </h2>
-  <app-contact-me></app-contact-me>
+    <h2 class="heading">
+        Contact <span>Me</span>
+    </h2>
+    <app-contact-me></app-contact-me>
 </section>
