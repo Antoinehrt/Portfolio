@@ -41,13 +41,15 @@ export class ContactMeComponent {
         })
 
             .then((response) => {
-                console.log('SUCCESS!', response.status, response.text);
                 this._toastr.success('Message sent successfully');
                 this.contactForm.reset();
             })
             .catch((error) => {
-                console.log('FAILED...', error);
-                this._toastr.error('Failed to send the message');
+                if (error.status === 0) {
+                    this._toastr.error('Connection problem');
+                } else {
+                    this._toastr.error('Sending process failed. Try again later.');
+                }
             });
     }
 }
