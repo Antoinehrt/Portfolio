@@ -24,11 +24,18 @@ export class ExperiencesComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit(): void {
-        this._staticDataService.getStaticData().subscribe(
-            (data: any) => {
-                this.experienceEntry = data.experienceEntries;
-            }
-        );
+        this._staticDataService.getStaticData()
+            .pipe(takeUntil(this.destroy$))
+            .subscribe(
+                (data: { experienceEntries: ExperienceEntry[] }) => {
+                    this.experienceEntries = data.experienceEntries;
+                }
+            );
+    }
+
+    ngOnDestroy(): void {
+        this.destroy$.next();
+        this.destroy$.complete();
     }
 
     navigateToDetail(item: ExperienceEntry, event?: KeyboardEvent | MouseEvent) {
