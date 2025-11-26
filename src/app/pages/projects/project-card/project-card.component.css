@@ -1,6 +1,6 @@
 /* ===== PROJECT CARD CONTAINER ===== */
 .project-card {
-    height: 625px;
+    height: 675px;
     width: 100%;
     max-width: none;
     min-width: 0;
@@ -11,7 +11,7 @@
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
     color: #ffffff;
     transition: all 0.4s ease-in-out;
     font-size: 16px;
@@ -23,7 +23,9 @@
   border: 3px solid var(--main-color);
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 0 50px var(--main-color);
-}/* ===== PROJECT HEADER ===== */
+}
+
+/* ===== PROJECT HEADER ===== */
 .project-header {
     display: flex;
     flex-direction: column;
@@ -33,18 +35,11 @@
 }
 
 .project-image {
-    width: 7rem;
-    height: 7rem;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
+    width: 100%;
+    max-width: 25rem;
+    max-height: 7rem;
+    object-fit: scale-down;
     transition: all 0.3s ease;
-}
-
-.project-card:hover .project-image {
-    box-shadow: 0 0 35px var(--main-color);
-    transform: scale(1.05);
 }
 
 .project-title-section {
@@ -65,7 +60,6 @@
 
 .project-description {
     margin: 0;
-    line-height: 1.4;
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     flex-grow: 1;
@@ -80,6 +74,7 @@
     justify-content: center;
     min-height: 40px;
     align-items: center;
+    padding: 0.5rem 0;
 }
 
 .topics-container {
@@ -115,8 +110,9 @@
 .project-technical-info {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.2rem;
     flex-grow: 1;
+    padding-top: 0.5rem;
 }
 
 .technical-title {
@@ -131,7 +127,7 @@
 .technical-details {
     display: flex;
     flex-direction: column;
-    gap: 0.7rem;
+    gap: 1rem;
 }
 
 .detail-item {
@@ -324,7 +320,7 @@
 
 .languages-section {
     margin-top: auto;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 .languages-title {
