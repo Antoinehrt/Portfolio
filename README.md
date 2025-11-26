@@ -1,5 +1,7 @@
 # My Portfolio
 
+![Preview](src/assets/img/preview.png)
+
 This repository contains the source code for my personal portfolio, built using [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6. The portfolio is designed to showcase my skills, experiences, projects, and educational background in a clean, interactive, and professional way.
 
 ## Features
@@ -55,9 +57,9 @@ This project requires a properly configured environment file to enable the Conta
   ng generate environments
 ```
 
-2. Add Your EmailJS Credentials
+2. Add Your EmailJS Credentials & your github token
 
-   Open src/environments/environment.local.ts and populate it with your EmailJS credentials:
+   Open src/environments/environment.ts and populate it with your EmailJS credentials:
 
 ```ts
 export const environment = {
@@ -65,6 +67,7 @@ export const environment = {
   EMAILJS_USER_ID: 'your-emailjs-user-id',
   EMAILJS_SERVICE_ID: 'your-emailjs-service-id',
   EMAILJS_TEMPLATE_ID: 'your-emailjs-template-id',
+  GITHUB_TOKEN: 'your-github-token',
 };
 ```
 

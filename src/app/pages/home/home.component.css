@@ -228,21 +228,22 @@ span {
   padding-bottom: 2rem;
 }
 
+section:nth-of-type(odd) {
+    background-color: var(--bg-color);
+}
+
+section:nth-of-type(even) {
+    background-color: var(--second-bg-color);
+}
+
 /* Education */
-.experience {
+.experience, .projects {
   padding: 100px 15px;
-  background: var(--second-bg-color);
 }
 
 /* Technology */
 .technology {
-  background-color: var(--bg-color);
   color: #000000;
-}
-
-/* Contact */
-.contact {
-  background-color: var(--bg-color);
 }
 
 /* Media Queries */

@@ -1,0 +1,420 @@
+/* ===== PROJECT CARD CONTAINER ===== */
+.project-card {
+    height: 675px;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid var(--second-bg-color);
+    border-radius: 2rem;
+    margin: 0;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+    font-size: 16px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.project-card:hover {
+  border: 3px solid var(--main-color);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 50px var(--main-color);
+}
+
+/* ===== PROJECT HEADER ===== */
+.project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 25rem;
+    max-height: 7rem;
+    object-fit: scale-down;
+    transition: all 0.3s ease;
+}
+
+.project-title-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-height: 80px;
+    justify-content: center;
+}
+
+.project-title {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+    color: var(--main-color);
+    line-height: 1.2;
+}
+
+.project-description {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+}
+
+/* ===== PROJECT TOPICS ===== */
+.project-topics {
+    display: flex;
+    justify-content: center;
+    min-height: 40px;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-tag {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: transparent;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+}
+
+.topic-tag:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(var(--main-color-rgb, 0, 128, 255), 0.3);
+}
+
+/* ===== TECHNICAL INFORMATION ===== */
+.project-technical-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    flex-grow: 1;
+    padding-top: 0.5rem;
+}
+
+.technical-title {
+    font-size: 16px;
+    margin: 0;
+    color: var(--main-color);
+    font-weight: 600;
+    border-bottom: 2px solid var(--second-bg-color);
+    padding-bottom: 0.5rem;
+}
+
+.technical-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 14px;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.detail-value {
+    color: var(--main-color);
+    font-weight: 500;
+    text-align: right;
+    flex-grow: 1;
+}
+
+.repo-link {
+    color: var(--main-color);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--main-color);
+    border-radius: 0.5rem;
+    font-size: 12px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    width: fit-content;
+    align-self: flex-end;
+    cursor: pointer;
+
+}
+
+.repo-link:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: translateY(-1px);
+}
+
+/* ===== LIVE PROJECT SECTION ===== */
+.project-live-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    background: rgba(var(--main-color-rgb, 0, 128, 255), 0.1);
+    border: 1px solid var(--main-color);
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.project-live-section:hover {
+    background: rgba(var(--main-color-rgb, 0, 128, 255), 0.15);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(var(--main-color-rgb, 0, 128, 255), 0.2);
+}
+
+.live-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.live-indicator {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+}
+
+.live-dot {
+    width: 8px;
+    height: 8px;
+    background: #00ff88;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+}
+
+.live-pulse {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #00ff88;
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: livePulse 2s infinite;
+    z-index: 1;
+}
+
+@keyframes livePulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}
+
+.live-text {
+    font-size: 12px;
+    font-weight: 700;
+    color: #00ff88;
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
+}
+
+.live-link {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--main-color);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.live-link:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    border-color: var(--main-color);
+    transform: translateX(2px);
+}
+
+.live-icon {
+    transition: transform 0.3s ease;
+}
+
+.live-link:hover .live-icon {
+    transform: translateX(2px) scale(1.1);
+}
+
+/* Alternative design - Badge en coin */
+.live-badge-corner {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: rgba(0, 255, 136, 0.9);
+    color: #000;
+    padding: 0.3rem 0.6rem;
+    border-radius: 1rem;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(0, 255, 136, 0.3);
+    z-index: 5;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .project-live-section {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.6rem;
+    }
+
+    .live-badge {
+        align-self: flex-start;
+    }
+
+    .live-link {
+        align-self: stretch;
+        justify-content: center;
+    }
+}
+
+.languages-section {
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.languages-title {
+    font-size: 14px;
+    margin: 0 0 0.8rem 0;
+    color: var(--main-color);
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+    .project-card {
+        height: 680px;
+        padding: 20px 15px;
+        gap: 0.8rem;
+    }
+
+    .project-image {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .project-title {
+        font-size: 18px;
+    }
+
+    .project-title-section {
+        min-height: 70px;
+    }
+
+    .project-topics {
+        min-height: 35px;
+    }
+
+    .project-description {
+        font-size: 13px;
+        min-height: 35px;
+    }
+
+    .detail-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+
+    .detail-value {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        height: 625px;
+        padding: 15px 10px;
+        gap: 0.7rem;
+    }
+
+    .project-image {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .project-title {
+        font-size: 16px;
+    }
+
+    .project-title-section {
+        min-height: 60px;
+    }
+
+    .project-topics {
+        min-height: 30px;
+    }
+
+    .project-description {
+        font-size: 12px;
+        min-height: 30px;
+    }
+
+    .topics-container {
+        gap: 0.3rem;
+    }
+
+    .topic-tag {
+        padding: 0.2rem 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .technical-title {
+        font-size: 14px;
+    }
+
+    .detail-item {
+        font-size: 12px;
+    }
+}
