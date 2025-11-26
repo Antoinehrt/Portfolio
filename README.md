@@ -1,5 +1,7 @@
 # My Portfolio
 
+![Preview](src/assets/img/preview.png)
+
 This repository contains the source code for my personal portfolio, built using [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6. The portfolio is designed to showcase my skills, experiences, projects, and educational background in a clean, interactive, and professional way.
 
 ## Features
