@@ -8,7 +8,7 @@ import { environment } from '../../../../environments/environment';
   providedIn: 'root'
 })
 export class ProjectsService {
-  private defaultImageUrl = '../../../assets/img/logos/Github_logo.png';
+  private defaultImageUrl = '../../../assets/img/logos/default_project_icon.png';
   private imageUrlCache: Record<string, string> = {};
 
   constructor(private http: HttpClient) {}
