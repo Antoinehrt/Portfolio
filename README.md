@@ -79,14 +79,12 @@ Example for local environment:
 
 ```json
 "configurations": {
-"local": {
-"fileReplacements": [
-{
-"replace": "src/environments/environment.ts",
-"with": "src/environments/environment.local.ts"
-}
-]
-}
+    "local": {
+        "fileReplacements": [{
+            "replace": "src/environments/environment.ts",
+            "with": "src/environments/environment.local.ts"
+        }]
+    }
 }
   ```
 
