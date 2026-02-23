@@ -48,6 +48,7 @@ This project requires a properly configured environment file to enable the Conta
 - `EMAILJS_USER_ID`: Your EmailJS User ID.
 - `EMAILJS_SERVICE_ID`: Your EmailJS Service ID.
 - `EMAILJS_TEMPLATE_ID`: Your EmailJS Template ID.
+- `GITHUB_TOKEN`: Your GitHub token for fetching repository data.
 
 1. configure the environment file
 
