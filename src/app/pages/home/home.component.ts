@@ -13,25 +13,27 @@ import {FastaiComponent} from "../experiences/fastai/fastai.component";
 import {ForemDutchComponent} from "../experiences/forem-dutch/forem-dutch.component";
 import {ProjectsComponent} from "../projects/projects.component";
 import {DateUtilityService} from "../../core/services/utility/date-utility.service";
+import { ProjectEngineerTechnordComponent } from "../experiences/project-engineer-technord/project-engineer-technord.component";
 
 @Component({
     selector: 'app-home',
     standalone: true,
     imports: [
-        ExperiencesComponent,
-        SkillsComponent,
-        ContactMeComponent,
-        HighSchoolComponent,
-        UniversityComponent,
-        UniversityCollegeComponent,
-        InternshipComponent,
-        AsyncPipe,
-        NgSwitch,
-        NgSwitchCase,
-        FastaiComponent,
-        ForemDutchComponent,
-        ProjectsComponent
-    ],
+    ExperiencesComponent,
+    SkillsComponent,
+    ContactMeComponent,
+    HighSchoolComponent,
+    UniversityComponent,
+    UniversityCollegeComponent,
+    InternshipComponent,
+    AsyncPipe,
+    NgSwitch,
+    NgSwitchCase,
+    FastaiComponent,
+    ForemDutchComponent,
+    ProjectsComponent,
+    ProjectEngineerTechnordComponent
+],
     templateUrl: './home.component.html',
     styleUrl: './home.component.css'
 })

@@ -2,28 +2,28 @@
     "experienceEntries": [
         {
             "type": "education",
-            "name": "High School",
+            "name": "High School - Saint-Stanislas",
             "date": "2019-09-15T00:00:00.000Z",
             "description": "I obtained my <b>CESS</b> in general education at Collège Saint-Stanislas, where I pursued a track in advanced sciences with English immersion. My curriculum also included Latin and English immersion, which allowed me to develop strong language and analytical skills.",
             "component": "high-school"
         },
         {
             "type": "education",
-            "name": "University",
+            "name": "University - UCLouvain",
             "date": "2021-09-15T00:00:00.000Z",
             "description": "I began a <b>Bachelor's degree in Computer Science</b> at the UCLouvain polytechnic school, focused on programming in Python and Java, algorithm design, and foundational computer science concepts.",
             "component": "university"
         },
         {
             "type": "education",
-            "name": "University college",
+            "name": "University college - HELHa",
             "date": "2024-09-15T00:00:00.000Z",
             "description": "I earned a <b>Bachelor's degree in Computer Science, specializing in application development</b>, at HELHa in Mons. This program allowed me to gain deep technical skills and develop my expertise in programming and project management.",
             "component": "university-college"
         },
         {
             "type": "professional",
-            "name": "Internship",
+            "name": "Internship - ETNIC",
             "date": "2024-01-31T00:00:00.000Z",
             "description": "I completed a <b>3-month internship at ETNIC in the R&D department as a fullstack developer</b>, where I participated in the development of a <b>RAG</b>. This internship enabled me to apply my theoretical knowledge in a professional context while working as part of a team on a concrete project.",
             "component": "internship"
@@ -37,10 +37,17 @@
         },
         {
             "type": "education",
-            "name": "Forem - Dutch Language Training",
+            "name": "Dutch Language Training - Forem",
             "date": "2025-10-01T00:00:00.000Z",
             "description": "Completed a series of <b>Dutch language courses at Forem Mons</b>, starting at level A0 with no prior knowledge and progressing through levels A1, A2, and finally achieving B1. Each level was certified by Forem through ELAO testing, providing proficiency in reading, writing, listening, and speaking.",
             "component": "forem-dutch"
+        },
+        {
+            "type": "professional",
+            "name": "Project Engineer - Technord",
+            "date": "2026-03-16T00:00:00.000Z",
+            "description": "Started my career as a <b>MES Project Engineer at Technord</b>, specializing in industrial digitalization. I work on the deployment and integration of <b>Manufacturing Execution Systems</b>, helping industrial clients optimize and digitize their production processes.",
+            "component": "project-engineer-technord"
         }
     ]
 }
