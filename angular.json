@@ -4,6 +4,13 @@
     "newProjectRoot": "projects",
     "projects": {
         "Portfolio": {
+            "i18n": {
+                "sourceLocale": "en-GB",
+                "locales": {
+                    "fr-BE": "src/assets/locales/portfolio.fr.xlf",
+                    "nl-BE" : "src/assets/locales/portfolio.nl.xlf"
+                }
+            },
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -13,11 +20,15 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
+                        "localize":[
+                            "fr-BE", "nl-BE"
+                        ],
                         "outputPath": "dist/portfolio",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
-                            "zone.js"
+                          "zone.js",
+                          "@angular/localize/init"
                         ],
                         "tsConfig": "tsconfig.app.json",
                         "assets": [
@@ -104,8 +115,9 @@
                     "builder": "@angular-devkit/build-angular:karma",
                     "options": {
                         "polyfills": [
-                            "zone.js",
-                            "zone.js/testing"
+                          "zone.js",
+                          "zone.js/testing",
+                          "@angular/localize/init"
                         ],
                         "tsConfig": "tsconfig.spec.json",
                         "assets": [
