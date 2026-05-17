@@ -33,7 +33,7 @@ export class ExperiencesComponent implements OnInit, OnDestroy {
             );
     }
 
-    ngOnDestroy(): void {
+        ngOnDestroy(): void {
         this.destroy$.next();
         this.destroy$.complete();
     }

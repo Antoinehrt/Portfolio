@@ -8,15 +8,15 @@
             #menuIcon 
             (click)="toggleMenu()"
             (keydown)="toggleMenu($event)"
-            aria-label="Toggle navigation menu"
+            aria-label="Toggle navigation menu" i18n-label
             [attr.aria-expanded]="isMenuOpen"></button>
 
     <nav class="navbar" #navbar role="navigation" aria-label="Main navigation">
-        <a href="#home" class="active" #navLinks aria-current="page">Home</a>
-        <a href="#experience" #navLinks>Experience</a>
-        <a href="#skills" #navLinks>Skills</a>
-        <a href="#projects" #navLinks>Projects</a>
-        <a href="#contact" #navLinks>Contact</a>
+        <a href="#home" class="active" #navLinks aria-current="page" i18n>Home</a>
+        <a href="#experience" #navLinks i18n>Experience</a>
+        <a href="#skills" #navLinks i18n>Skills</a>
+        <a href="#projects" #navLinks i18n>Projects</a>
+        <a href="#contact" #navLinks i18n>Contact</a>
     </nav>
 </header>
 
@@ -37,25 +37,25 @@
 
     <ul class="list">
         <li>
-            <a href="#home">About Me</a>
+            <a href="#home" i18n>About Me</a>
         </li>
         <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience" i18n>Experience</a>
         </li>
         <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" i18n>Projects</a>
         </li>
         <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills" i18n>Skills</a>
         </li>
         <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" i18n>Contact</a>
         </li>
     </ul>
-    <p class="copyright">
+    <p class="copyright" i18n>
         © {{ currentYear }} Antoine HAURET | All rights reserved.
     </p>
-    <div class="copyright" style="font-size: 1rem">
+    <div class="copyright" style="font-size: 1rem" i18n>
         Logos used in this portfolio are the property of their respective owners and are shown here for illustrative
         purposes only. No copyright infringement is intended.
     </div>

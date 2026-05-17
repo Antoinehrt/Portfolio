@@ -11,8 +11,8 @@
                 {{ item.date | yearOnly }}
             </div>
             <div class="timeline-content">
-                <h3>{{ item.name }}</h3>
-                <p [innerHTML]="item.description"></p>
+                <h3 i18n>{{ item.name }}</h3>
+                <p i18n [innerHTML]="item.description"></p>
             </div>
         </div>
     </ng-template>

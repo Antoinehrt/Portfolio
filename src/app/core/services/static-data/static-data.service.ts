@@ -16,6 +16,8 @@ export class StaticDataService {
         return this.http.get<{ experienceEntries: ExperienceEntry[] }>(this.jsonUrl).pipe(
             map(data => {
                 data.experienceEntries.forEach(entry => {
+                    entry.name = $localize`${entry.name}`;
+                    entry.description = $localize`<p>${entry.description}</p>`;
                     entry.date = new Date(entry.date);
                 });
                 return data;

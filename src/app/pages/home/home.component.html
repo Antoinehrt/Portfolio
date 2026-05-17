@@ -1,8 +1,8 @@
 <section class="home" id="home" #sections>
     <div class="home-content">
-        <h1>Hi, it's <span>Antoine</span></h1>
-        <h3 class="text-animation"> I'm a <span class="mobile-break"></span></h3>
-        <p>
+        <h1 i18n>Hi, it's <span>Antoine</span></h1>
+        <h3 class="text-animation" i18n> I'm a <span class="mobile-break"></span></h3>
+        <p i18n>
             A Belgian with a passion for creating programs and web applications. <b style="color: var(--main-color);">I
             graduated with distinction in September 2024 with a bachelor's degree in Computer Science, majoring in
             applications development.</b>
@@ -32,8 +32,8 @@
         </div>
 
         <div class="btn-group">
-            <a href="mailto:hauret.antoine@gmail.com?subject=Hiring Inquiry" class="btn">Hire</a>
-            <a href="#contact" class="btn">Contact</a>
+            <a href="mailto:hauret.antoine@gmail.com?subject=Hiring Inquiry" class="btn" i18n>Hire</a>
+            <a href="#contact" class="btn" i18n>Contact</a>
         </div>
     </div>
     <div class="home-img">
@@ -42,7 +42,7 @@
 </section>
 
 <section class="experience" id="experience" #sections>
-    <h2 class="heading">Experience</h2>
+    <h2 class="heading" i18n>Experience</h2>
     <div [ngSwitch]="currentComponent$ | async">
         <app-experience *ngSwitchCase="'experience'"></app-experience>
         <app-high-school *ngSwitchCase="'high-school'"></app-high-school>
@@ -57,18 +57,18 @@
 </section>
 
 <section class="technology" id="skills" #sections>
-    <h2 class="heading">Skills</h2>
+    <h2 class="heading" i18n>Skills</h2>
     <app-skills></app-skills>
 </section>
 
 
 <section class="projects" id="projects" #sections>
-    <h2 class="heading">Projects</h2>
+    <h2 class="heading" i18n>Projects</h2>
     <app-projects></app-projects>
 </section>
 
 <section class="contact" id="contact" #sections>
-    <h2 class="heading">
+    <h2 class="heading" i18n>
         Contact <span>Me</span>
     </h2>
     <app-contact-me></app-contact-me>

@@ -1,18 +1,16 @@
 <form [formGroup]="contactForm" (submit)="sendMessage()">
-    <div class="input-group">
+    <div class="input-group" i18n="@@contactForm.inputGroup">
         <div class="input-box">
-            <input type="text" name="name" id="name" placeholder="Your full name *" formControlName="name">
-            <input type="email" name="email" id="email" placeholder="Your email *" formControlName="email">
+            <input type="text" name="name" id="name" placeholder="Your full name *" formControlName="name" i18n-placeholder="@@contactForm.namePlaceholder">
+            <input type="email" name="email" id="email" placeholder="Your email *" formControlName="email" i18n-placeholder="@@contactForm.emailPlaceholder">
         </div>
         <div class="input-box">
-            <input type="tel" name="phone" id="phone" placeholder="Your phone number" formControlName="phone">
-            <input type="text" name="subject" id="subject" placeholder="The subject *" formControlName="subject">
+            <input type="tel" name="phone" id="phone" placeholder="Your phone number" formControlName="phone" i18n-placeholder="@@contactForm.phonePlaceholder">
+            <input type="text" name="subject" id="subject" placeholder="The subject *" formControlName="subject" i18n-placeholder="@@contactForm.subjectPlaceholder">
         </div>
     </div>
     <div class="input-group-2">
-    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message *"
-              formControlName="message"></textarea>
-        <input type="submit" value="Send message" class="btn" [ngClass]="{'btn-disabled': contactForm.invalid}"
-               [disabled]="contactForm.invalid">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message *" formControlName="message" i18n-placeholder="@@contactForm.messagePlaceholder"></textarea>
+        <input type="submit" value="Send message" class="btn" [ngClass]="{'btn-disabled': contactForm.invalid}" [disabled]="contactForm.invalid"i18n-value="@@contactForm.sendButton">
     </div>
 </form>

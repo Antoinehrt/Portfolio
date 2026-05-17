@@ -1,0 +1,32 @@
+{
+    "experiences": {
+        "high-school": {
+            "name": "High School - Saint-Stanislas",
+            "description": "I obtained my <b>CESS</b> in general education at Collège Saint-Stanislas, where I pursued a track in advanced sciences with English immersion. My curriculum also included Latin and English immersion, which allowed me to develop strong language and analytical skills."
+        },
+        "university": {
+            "name": "University - UCLouvain",
+            "description": "I began a <b>Bachelor's degree in Computer Science</b> at the UCLouvain polytechnic school, focused on programming in Python and Java, algorithm design, and foundational computer science concepts."
+        },
+        "university-college": {
+            "name": "University college - HELHa",
+            "description": "I earned a <b>Bachelor's degree in Computer Science, specializing in application development</b>, at HELHa in Mons. This program allowed me to gain deep technical skills and develop my expertise in programming and project management."
+        },
+        "internship": {
+            "name": "Internship - ETNIC",
+            "description": "I completed a <b>3-month internship at ETNIC in the R&D department as a fullstack developer</b>, where I participated in the development of a <b>RAG</b>. This internship enabled me to apply my theoretical knowledge in a professional context while working as part of a team on a concrete project."
+        },
+        "fastai": {
+            "name": "Ateliers Créactifs - FastAI",
+            "description": "Completed a training course on <b> building AI models using Python, PyTorch, and FastAI</b>, focusing on creating, training, and evaluating neural network architectures, with hands-on experience in data preparation, model training, and performance evaluation using metrics like accuracy and ROC curves."
+        },
+        "forem-dutch": {
+            "name": "Dutch Language Training - Forem",
+            "description": "Completed a series of <b>Dutch language courses at Forem Mons</b>, starting at level A0 with no prior knowledge and progressing through levels A1, A2, and finally achieving B1. Each level was certified by Forem through ELAO testing, providing proficiency in reading, writing, listening, and speaking."
+        },
+        "project-engineer-technord": {
+            "name": "Project Engineer - Technord",
+            "description": "Started my career as a <b>MES Project Engineer at Technord</b>, specializing in industrial digitalization. I work on the deployment and integration of <b>Manufacturing Execution Systems</b>, helping industrial clients optimize and digitize their production processes."
+        }
+    }
+}

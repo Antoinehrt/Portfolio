@@ -2,16 +2,14 @@
     <header class="project-header">
         <img class="project-image" src="{{project.imageUrl}}" alt="{{project.name}} preview image" loading="lazy">
         <div class="project-title-section">
-            <h2 class="project-title">{{ project.name }}</h2>
-            <p class="project-description">{{ project.description }}</p>
+            <h2 class="project-title" i18n>{{ project.name }}</h2>
+            <p class="project-description" i18n>{{ project.description }}</p>
         </div>
     </header>
 
     <section class="project-topics" *ngIf="project.topics && project.topics.length > 0">
         <div class="topics-container">
-          <span class="topic-tag" *ngFor="let topic of project.topics">
-            #{{ topic }}
-          </span>
+          <span class="topic-tag" *ngFor="let topic of project.topics"> #{{ topic }} </span>
         </div>
     </section>
 
@@ -22,61 +20,58 @@
                 <span class="live-pulse"></span>
                 <span class="live-dot"></span>
             </div>
-            <span class="live-text">LIVE</span>
+            <span class="live-text" i18n>LIVE</span>
         </div>
-        <a class="live-link" [href]="project.liveUrl" target="_blank" rel="noopener noreferrer">
+        <a class="live-link" [href]="project.liveUrl" target="_blank" rel="noopener noreferrer" i18n>
             <svg class="live-icon" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor"
-                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round"/>
-                <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round"/>
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"  stroke-linejoin="round"/>
             </svg>
             Check it out!
         </a>
     </section>
 
     <section class="project-technical-info">
-        <h3 class="technical-title">Technical Analysis</h3>
+        <h3 class="technical-title" i18n>Technical Analysis</h3>
 
         <div class="technical-details">
             <div class="detail-item">
                 <span class="detail-label">Repository:</span>
                 <div class="detail-value">
-                    <a class="repo-link" [href]="project.repoUrl" target="_blank" rel="noopener noreferrer">
+                    <a class="repo-link" [href]="project.repoUrl" target="_blank" rel="noopener noreferrer" i18n>
                         View on GitHub
                     </a>
                 </div>
             </div>
 
             <div class="detail-item">
-                <span class="detail-label">Created:</span>
+                <span class="detail-label" i18n>Created:</span>
                 <time class="detail-value" [dateTime]="project.createdAt">
                     {{ project.createdAt | date:'MMM yyyy' }}
                 </time>
             </div>
 
             <div class="detail-item">
-                <span class="detail-label">Last Updated:</span>
+                <span class="detail-label" i18n>Last Updated:</span>
                 <time class="detail-value" [dateTime]="project.updateAt">
                     {{ project.updateAt | date:'MMM yyyy' }}
                 </time>
             </div>
 
             <div class="detail-item">
-                <span class="detail-label">Size:</span>
+                <span class="detail-label" i18n>Size:</span>
                 <span class="detail-value">{{ project.size | formatSize }}</span>
             </div>
 
             <div class="detail-item">
-                <span class="detail-label">Status:</span>
+                <span class="detail-label" i18n>Status:</span>
                 <span class="detail-value">{{ project.status }}</span>
             </div>
         </div>
 
         <div class="languages-section" *ngIf="project.languages && project.languages.length > 0">
-            <h4 class="languages-title">Languages Used</h4>
+            <h4 class="languages-title" i18n>Languages Used</h4>
             <app-language-chart [languages]="project.languages"></app-language-chart>
         </div>
     </section>

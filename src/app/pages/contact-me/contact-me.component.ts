@@ -40,14 +40,14 @@ export class ContactMeComponent {
         })
 
             .then((response) => {
-                this._toastr.success('Message sent successfully');
+                this._toastr.success($localize`${'Message sent successfully'}`);
                 this.contactForm.reset();
             })
             .catch((error) => {
                 if (error.status === 0) {
-                    this._toastr.error('Connection problem');
+                    this._toastr.error($localize`${'Connection problem'}`);
                 } else {
-                    this._toastr.error('Sending process failed. Try again later.');
+                    this._toastr.error($localize`${'Sending process failed. Try again later.'}`);
                 }
             });
     }

@@ -2,12 +2,12 @@
     <!-- États de chargement et d'erreur -->
     <div class="loading-container" *ngIf="isLoading">
         <div class="loading-spinner"></div>
-        <p>Loading projects...</p>
+        <p i18n>Loading projects...</p>
     </div>
 
     <div class="error-container" *ngIf="error">
-        <p class="error-message">{{ error }}</p>
-        <button class="retry-btn" (click)="retryLoading()">Retry</button>
+        <p class="error-message" i18n>{{ error }}</p>
+        <button class="retry-btn" (click)="retryLoading()" i18n>Retry</button>
     </div>
 
     <!-- Carrousel des projets -->
@@ -28,7 +28,7 @@
                       stroke-linejoin="round"/>
             </svg>
         </button>
-        <div id="no-previous" class="sr-only">No previous projects to show</div>
+        <div id="no-previous" class="sr-only" i18n>No previous projects to show</div>
 
         <!-- Container du carrousel -->
         <div
@@ -58,11 +58,11 @@
                       stroke-linejoin="round"/>
             </svg>
         </button>
-        <div id="no-next" class="sr-only">No more projects to show</div>
+        <div id="no-next" class="sr-only" i18n>No more projects to show</div>
     </div>
 
     <!-- État vide -->
     <div class="empty-state" *ngIf="!isLoading && !error && projects.length === 0">
-        <p>No projects found.</p>
+        <p i18n>No projects found.</p>
     </div>
 </div>
