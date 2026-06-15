@@ -10,23 +10,23 @@
         },
         "university-college": {
             "name": "Haute Ecole - HELHa",
-            "description": "J'ai obtenu un <b>bachelier en informatique, orientation développement d'application</b>, at HELHa in Mons. This program allowed me to gain deep technical skills and develop my expertise in programming and project management."
+            "description": "J'ai obtenu un <b>bachelier en informatique, orientation développement d'application</b>, at HELHa in Mons. Ce cursus m'a permis de renforcer mes compétences techniques et d'approfondir mon expertise en programmation ainsi qu'en gestion de projet."
         },
         "internship": {
-            "name": "Internship - ETNIC",
-            "description": "I completed a <b>3-month internship at ETNIC in the R&D department as a fullstack developer</b>, where I participated in the development of a <b>RAG</b>. This internship enabled me to apply my theoretical knowledge in a professional context while working as part of a team on a concrete project."
+            "name": "Stage - ETNIC",
+            "description": "J'ai effectué <b>un stage de 3 mois chez ETNIC, au sein du département de recherche et développement, en tant que développeur fullstack</b>. J'y ai conçu et développé un système <b>RAG</b>. Cette expérience m'a permis de mettre en pratique mes connaissances théoriques dans un contexte professionnel concret, tout en m'intégrant activement au sein d'une équipe de développement."
         },
         "fastai": {
             "name": "Ateliers Créactifs - FastAI",
-            "description": "Completed a training course on <b> building AI models using Python, PyTorch, and FastAI</b>, focusing on creating, training, and evaluating neural network architectures, with hands-on experience in data preparation, model training, and performance evaluation using metrics like accuracy and ROC curves."
+            "description": "J'ai suivi une formation dédiée à <b>la conception de modèles d'intelligence artificielle avec Python, PyTorch et fastai</b>, axée sur la création, l'entraînement et l'évaluation d'architectures de réseaux de neurones. Cette formation m'a offert une expérience pratique couvrant la préparation des données, l'entraînement des modèles et l'analyse des performances à l'aide d'indicateurs tels que la précision et les courbes ROC."
         },
         "forem-dutch": {
             "name": "Dutch Language Training - Forem",
-            "description": "Completed a series of <b>Dutch language courses at Forem Mons</b>, starting at level A0 with no prior knowledge and progressing through levels A1, A2, and finally achieving B1. Each level was certified by Forem through ELAO testing, providing proficiency in reading, writing, listening, and speaking."
+            "description": "J'ai suivi une série de cours de néerlandais <b>au Forem Mons</b>, en commençant au niveau A0 sans aucune connaissance préalable, puis en passant par les niveaux A1 et A2, pour atteindre finalement le niveau B1. Chaque niveau a été certifié par le Forem à l'issue des tests ELAO, attestant de mes compétences en lecture, écriture, compréhension orale et expression orale."
         },
         "project-engineer-technord": {
             "name": "Project Engineer - Technord",
-            "description": "Started my career as a <b>MES Project Engineer at Technord</b>, specializing in industrial digitalization. I work on the deployment and integration of <b>Manufacturing Execution Systems</b>, helping industrial clients optimize and digitize their production processes."
+            "description": "J'ai débuté ma carrière en tant qu'ingénieur de projet MES <b>chez Technord</b>, une entreprise spécialisée dans la numérisation industrielle. Je travaille au déploiement et à l'intégration de <b>systèmes d'exécution de la fabrication</b>, en aidant les clients industriels à optimiser et à numériser leurs processus de production."
         }
     }
 }
