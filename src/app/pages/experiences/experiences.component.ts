@@ -5,13 +5,15 @@ import {ExperienceService} from "../../core/services/experience/experience.servi
 import {YearOnlyPipe} from "../../core/pipes/date/year-only.pipe";
 import {StaticDataService} from "../../core/services/static-data/static-data.service";
 import {Subject, takeUntil} from "rxjs";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-experience',
     standalone: true,
     imports: [
         CommonModule,
-        YearOnlyPipe
+        YearOnlyPipe,
+        TranslateModule
     ],
     templateUrl: './experiences.component.html',
     styleUrl: './experiences.component.css'
