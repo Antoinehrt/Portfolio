@@ -5,37 +5,42 @@ import {ExperienceService} from "../../core/services/experience/experience.servi
 import {YearOnlyPipe} from "../../core/pipes/date/year-only.pipe";
 import {StaticDataService} from "../../core/services/static-data/static-data.service";
 import {Subject, takeUntil} from "rxjs";
-import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-experience',
     standalone: true,
     imports: [
         CommonModule,
-        YearOnlyPipe,
-        TranslateModule
+        YearOnlyPipe
     ],
     templateUrl: './experiences.component.html',
     styleUrl: './experiences.component.css'
 })
 export class ExperiencesComponent implements OnInit, OnDestroy {
-    public experienceEntries: ExperienceEntry[] = []
+    public experienceEntries: ExperienceEntry[] = [];
+    public isLoading = true;
+    public hasError = false;
     private destroy$ = new Subject<void>();
 
-    constructor(private _experienceService: ExperienceService, private _staticDataService: StaticDataService) {
-    }
+    constructor(private _experienceService: ExperienceService, private _staticDataService: StaticDataService) {}
 
     ngOnInit(): void {
         this._staticDataService.getStaticData()
             .pipe(takeUntil(this.destroy$))
-            .subscribe(
-                (data: { experienceEntries: ExperienceEntry[] }) => {
+            .subscribe({
+                next: (data: { experienceEntries: ExperienceEntry[] }) => {
                     this.experienceEntries = data.experienceEntries;
+                    this.isLoading = false;
+                },
+                error: (error) => {
+                    console.error('Erreur lors du chargement des donnees d experience:', error);
+                    this.hasError = true;
+                    this.isLoading = false;
                 }
-            );
+            });
     }
 
-        ngOnDestroy(): void {
+    ngOnDestroy(): void {
         this.destroy$.next();
         this.destroy$.complete();
     }
@@ -53,5 +58,4 @@ export class ExperiencesComponent implements OnInit, OnDestroy {
             document.getElementById('experience')?.scrollIntoView({behavior: 'smooth'});
         }
     }
-
 }

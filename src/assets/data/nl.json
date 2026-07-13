@@ -1,32 +1,53 @@
 {
-    "experiences": {
-        "high-school": {
-            "name": "Middelbare school - Saint-Stanislas",
-            "description": "Ik heb mijn <b>CESS</b> in algemeen vormend onderwijs behaald aan het Collège Saint-Stanislas, waar ik de richting versterkte wetenschappen met Engelse immersie heb gevolgd. Mijn curriculum omvatte ook Latijn en Engelse immersie, waardoor ik sterke taal- en analytische vaardigheden heb ontwikkeld."
-        },
-        "university": {
-            "name": "University - UCLouvain",
-            "description": "Ik ben begonnen aan een <b>bacheloropleiding in informatica</b> aan de polytechnische school UCLouvain, gericht op programmeren in Python en Java, het ontwerpen van algoritmen en fundamentele concepten uit de informatica."
-        },
-        "university-college": {
-            "name": "Hogeschool - HELHa",
-            "description": "Ik heb een <b>bachelordiploma in informatica behaald, met als specialisatie applicatieontwikkeling</b>, aan HELHa in Bergen. Dankzij deze opleiding heb ik diepgaande technische vaardigheden opgedaan en mijn expertise op het gebied van programmeren en projectmanagement verder ontwikkeld."
-        },
-        "internship": {
-            "name": "Stage - ETNIC",
-            "description": "Ik heb een <b>stage van 3 maanden bij ETNIC op de R&D-afdeling afgerond als fullstack-ontwikkelaar</b>, waar ik <b>een RAG-systeem</b> heb ontwikkeld en geïmplementeerd. Deze stage stelde me in staat om mijn theoretische kennis toe te passen in een professionele context terwijl ik als onderdeel van een team aan een concreet project werkte."
-        },
-        "fastai": {
-            "name": "Ateliers Créactifs - FastAI",
-            "description": "Een opleiding afgerond over <b>het bouwen van AI-modellen met Python, PyTorch en FastAI</b>, gericht op het creëren, trainen en evalueren van neurale netwerkarchitecturen, met praktische ervaring in datavoorbereiding, modeltraining en prestatie-evaluatie met behulp van meetwaarden zoals nauwkeurigheid en ROC-curves."
-        },
-        "forem-dutch": {
-            "name": "Nederlandse taalcursus - Forem",
-            "description": "Een reeks <b>Nederlandse taalcursussen bij Forem Bergen</b> afgerond, beginnend op niveau A0 zonder voorkennis en doorlopend via de niveaus A1 en A2, om uiteindelijk niveau B1 te behalen. Elk niveau werd door Forem gecertificeerd via ELAO-toetsen, waarmee vaardigheid in lezen, schrijven, luisteren en spreken werd aangetoond."
-        },
-        "project-engineer-technord": {
-            "name": "Project Engineer - Technord",
-            "description": "Ik ben mijn carrière begonnen als <b>MES-projectingenieur bij Technord</b>, gespecialiseerd in industriële digitalisering. Ik werk aan de implementatie en integratie van <b>Manufacturing Execution Systems</b> en help industriële klanten bij het optimaliseren en digitaliseren van hun productieprocessen."
-        }
+  "experiences": [
+    {
+      "type": "education",
+      "name": "Middelbare school - Saint-Stanislas",
+      "date": "2019-09-15T00:00:00Z",
+      "description": "Ik heb mijn <b>CESS</b> in algemeen vormend onderwijs behaald aan het Collège Saint-Stanislas, waar ik de richting versterkte wetenschappen met Engelse immersie heb gevolgd. Mijn curriculum omvatte ook Latijn en Engelse immersie, waardoor ik sterke taal- en analytische vaardigheden heb ontwikkeld.",
+      "component": "high-school"
+    },
+    {
+      "type": "education",
+      "name": "University - UCLouvain",
+      "date": "2021-09-15T00:00:00Z",
+      "description": "Ik ben begonnen aan een <b>bacheloropleiding in informatica</b> aan de polytechnische school UCLouvain, gericht op programmeren in Python en Java, het ontwerpen van algoritmen en fundamentele concepten uit de informatica.",
+      "component": "university"
+    },
+    {
+      "type": "education",
+      "name": "Hogeschool - HELHa",
+      "date": "2024-09-15T00:00:00Z",
+      "description": "Ik heb een <b>bachelordiploma in informatica behaald, met als specialisatie applicatieontwikkeling</b>, aan HELHa in Bergen. Dankzij deze opleiding heb ik diepgaande technische vaardigheden opgedaan en mijn expertise op het gebied van programmeren en projectmanagement verder ontwikkeld.",
+      "component": "university-college"
+    },
+    {
+      "type": "education",
+      "name": "Stage - ETNIC",
+      "date": "2024-01-31T00:00:00Z",
+      "description": "Ik heb een <b>stage van 3 maanden bij ETNIC op de R&D-afdeling afgerond als fullstack-ontwikkelaar</b>, waar ik <b>een RAG-systeem</b> heb ontwikkeld en geïmplementeerd. Deze stage stelde me in staat om mijn theoretische kennis toe te passen in een professionele context terwijl ik als onderdeel van een team aan een concreet project werkte.",
+      "component": "internship"
+    },
+    {
+      "type": "professional",
+      "name": "Ateliers Créactifs - FastAI",
+      "date": "2024-10-09T00:00:00Z",
+      "description": "Een opleiding afgerond over <b>het bouwen van AI-modellen met Python, PyTorch en FastAI</b>, gericht op het creëren, trainen en evalueren van neurale netwerkarchitecturen, met praktische ervaring in datavoorbereiding, modeltraining en prestatie-evaluatie met behulp van meetwaarden zoals nauwkeurigheid en ROC-curves.",
+      "component": "fastai"
+    },
+    {
+      "type": "education",
+      "name": "Nederlandse taalcursus - Forem",
+      "date": "2025-10-01T00:00:00Z",
+      "description": "Een reeks <b>Nederlandse taalcursussen bij Forem Bergen</b> afgerond, beginnend op niveau A0 zonder voorkennis en doorlopend via de niveaus A1 en A2, om uiteindelijk niveau B1 te behalen. Elk niveau werd door Forem gecertificeerd via ELAO-toetsen, waarmee vaardigheid in lezen, schrijven, luisteren en spreken werd aangetoond.",
+      "component": "forem-dutch"
+    },
+    {
+      "type": "professional",
+      "name": "Project Engineer - Technord",
+      "date": "2026-03-16T00:00:00Z",
+      "description": "Ik ben mijn carrière begonnen als <b>MES-projectingenieur bij Technord</b>, gespecialiseerd in industriële digitalisering. Ik werk aan de implementatie en integratie van <b>Manufacturing Execution Systems</b> en help industriële klanten bij het optimaliseren en digitaliseren van hun productieprocessen.",
+      "component": "project-engineer-technord"
     }
+  ]
 }
