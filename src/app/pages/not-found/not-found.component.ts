@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {RouterLink} from "@angular/router";
 
 @Component({
@@ -8,6 +8,7 @@ import {RouterLink} from "@angular/router";
         RouterLink
     ],
     templateUrl: './not-found.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './not-found.component.css'
 })
 export class NotFoundComponent {

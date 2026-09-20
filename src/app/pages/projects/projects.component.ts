@@ -1,6 +1,6 @@
-import {AfterViewInit, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {AfterViewInit, Component, ElementRef, OnInit, ViewChild, ChangeDetectionStrategy} from '@angular/core';
 import {Project} from "../../core/models/project";
-import {NgForOf, NgIf} from "@angular/common";
+
 import {ProjectCardComponent} from "./project-card/project-card.component";
 import {ProjectsService} from "../../core/services/projects/projects.service";
 
@@ -8,11 +8,10 @@ import {ProjectsService} from "../../core/services/projects/projects.service";
     selector: 'app-projects',
     standalone: true,
     imports: [
-        NgForOf,
-        NgIf,
-        ProjectCardComponent
-    ],
+    ProjectCardComponent
+],
     templateUrl: './projects.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './projects.component.css'
 })
 export class ProjectsComponent implements OnInit, AfterViewInit {

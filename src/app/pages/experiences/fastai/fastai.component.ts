@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {MatIcon} from "@angular/material/icon";
 import {ExperienceService} from "../../../core/services/experience/experience.service";
 
@@ -9,6 +9,7 @@ import {ExperienceService} from "../../../core/services/experience/experience.se
         MatIcon
     ],
     templateUrl: './fastai.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './fastai.component.css'
 })
 export class FastaiComponent {

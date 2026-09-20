@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
 import {NgClass} from "@angular/common";
 import emailjs from '@emailjs/browser';
@@ -13,6 +13,7 @@ import {environment} from "../../../environments/environment";
         NgClass,
     ],
     templateUrl: './contact-me.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './contact-me.component.css'
 })
 export class ContactMeComponent {

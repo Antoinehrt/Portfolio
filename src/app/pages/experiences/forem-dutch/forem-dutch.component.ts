@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {ExperienceService} from "../../../core/services/experience/experience.service";
 import {MatIcon} from "@angular/material/icon";
 
@@ -9,6 +9,7 @@ import {MatIcon} from "@angular/material/icon";
         MatIcon
     ],
     templateUrl: './forem-dutch.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './forem-dutch.component.css'
 })
 export class ForemDutchComponent {

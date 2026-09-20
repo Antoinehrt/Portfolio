@@ -1,5 +1,5 @@
-import {AfterViewInit, Component, ElementRef, Input, OnChanges, SimpleChanges, ViewChild} from '@angular/core';
-import {NgForOf, NgIf} from '@angular/common';
+import {AfterViewInit, Component, ElementRef, Input, OnChanges, SimpleChanges, ViewChild, ChangeDetectionStrategy} from '@angular/core';
+
 import {Chart, registerables} from 'chart.js';
 
 Chart.register(...registerables);
@@ -8,7 +8,8 @@ Chart.register(...registerables);
     selector: 'app-language-chart',
     templateUrl: './language-chart.component.html',
     standalone: true,
-    imports: [NgForOf, NgIf],
+    imports: [],
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./language-chart.component.css']
 })
 export class LanguageChartComponent implements OnChanges, AfterViewInit {
