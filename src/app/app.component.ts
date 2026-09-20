@@ -1,11 +1,21 @@
-import {AfterViewInit, Component, ElementRef, HostListener, QueryList, Renderer2, ViewChildren} from '@angular/core';
+import {
+    AfterViewInit,
+    Component,
+    ElementRef,
+    HostListener,
+    inject, LOCALE_ID,
+    QueryList,
+    Renderer2,
+    ViewChildren
+} from '@angular/core';
 import {NavigationEnd, Router, RouterOutlet} from '@angular/router';
 import {filter} from 'rxjs/operators';
+import {NgIf} from '@angular/common';
 
 @Component({
     selector: 'app-root',
     standalone: true,
-    imports: [RouterOutlet],
+    imports: [RouterOutlet, NgIf],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
 })
@@ -20,6 +30,29 @@ export class AppComponent implements AfterViewInit {
     @ViewChildren('navLinks') navLinks!: QueryList<ElementRef>;
 
     constructor(private renderer: Renderer2, private router: Router) {
+    }
+
+
+    currentLocale = inject(LOCALE_ID);
+    langMenuOpen = false;
+
+    get currentLanguage(): string {
+        return this.currentLocale.split('-')[0].toUpperCase();
+    }
+
+    get currentFlag(): string {
+        switch (this.currentLocale.split('-')[0].toLowerCase()) {
+            case 'fr':
+                return '/assets/vectors/Belgian-French_Flag.svg';
+            case 'nl':
+                return '/assets/vectors/Belgian-Dutch_flag.svg';
+            default:
+                return '/assets/vectors/Union_Jack_flag.svg';
+        }
+    }
+
+    toggleLangMenu() {
+        this.langMenuOpen = !this.langMenuOpen;
     }
 
     ngAfterViewInit() {
@@ -46,7 +79,7 @@ export class AppComponent implements AfterViewInit {
         if (event?.key === ' ') {
             event.preventDefault();
         }
-        
+
         const menuIcon = this.menuIcon.first.nativeElement;
         const navbar = this.navbar.first.nativeElement;
 

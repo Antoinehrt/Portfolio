@@ -3,9 +3,10 @@
         Antoine
         <span>HAURET</span>
     </a>
-    <button class="bx bx-menu" 
-            id="menu-icon" 
-            #menuIcon 
+    <button class="bx bx-menu"
+    <button class="bx bx-menu"
+            id="menu-icon"
+            #menuIcon
             (click)="toggleMenu()"
             (keydown)="toggleMenu($event)"
             aria-label="Toggle navigation menu" i18n-label
@@ -17,6 +18,30 @@
         <a href="#skills" #navLinks i18n>Skills</a>
         <a href="#projects" #navLinks i18n>Projects</a>
         <a href="#contact" #navLinks i18n>Contact</a>
+
+        <button type="button"
+                class="lang-current"
+                (click)="toggleLangMenu()"
+                aria-label="Change language"
+                [attr.aria-expanded]="langMenuOpen">
+            <img [src]="currentFlag" alt="" class="flag-icon">
+            {{ currentLanguage }}
+        </button>
+        <ul class="language-menu" *ngIf="langMenuOpen">
+            <li><a href="/">
+                <img src="/assets/vectors/Union_Jack_flag.svg" alt="" class="flag-icon">
+                <span> English</span>
+            </a></li>
+            <li><a href="/fr/">
+                <img src="/assets/vectors/Belgian-French_Flag.svg" alt="" class="flag-icon">
+                <span>French</span>
+            </a></li>
+            <li><a href="/nl/">
+                <img src="/assets/vectors/Belgian-Dutch_flag.svg" alt="" class="flag-icon">
+                <span>Dutch</span>
+            </a></li>
+        </ul>
+
     </nav>
 </header>
 
@@ -26,12 +51,12 @@
 
 <footer class="footer">
     <div class="social">
-        <a href="https://www.linkedin.com/in/antoine-hauret/" 
+        <a href="https://www.linkedin.com/in/antoine-hauret/"
            aria-label="Visit my LinkedIn profile"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/Antoinehrt" 
+        <a href="https://github.com/Antoinehrt"
            aria-label="Visit my GitHub repositories"><i class="bx bxl-github"></i></a>
-        <a href="/assets/CV/CV_Antoine_Hauret.pdf" 
-           download 
+        <a href="/assets/CV/CV_Antoine_Hauret.pdf"
+           download
            aria-label="Download my CV (PDF)"><i class="bx bx-file"></i></a>
     </div>
 
