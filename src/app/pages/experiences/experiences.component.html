@@ -5,14 +5,14 @@
              (keydown)="navigateToDetail(item, $event)"
              tabindex="0"
              role="button"
-             [attr.aria-label]="'experiences.' + item.component + '.name'">
+             [attr.aria-label]="'View details about ' + item.name">
             <div class="timeline-dot"></div>
             <div class="timeline-date">
                 {{ item.date | yearOnly }}
             </div>
             <div class="timeline-content">
-                <h3>{{ 'experiences.' + item.component + '.name' }}</h3>
-                <p [innerHTML]="'experiences.' + item.component + '.description'"></p>
+                <h3>{{ item.name }}</h3>
+                <p [innerHTML]="item.description"></p>
             </div>
         </div>
     </ng-template>
