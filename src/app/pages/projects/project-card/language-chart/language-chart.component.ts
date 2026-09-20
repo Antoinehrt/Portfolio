@@ -69,7 +69,7 @@ export class LanguageChartComponent implements OnChanges, AfterViewInit {
                 cutout: '50%',
                 plugins: {
                     legend: {
-                        display: false // On va créer une légende custom
+                        display: false
                     },
                     tooltip: {
                         enabled: true,

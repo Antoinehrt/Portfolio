@@ -4,6 +4,13 @@
     "newProjectRoot": "projects",
     "projects": {
         "Portfolio": {
+            "i18n": {
+                "sourceLocale": { "code": "en-GB", "baseHref": "/" },
+                "locales": {
+                    "fr-BE": { "translation": "src/assets/data/locales/portfolio.fr.xlf", "baseHref": "/fr/" },
+                    "nl-BE": { "translation": "src/assets/data/locales/portfolio.nl.xlf", "baseHref": "/nl/" }
+                }
+            },
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -17,7 +24,8 @@
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
-                            "zone.js"
+                            "zone.js",
+                            "@angular/localize/init"
                         ],
                         "tsConfig": "tsconfig.app.json",
                         "assets": [
@@ -46,10 +54,11 @@
                     },
                     "configurations": {
                         "production": {
+                            "localize": true,
                             "budgets": [
                                 {
                                     "type": "initial",
-                                    "maximumWarning": "500kB",
+                                    "maximumWarning": "750kB",
                                     "maximumError": "1MB"
                                 },
                                 {
@@ -78,6 +87,12 @@
                                     "with": "src/environments/environment.staging.ts"
                                 }
                             ]
+                        },
+                        "fr": {
+                            "localize": ["fr-BE"]
+                        },
+                        "nl": {
+                            "localize": ["nl-BE"]
                         }
                     },
                     "defaultConfiguration": "production"
@@ -93,6 +108,12 @@
                         },
                         "staging": {
                             "buildTarget": "Portfolio:build:staging"
+                        },
+                        "fr": {
+                            "buildTarget": "Portfolio:build:development,fr"
+                        },
+                        "nl": {
+                            "buildTarget": "Portfolio:build:development,nl"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -105,7 +126,8 @@
                     "options": {
                         "polyfills": [
                             "zone.js",
-                            "zone.js/testing"
+                            "zone.js/testing",
+                            "@angular/localize/init"
                         ],
                         "tsConfig": "tsconfig.spec.json",
                         "assets": [
