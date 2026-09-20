@@ -5,10 +5,10 @@
     "projects": {
         "Portfolio": {
             "i18n": {
-                "sourceLocale": "en-GB",
+                "sourceLocale": { "code": "en-GB", "baseHref": "/" },
                 "locales": {
-                    "fr-BE": "src/assets/locales/portfolio.fr.xlf",
-                    "nl-BE" : "src/assets/locales/portfolio.nl.xlf"
+                    "fr-BE": { "translation": "src/assets/data/locales/portfolio.fr.xlf", "baseHref": "/fr/" },
+                    "nl-BE": { "translation": "src/assets/data/locales/portfolio.nl.xlf", "baseHref": "/nl/" }
                 }
             },
             "projectType": "application",
@@ -20,15 +20,12 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "localize":[
-                            "fr-BE", "nl-BE"
-                        ],
                         "outputPath": "dist/portfolio",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
-                          "zone.js",
-                          "@angular/localize/init"
+                            "zone.js",
+                            "@angular/localize/init"
                         ],
                         "tsConfig": "tsconfig.app.json",
                         "assets": [
@@ -57,10 +54,11 @@
                     },
                     "configurations": {
                         "production": {
+                            "localize": true,
                             "budgets": [
                                 {
                                     "type": "initial",
-                                    "maximumWarning": "500kB",
+                                    "maximumWarning": "750kB",
                                     "maximumError": "1MB"
                                 },
                                 {
@@ -89,6 +87,12 @@
                                     "with": "src/environments/environment.staging.ts"
                                 }
                             ]
+                        },
+                        "fr": {
+                            "localize": ["fr-BE"]
+                        },
+                        "nl": {
+                            "localize": ["nl-BE"]
                         }
                     },
                     "defaultConfiguration": "production"
@@ -104,6 +108,12 @@
                         },
                         "staging": {
                             "buildTarget": "Portfolio:build:staging"
+                        },
+                        "fr": {
+                            "buildTarget": "Portfolio:build:development,fr"
+                        },
+                        "nl": {
+                            "buildTarget": "Portfolio:build:development,nl"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -115,9 +125,9 @@
                     "builder": "@angular-devkit/build-angular:karma",
                     "options": {
                         "polyfills": [
-                          "zone.js",
-                          "zone.js/testing",
-                          "@angular/localize/init"
+                            "zone.js",
+                            "zone.js/testing",
+                            "@angular/localize/init"
                         ],
                         "tsConfig": "tsconfig.spec.json",
                         "assets": [
