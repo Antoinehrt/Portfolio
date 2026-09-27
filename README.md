@@ -2,7 +2,7 @@
 
 ![Preview](src/assets/img/preview.png)
 
-This repository contains the source code for my personal portfolio, built using [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6. The portfolio is designed to showcase my skills, experiences, projects, and educational background in a clean, interactive, and professional way.
+This repository contains the source code for my personal portfolio, built using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.8. The portfolio is designed to showcase my skills, experiences, projects, and educational background in a clean, interactive, and professional way.
 
 ## Features
 
@@ -17,8 +17,8 @@ This repository contains the source code for my personal portfolio, built using 
 
 Make sure you have the following installed:
 
-- Node.js (v16 or higher)
-- Angular CLI (v17 or higher)
+- Node.js (^22.22.3 || ^24.15.0 || >=26.0.0)
+- Angular CLI (v22 or higher)
 - A package manager (npm or yarn)
 
 ## Installation
@@ -94,7 +94,12 @@ Example for local environment:
 Run the development server locally:
 
 ```bash
-  ng server
+  ng serve
+```
+
+Run the development for a specific language: 
+```bash
+ng serve --configuration=fr
 ```
 
 ## Build for Production
