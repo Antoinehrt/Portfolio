@@ -1,22 +1,24 @@
 import {
-    AfterViewInit,
-    Component,
-    ElementRef,
-    HostListener,
-    inject, LOCALE_ID,
-    QueryList,
-    Renderer2,
-    ViewChildren
+  AfterViewInit,
+  Component,
+  ElementRef,
+  HostListener,
+  inject, LOCALE_ID,
+  QueryList,
+  Renderer2,
+  ViewChildren,
+  ChangeDetectionStrategy
 } from '@angular/core';
 import {NavigationEnd, Router, RouterOutlet} from '@angular/router';
 import {filter} from 'rxjs/operators';
-import {NgIf} from '@angular/common';
+
 
 @Component({
     selector: 'app-root',
     standalone: true,
-    imports: [RouterOutlet, NgIf],
+    imports: [RouterOutlet],
     templateUrl: './app.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './app.component.css'
 })
 export class AppComponent implements AfterViewInit {

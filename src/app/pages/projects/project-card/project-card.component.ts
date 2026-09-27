@@ -1,6 +1,6 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, ChangeDetectionStrategy} from '@angular/core';
 import {Project} from "../../../core/models/project";
-import {DatePipe, NgForOf, NgIf} from "@angular/common";
+import { DatePipe } from "@angular/common";
 import {LanguageChartComponent} from "./language-chart/language-chart.component";
 import {FormatSizePipe} from "../../../core/pipes/size/format-size.pipe";
 
@@ -8,13 +8,12 @@ import {FormatSizePipe} from "../../../core/pipes/size/format-size.pipe";
     selector: 'app-project-card',
     standalone: true,
     imports: [
-        NgForOf,
-        NgIf,
-        DatePipe,
-        LanguageChartComponent,
-        FormatSizePipe
-    ],
+    DatePipe,
+    LanguageChartComponent,
+    FormatSizePipe
+],
     templateUrl: './project-card.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './project-card.component.css'
 })
 export class ProjectCardComponent {
