@@ -510,9 +510,9 @@
           <context context-type="linenumber">72,74</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6344170600088683440" datatype="html">
-        <source>It seems that you&apos;re lost in a perpetual 404 black hole. Let me help guide you out and get you back home.</source>
-        <target state="translated">Il semble que vous soyez perdu dans un trou noir 404 perpétuel. Laissez-moi vous guider pour vous ramener à la maison.</target>
+      <trans-unit id="1559494831645074825" datatype="html">
+        <source>It seems that you&apos;re lost in a perpetual 404 black hole. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Let me help guide you out and get you back home.</source>
+        <target state="translated">Il semble que vous soyez perdu dans un trou noir 404 perpétuel. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Laissez-moi vous guider pour vous ramener à la maison.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/not-found/not-found.component.html</context>
           <context context-type="linenumber">4,5</context>
