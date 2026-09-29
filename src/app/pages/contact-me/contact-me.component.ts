@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
 import {NgClass} from "@angular/common";
 import emailjs from '@emailjs/browser';
@@ -13,6 +13,7 @@ import {environment} from "../../../environments/environment";
         NgClass,
     ],
     templateUrl: './contact-me.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './contact-me.component.css'
 })
 export class ContactMeComponent {
@@ -40,14 +41,14 @@ export class ContactMeComponent {
         })
 
             .then((response) => {
-                this._toastr.success('Message sent successfully');
+                this._toastr.success($localize`${'Message sent successfully'}`);
                 this.contactForm.reset();
             })
             .catch((error) => {
                 if (error.status === 0) {
-                    this._toastr.error('Connection problem');
+                    this._toastr.error($localize`${'Connection problem'}`);
                 } else {
-                    this._toastr.error('Sending process failed. Try again later.');
+                    this._toastr.error($localize`${'Sending process failed. Try again later.'}`);
                 }
             });
     }

@@ -1,10 +1,14 @@
-/**
- * Represents an experience timeline entry.
- */
 export interface ExperienceEntry {
-    type: 'education' | 'professional'; // Au lieu de string
+    type: 'education' | 'professional';
     name: string;
     date: Date;
     description: string;
-    component: 'high-school' | 'university' | 'university-college' | 'internship' | 'fastai' | 'forem-dutch';
+    component:
+        | 'high-school'
+        | 'university'
+        | 'university-college'
+        | 'internship'
+        | 'fastai'
+        | 'forem-dutch'
+        | 'project-engineer-technord';
 }

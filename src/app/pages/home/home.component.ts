@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, OnInit} from '@angular/core';
+import {AfterViewInit, Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {ExperiencesComponent} from "../experiences/experiences.component";
 import {SkillsComponent} from "../skills/skills.component";
 import {ContactMeComponent} from "../contact-me/contact-me.component";
@@ -7,32 +7,33 @@ import {HighSchoolComponent} from "../experiences/high-school/high-school.compon
 import {UniversityComponent} from "../experiences/university/university.component";
 import {UniversityCollegeComponent} from "../experiences/university-college/university-college.component";
 import {InternshipComponent} from "../experiences/internship/internship.component";
-import {AsyncPipe, NgSwitch, NgSwitchCase} from "@angular/common";
+import { AsyncPipe } from "@angular/common";
 import {Observable} from "rxjs";
 import {FastaiComponent} from "../experiences/fastai/fastai.component";
 import {ForemDutchComponent} from "../experiences/forem-dutch/forem-dutch.component";
 import {ProjectsComponent} from "../projects/projects.component";
 import {DateUtilityService} from "../../core/services/utility/date-utility.service";
+import { ProjectEngineerTechnordComponent } from "../experiences/project-engineer-technord/project-engineer-technord.component";
 
 @Component({
     selector: 'app-home',
     standalone: true,
     imports: [
-        ExperiencesComponent,
-        SkillsComponent,
-        ContactMeComponent,
-        HighSchoolComponent,
-        UniversityComponent,
-        UniversityCollegeComponent,
-        InternshipComponent,
-        AsyncPipe,
-        NgSwitch,
-        NgSwitchCase,
-        FastaiComponent,
-        ForemDutchComponent,
-        ProjectsComponent
-    ],
+    ExperiencesComponent,
+    SkillsComponent,
+    ContactMeComponent,
+    HighSchoolComponent,
+    UniversityComponent,
+    UniversityCollegeComponent,
+    InternshipComponent,
+    AsyncPipe,
+    FastaiComponent,
+    ForemDutchComponent,
+    ProjectsComponent,
+    ProjectEngineerTechnordComponent
+],
     templateUrl: './home.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './home.component.css'
 })
 export class HomeComponent implements AfterViewInit, OnInit {
