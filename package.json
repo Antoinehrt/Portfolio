@@ -6,7 +6,9 @@
         "start": "ng serve",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
-        "test": "ng test"
+        "test": "ng test",
+        "fetch:projects": "node --env-file=.env scripts/fetch-projects.mjs",
+        "prebuild": "npm run fetch:projects"
     },
     "private": true,
     "dependencies": {
@@ -42,7 +44,5 @@
         "karma-jasmine": "^4.0.2",
         "karma-jasmine-html-reporter": "^1.7.0",
         "typescript": "~6.0.3"
-    },
-    "fetch:projects": "node --env-file=.env scripts/fetch-projects.mjs",
-    "prebuild": "npm run fetch:projects"
+    }
 }

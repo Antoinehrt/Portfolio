@@ -32,7 +32,8 @@ import {getContactEmail} from '../../core/utils/contact-email';
         FastaiComponent,
         ForemDutchComponent,
         ProjectsComponent,
-        ProjectEngineerTechnordComponent
+        ProjectEngineerTechnordComponent,
+        AsyncPipe
     ],
     templateUrl: './home.component.html',
     changeDetection: ChangeDetectionStrategy.Eager,
