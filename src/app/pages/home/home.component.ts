@@ -7,31 +7,33 @@ import {HighSchoolComponent} from "../experiences/high-school/high-school.compon
 import {UniversityComponent} from "../experiences/university/university.component";
 import {UniversityCollegeComponent} from "../experiences/university-college/university-college.component";
 import {InternshipComponent} from "../experiences/internship/internship.component";
-import { AsyncPipe } from "@angular/common";
+import {AsyncPipe} from "@angular/common";
 import {Observable} from "rxjs";
 import {FastaiComponent} from "../experiences/fastai/fastai.component";
 import {ForemDutchComponent} from "../experiences/forem-dutch/forem-dutch.component";
 import {ProjectsComponent} from "../projects/projects.component";
 import {DateUtilityService} from "../../core/services/utility/date-utility.service";
-import { ProjectEngineerTechnordComponent } from "../experiences/project-engineer-technord/project-engineer-technord.component";
+import {
+    ProjectEngineerTechnordComponent
+} from "../experiences/project-engineer-technord/project-engineer-technord.component";
+import {getContactEmail} from '../../core/utils/contact-email';
 
 @Component({
     selector: 'app-home',
     standalone: true,
     imports: [
-    ExperiencesComponent,
-    SkillsComponent,
-    ContactMeComponent,
-    HighSchoolComponent,
-    UniversityComponent,
-    UniversityCollegeComponent,
-    InternshipComponent,
-    AsyncPipe,
-    FastaiComponent,
-    ForemDutchComponent,
-    ProjectsComponent,
-    ProjectEngineerTechnordComponent
-],
+        ExperiencesComponent,
+        SkillsComponent,
+        ContactMeComponent,
+        HighSchoolComponent,
+        UniversityComponent,
+        UniversityCollegeComponent,
+        InternshipComponent,
+        FastaiComponent,
+        ForemDutchComponent,
+        ProjectsComponent,
+        ProjectEngineerTechnordComponent
+    ],
     templateUrl: './home.component.html',
     changeDetection: ChangeDetectionStrategy.Eager,
     styleUrl: './home.component.css'
@@ -42,7 +44,7 @@ export class HomeComponent implements AfterViewInit, OnInit {
     currentComponent$?: Observable<string>
 
     constructor(private _experienceService: ExperienceService, private _dateUtility: DateUtilityService) {
-        this.myAge = this._dateUtility.calculateAge(this.birthDate);
+        this.myAge = _dateUtility.calculateAge(this.birthDate);
     }
 
     ngOnInit(): void {
@@ -50,5 +52,10 @@ export class HomeComponent implements AfterViewInit, OnInit {
     }
 
     ngAfterViewInit() {
+    }
+
+    hire(event: Event): void {
+        event.preventDefault();
+        window.location.href = 'mailto:' + getContactEmail() + '?subject=' + encodeURIComponent('Hiring Inquiry');
     }
 }
