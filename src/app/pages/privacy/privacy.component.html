@@ -1,0 +1,100 @@
+<div class="education-detail">
+    <div class="header-container">
+        <div class="titles">
+            <h2 i18n="@@privacy.title">Privacy Policy</h2>
+            <h3><span i18n="@@privacy.subtitle">How your personal data is handled</span> <span class="updated"><br>
+                <span i18n="@@privacy.updated">Last updated:</span> {{ lastUpdated | date: 'longDate' }}</span></h3>
+        </div>
+        <button type="button" class="back-button" routerLink="/" i18n-aria-label="@@privacy.close" aria-label="Back to the portfolio">
+            <mat-icon>close</mat-icon>
+        </button>
+    </div>
+    <br><br>
+    <div class="content-container">
+        <div class="text-content">
+            <div class="paragraph">
+                <h4 class="section-title" i18n="@@privacy.controller.title">1. Who is responsible for your data</h4>
+                <p i18n="@@privacy.controller.intro">This website is a personal portfolio. The data controller within the meaning of the General Data Protection Regulation (GDPR, Regulation (EU) 2016/679) is:</p>
+                <p><b>Antoine Hauret</b> – <span i18n="@@privacy.controller.country">Belgium</span></p>
+                <span i18n="@@privacy.s1.email">Email : </span>
+                <app-protected-email></app-protected-email>
+            </div>
+            <div class="paragraph">
+                <h4 class="section-title" i18n="@@privacy.data.title">2. What data is collected and why</h4>
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                        <tr>
+                            <th i18n="@@privacy.data.col.context">Context</th>
+                            <th i18n="@@privacy.data.col.data">Data</th>
+                            <th i18n="@@privacy.data.col.purpose">Purpose</th>
+                            <th i18n="@@privacy.data.col.basis">Legal basis</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td i18n="@@privacy.data.form.context">Contact form</td>
+                            <td i18n="@@privacy.data.form.data">Name, email address, phone number (optional), subject and message</td>
+                            <td i18n="@@privacy.data.form.purpose">Reading and answering your message</td>
+                            <td i18n="@@privacy.data.form.basis">Legitimate interest in answering requests sent to me, and steps taken at your request (Art. 6.1.f and 6.1.b GDPR)</td>
+                        </tr>
+                        <tr>
+                            <td i18n="@@privacy.data.visit.context">Visiting the website</td>
+                            <td i18n="@@privacy.data.visit.data">IP address, date and time, requested pages, browser and device information (technical server logs)</td>
+                            <td i18n="@@privacy.data.visit.purpose">Delivering the site, security, fixing errors</td>
+                            <td i18n="@@privacy.data.visit.basis">Legitimate interest in running a secure website (Art. 6.1.f GDPR)</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p i18n="@@privacy.data.note">The phone number is optional. Only fill in what you are comfortable sharing. I do not use your data for marketing, profiling or automated decision-making, and I never sell it.</p>
+            </div>
+            <div class="paragraph">
+                <h4 class="section-title" i18n="@@privacy.cookies.title">3. Cookies and tracking</h4>
+                <p i18n="@@privacy.cookies.text">This website does not set any cookies of its own and does not use analytics, advertising or tracking tools. For this reason, no cookie banner is displayed.</p>
+            </div>
+            <div class="paragraph">
+                <h4 class="section-title" i18n="@@privacy.recipients.title">4. Who else receives data</h4>
+                <p i18n="@@privacy.recipients.intro">To run this website, I rely on the following service providers. They only process data needed for the service they provide.</p>
+                <ul>
+                    <li><b i18n="@@privacy.recipients.hosting.label">Hosting (Hostinger) : </b> <span i18n="@@privacy.recipients.hosting.text">serves the website and keeps technical server logs.</span></li>
+                    <li><b i18n="@@privacy.recipients.emailjs.label">Email service : </b> <span i18n="@@privacy.recipients.emailjs.text">when you submit the contact form, the hosting provider's PHP mail service forwards the content of your message to my mailbox.</span></li>
+                    <li><b i18n="@@privacy.recipients.mail.label">My email provider (Google Gmail) : </b> <span i18n="@@privacy.recipients.mail.text">receives the forwarded message and stores it in my mailbox.</span></li>
+                    <li><b i18n="@@privacy.recipients.github.label">GitHub : </b> <span i18n="@@privacy.recipients.github.text">the "Projects" section loads my public repositories directly from GitHub's servers, which means your browser contacts GitHub (and its image servers) when the section is displayed.</span></li>
+                    <li><b i18n="@@privacy.recipients.fonts.label">Google Fonts and icon providers : </b> <span i18n="@@privacy.recipients.fonts.text">fonts and icons (Google Fonts, Boxicons) are loaded from external servers when a page is displayed.</span></li>
+                </ul>
+                <p i18n="@@privacy.recipients.transfer">Whenever your browser loads a resource from one of these third parties, your IP address is necessarily transmitted to them. Some of these providers are located outside the European Economic Area (notably in the United States). In that case, the transfer relies on the safeguards provided by the GDPR, such as an adequacy decision or standard contractual clauses.</p>
+            </div>
+            <div class="paragraph">
+                <h4 class="section-title" i18n="@@privacy.retention.title">5. How long data is kept</h4>
+                <ul>
+                    <li><b i18n="@@privacy.retention.messages.label">Contact messages : </b> <span i18n="@@privacy.retention.messages.text">kept as long as needed to answer you and follow up on the conversation, then deleted at most 12 months after our last exchange.</span></li>
+                    <li><b i18n="@@privacy.retention.logs.label">Server logs : </b> <span i18n="@@privacy.retention.logs.text">kept by the hosting provider for a limited period, according to its own retention policy.</span></li>
+                </ul>
+            </div>
+            <div class="paragraph">
+                <h4 class="section-title" i18n="@@privacy.rights.title">6. Your rights</h4>
+                <p i18n="@@privacy.rights.intro">You have the right to:</p>
+                <ul>
+                    <li i18n="@@privacy.rights.access">access the personal data I hold about you</li>
+                    <li i18n="@@privacy.rights.rectify">have inaccurate data corrected</li>
+                    <li i18n="@@privacy.rights.erase">have your data erased</li>
+                    <li i18n="@@privacy.rights.restrict">restrict or object to the processing of your data</li>
+                    <li i18n="@@privacy.rights.portability">receive your data in a portable format</li>
+                </ul>
+                <p i18n="@@privacy.rights.exercise">To exercise these rights, send me an email at <app-protected-email></app-protected-email>. I will answer within one month. I will answer within one month. I may ask you to confirm your identity before acting on your request.</p>
+                <p><a routerLink="/" fragment="contact">Use the contact form</a></p>
+                <p i18n="@@privacy.rights.complaint">If you believe your rights are not respected, you can lodge a complaint with the Belgian Data Protection Authority:</p>
+                <p><a href="https://www.autoriteprotectiondonnees.be" target="_blank" rel="noopener noreferrer">www.autoriteprotectiondonnees.be</a></p>
+            </div>
+            <div class="paragraph">
+                <h4 class="section-title" i18n="@@privacy.security.title">7. Security</h4>
+                <p i18n="@@privacy.security.text">The website is served over HTTPS and I limit access to the mailbox that receives messages to myself. No system is perfectly secure, but I take reasonable measures to protect the data entrusted to me.</p>
+            </div>
+            <div class="paragraph">
+                <h4 class="section-title" i18n="@@privacy.changes.title">8. Changes to this policy</h4>
+                <p i18n="@@privacy.changes.text">I may update this policy, for example when I add or remove a service. The date at the top of this page indicates the latest version.</p>
+            </div>
+        </div>
+    </div>
+</div>

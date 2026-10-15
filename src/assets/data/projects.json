@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Portfolio",
+    "description": "Personal portfolio website built with Angular, showcasing my journey as a computer science graduate and developer. ",
+    "repoUrl": "https://github.com/Antoinehrt/Portfolio",
+    "liveUrl": "https://hauret-antoine.com/",
+    "createdAt": "2024-09-30T16:40:28Z",
+    "updateAt": "2026-10-15T19:18:39Z",
+    "size": 8429,
+    "languages": [
+      {
+        "name": "HTML",
+        "color": "#e34c26",
+        "percentage": 65.2
+      },
+      {
+        "name": "TypeScript",
+        "color": "#3178c6",
+        "percentage": 20.1
+      },
+      {
+        "name": "CSS",
+        "color": "#663399",
+        "percentage": 14.7
+      }
+    ],
+    "topics": [
+      "angular",
+      "portfolio-website",
+      "github-api",
+      "responsive-design",
+      "typescript"
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/Antoinehrt/Portfolio/HEAD/src/assets/img/preview.png"
+  },
+  {
+    "name": "CryptoBalancerFrontend",
+    "description": "A frontend application for CryptoBalancer, enabling users to build their crypto portfolio, backtest multiple rebalancing strategies, and track their performance over time.",
+    "repoUrl": "https://github.com/Antoinehrt/CryptoBalancerFrontend",
+    "liveUrl": "",
+    "createdAt": "2025-11-27T09:21:50Z",
+    "updateAt": "2026-02-05T21:59:55Z",
+    "size": 292,
+    "languages": [
+      {
+        "name": "TypeScript",
+        "color": "#3178c6",
+        "percentage": 70.1
+      },
+      {
+        "name": "HTML",
+        "color": "#e34c26",
+        "percentage": 15.9
+      },
+      {
+        "name": "SCSS",
+        "color": "#c6538c",
+        "percentage": 14
+      }
+    ],
+    "topics": [
+      "angular",
+      "crypto",
+      "typescript"
+    ],
+    "imageUrl": "assets/img/logos/default_project_icon.png"
+  },
+  {
+    "name": "WayMate_BackEnd",
+    "description": "Backend API for a carpooling platform. Built as a final-year project using ASP.NET Core with Clean Architecture principles.",
+    "repoUrl": "https://github.com/Antoinehrt/WayMate_BackEnd",
+    "liveUrl": "",
+    "createdAt": "2023-11-13T16:29:05Z",
+    "updateAt": "2025-11-25T22:50:28Z",
+    "size": 5555,
+    "languages": [
+      {
+        "name": "C#",
+        "color": "#7355dd",
+        "percentage": 90.4
+      },
+      {
+        "name": "TSQL",
+        "color": "#e38c00",
+        "percentage": 9.3
+      },
+      {
+        "name": "Dockerfile",
+        "color": "#384d54",
+        "percentage": 0.4
+      }
+    ],
+    "topics": [
+      "asp-net-core",
+      "csharp",
+      "docker",
+      "docker-compose",
+      "mysql"
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/Antoinehrt/WayMate_BackEnd/HEAD/preview.png"
+  },
+  {
+    "name": "WayMate_FrontEnd",
+    "description": "Frontend for a carpooling app. Built as a final-year project using modern web technologies to provide a responsive, user-focused interface for route planning and trip management.",
+    "repoUrl": "https://github.com/Antoinehrt/WayMate_FrontEnd",
+    "liveUrl": "",
+    "createdAt": "2023-12-08T17:56:48Z",
+    "updateAt": "2025-11-26T08:56:44Z",
+    "size": 779,
+    "languages": [
+      {
+        "name": "TypeScript",
+        "color": "#3178c6",
+        "percentage": 52.5
+      },
+      {
+        "name": "HTML",
+        "color": "#e34c26",
+        "percentage": 37.7
+      },
+      {
+        "name": "CSS",
+        "color": "#663399",
+        "percentage": 9.8
+      }
+    ],
+    "topics": [
+      "angular",
+      "bootstrap",
+      "carpooling",
+      "api-integration",
+      "typescript"
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/Antoinehrt/WayMate_FrontEnd/HEAD/src/assets/img/waymate_HomePage.jpg"
+  },
+  {
+    "name": "CheatSheets",
+    "description": "Cheatsheets for various tools, languages, and technologies from my Obsidian vault",
+    "repoUrl": "https://github.com/Antoinehrt/CheatSheets",
+    "liveUrl": "",
+    "createdAt": "2024-12-07T14:17:48Z",
+    "updateAt": "2026-10-03T12:08:37Z",
+    "size": 21658,
+    "languages": [],
+    "topics": [
+      "cheatsheets"
+    ],
+    "imageUrl": "assets/img/logos/default_project_icon.png"
+  }
+]

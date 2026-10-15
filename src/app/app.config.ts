@@ -3,7 +3,7 @@ import {
     importProvidersFrom,
     provideZoneChangeDetection,
 } from '@angular/core';
-import {provideRouter} from '@angular/router';
+import {provideRouter, withInMemoryScrolling} from '@angular/router';
 import {provideAnimationsAsync} from '@angular/platform-browser/animations/async';
 import {provideHttpClient, withXhr} from '@angular/common/http';
 import {ToastrModule} from 'ngx-toastr';
@@ -18,5 +18,6 @@ export const appConfig: ApplicationConfig = {
         importProvidersFrom(
             ToastrModule.forRoot(),
         ),
+        provideRouter(routes, withInMemoryScrolling({scrollPositionRestoration: 'top', anchorScrolling: 'enabled'})),
     ],
 };

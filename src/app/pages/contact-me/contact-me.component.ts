@@ -4,6 +4,7 @@ import {NgClass} from "@angular/common";
 import emailjs from '@emailjs/browser';
 import {ToastrService} from "ngx-toastr";
 import {environment} from "../../../environments/environment";
+import {RouterLink} from "@angular/router";
 
 @Component({
     selector: 'app-contact-me',
@@ -11,6 +12,7 @@ import {environment} from "../../../environments/environment";
     imports: [
         ReactiveFormsModule,
         NgClass,
+        RouterLink
     ],
     templateUrl: './contact-me.component.html',
     changeDetection: ChangeDetectionStrategy.Eager,
@@ -20,7 +22,7 @@ export class ContactMeComponent {
     contactForm: FormGroup;
 
     constructor(private _fb: FormBuilder, private _toastr: ToastrService) {
-        this.contactForm = this._fb.group({
+        this.contactForm = _fb.group({
             name: ['', [Validators.required, Validators.minLength(3)]],
             email: ['', [Validators.required, Validators.email]],
             phone: ['', [Validators.minLength(10)]],
