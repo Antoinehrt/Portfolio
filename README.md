@@ -152,4 +152,4 @@ Logos used in this portfolio are the property of their respective owners and are
 # Contact
 
 - **LinkedIn**: [/in/antoine-hauret](https://www.linkedin.com/in/antoine-hauret)
-- **Email**: hauret.antoine@gmail.com
+- **Contact form**: available on the portfolio website
