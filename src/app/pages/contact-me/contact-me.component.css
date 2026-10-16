@@ -43,6 +43,9 @@ form .btn {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.privacy-note { font-size: 1.3rem; margin-top: 1rem; opacity: .8; }
+.privacy-note a { color: var(--main-color); text-decoration: underline; }
+
 @media (max-width: 991px) {
     form {
         flex-direction: column;
