@@ -966,14 +966,6 @@
           <context context-type="linenumber">85,86</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="privacy.contact.form" datatype="html">
-        <source>Use the contact form</source>
-        <target>Utilisez le formulaire de contact</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
-          <context context-type="linenumber">86</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="privacy.rights.complaint" datatype="html">
         <source>If you believe your rights are not respected, you can lodge a complaint with the Belgian Data Protection Authority:</source>
         <target>Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une plainte auprès de l&apos;Autorité de protection des données belge :</target>
