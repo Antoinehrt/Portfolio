@@ -967,8 +967,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="privacy.contact.form" datatype="html">
-        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/&quot; fragment=&quot;contact&quot;&gt;"/>Use the contact form<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/&quot; fragment=&quot;contact&quot;&gt;"/>Gebruik het contactformulier<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <source>Use the contact form</source>
+        <target>Gebruik het contactformulier</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
           <context context-type="linenumber">86</context>
