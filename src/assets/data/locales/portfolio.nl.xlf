@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-GB" datatype="plaintext" original="ng2.template" target-language="nl">
+  <file source-language="en-GB" target-language="nl-BE" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
-        <target >Home</target>
+        <target>Home</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3398353192845179101" datatype="html">
@@ -15,15 +15,15 @@
         <target>Ervaring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">16,17</context>
+          <context context-type="linenumber">17,18</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">43,44</context>
+          <context context-type="linenumber">67,68</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">45,46</context>
+          <context context-type="linenumber">46,47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4342625008558026850" datatype="html">
@@ -31,15 +31,15 @@
         <target>Vaardigheden</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">17,18</context>
+          <context context-type="linenumber">18,19</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">49,50</context>
+          <context context-type="linenumber">69,70</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">60,61</context>
+          <context context-type="linenumber">79,80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7091571651222742304" datatype="html">
@@ -47,60 +47,76 @@
         <target>Projecten</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">18,19</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">46,47</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">66,67</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7922989125096435449" datatype="html">
-        <source>Contact</source>
-        <target >Contact</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">19,20</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">52,53</context>
+          <context context-type="linenumber">68,69</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">36,37</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">70,71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">37,38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6018686961415145811" datatype="html">
         <source>About Me</source>
-        <target >Over mij</target>
+        <target>Over mij</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">40,41</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8439955599488894226" datatype="html">
+        <source>Privacy Policy</source>
+        <target>Privacybeleid</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">71,72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6773551922811476235" datatype="html">
         <source> © <x id="INTERPOLATION" equiv-text="{{ currentYear }}"/> Antoine HAURET | All rights reserved. </source>
-        <target > © <x id="INTERPOLATION" equiv-text="{{ currentYear }}"/> Antoine HAURET | Alle rechten voorbehouden. </target>
+        <target> © <x id="INTERPOLATION" equiv-text="{{ currentYear }}"/> Antoine HAURET | Alle rechten voorbehouden. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">56,58</context>
+          <context context-type="linenumber">74,76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9029586488417738100" datatype="html">
         <source> Logos used in this portfolio are the property of their respective owners and are shown here for illustrative purposes only. No copyright infringement is intended. </source>
-        <target > De logo's die in deze portfolio worden gebruikt, zijn eigendom van hun respectievelijke eigenaars en worden hier uitsluitend ter illustratie getoond. Er is geen inbreuk op het auteursrecht bedoeld. </target>
+        <target> De logo's die in deze portfolio worden gebruikt, zijn eigendom van hun respectievelijke eigenaars en worden hier uitsluitend ter illustratie getoond. Er is geen inbreuk op het auteursrecht bedoeld. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">59,60</context>
+          <context context-type="linenumber">77,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="email.reveal" datatype="html">
+        <source>Show email address </source>
+        <target>E-mailadres tonen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/shared/protected-email/protected-email.component.ts</context>
+          <context context-type="linenumber">14,16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="contactForm.inputGroup" datatype="html">
         <source><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;input-box&quot;&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; placeholder=&quot;Your full name *&quot; formControlName=&quot;name&quot; i18n-placeholder=&quot;@@contactForm.namePlaceholder&quot;&gt;"/><x id="TAG_INPUT_1" ctype="x-input_1" equiv-text="&lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Your email *&quot; formControlName=&quot;email&quot; i18n-placeholder=&quot;@@contactForm.emailPlaceholder&quot;&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;input-box&quot;&gt;"/><x id="TAG_INPUT_2" ctype="x-input_2" equiv-text="&lt;input type=&quot;tel&quot; name=&quot;phone&quot; id=&quot;phone&quot; placeholder=&quot;Your phone number&quot; formControlName=&quot;phone&quot; i18n-placeholder=&quot;@@contactForm.phonePlaceholder&quot;&gt;"/><x id="TAG_INPUT_3" ctype="x-input_3" equiv-text="&lt;input type=&quot;text&quot; name=&quot;subject&quot; id=&quot;subject&quot; placeholder=&quot;The subject *&quot; formControlName=&quot;subject&quot; i18n-placeholder=&quot;@@contactForm.subjectPlaceholder&quot;&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
-        <target ><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;input-box&quot;&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; placeholder=&quot;Uw volledige naam *&quot; formControlName=&quot;name&quot; i18n-placeholder=&quot;@@contactForm.namePlaceholder&quot;&gt;"/><x id="TAG_INPUT_1" ctype="x-input_1" equiv-text="&lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Uw e-mailadres *&quot; formControlName=&quot;email&quot; i18n-placeholder=&quot;@@contactForm.emailPlaceholder&quot;&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;input-box&quot;&gt;"/><x id="TAG_INPUT_2" ctype="x-input_2" equiv-text="&lt;input type=&quot;tel&quot; name=&quot;phone&quot; id=&quot;phone&quot; placeholder=&quot;Uw telefoonnummer&quot; formControlName=&quot;phone&quot; i18n-placeholder=&quot;@@contactForm.phonePlaceholder&quot;&gt;"/><x id="TAG_INPUT_3" ctype="x-input_3" equiv-text="&lt;input type=&quot;text&quot; name=&quot;subject&quot; id=&quot;subject&quot; placeholder=&quot;Het onderwerp *&quot; formControlName=&quot;subject&quot; i18n-placeholder=&quot;@@contactForm.subjectPlaceholder&quot;&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <target><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;input-box&quot;&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; placeholder=&quot;Uw volledige naam *&quot; formControlName=&quot;name&quot; i18n-placeholder=&quot;@@contactForm.namePlaceholder&quot;&gt;"/><x id="TAG_INPUT_1" ctype="x-input_1" equiv-text="&lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Uw e-mailadres *&quot; formControlName=&quot;email&quot; i18n-placeholder=&quot;@@contactForm.emailPlaceholder&quot;&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;input-box&quot;&gt;"/><x id="TAG_INPUT_2" ctype="x-input_2" equiv-text="&lt;input type=&quot;tel&quot; name=&quot;phone&quot; id=&quot;phone&quot; placeholder=&quot;Uw telefoonnummer&quot; formControlName=&quot;phone&quot; i18n-placeholder=&quot;@@contactForm.phonePlaceholder&quot;&gt;"/><x id="TAG_INPUT_3" ctype="x-input_3" equiv-text="&lt;input type=&quot;text&quot; name=&quot;subject&quot; id=&quot;subject&quot; placeholder=&quot;Het onderwerp *&quot; formControlName=&quot;subject&quot; i18n-placeholder=&quot;@@contactForm.subjectPlaceholder&quot;&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.html</context>
           <context context-type="linenumber">3,12</context>
@@ -108,7 +124,7 @@
       </trans-unit>
       <trans-unit id="contactForm.namePlaceholder" datatype="html">
         <source>Your full name *</source>
-        <target >Uw volledige naam *</target>
+        <target>Uw volledige naam *</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.html</context>
           <context context-type="linenumber">4</context>
@@ -116,7 +132,7 @@
       </trans-unit>
       <trans-unit id="contactForm.emailPlaceholder" datatype="html">
         <source>Your email *</source>
-        <target >Uw e-mailadres *</target>
+        <target>Uw e-mailadres *</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.html</context>
           <context context-type="linenumber">5</context>
@@ -124,7 +140,7 @@
       </trans-unit>
       <trans-unit id="contactForm.phonePlaceholder" datatype="html">
         <source>Your phone number</source>
-        <target >Uw telefoonnummer</target>
+        <target>Uw telefoonnummer</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.html</context>
           <context context-type="linenumber">8</context>
@@ -132,7 +148,7 @@
       </trans-unit>
       <trans-unit id="contactForm.subjectPlaceholder" datatype="html">
         <source>The subject *</source>
-        <target >Het onderwerp *</target>
+        <target>Het onderwerp *</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.html</context>
           <context context-type="linenumber">9</context>
@@ -140,7 +156,7 @@
       </trans-unit>
       <trans-unit id="contactForm.messagePlaceholder" datatype="html">
         <source>Your message *</source>
-        <target >Uw bericht *</target>
+        <target>Uw bericht *</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.html</context>
           <context context-type="linenumber">13</context>
@@ -148,31 +164,39 @@
       </trans-unit>
       <trans-unit id="contactForm.sendButton" datatype="html">
         <source>Send message</source>
-        <target >Verstuur bericht</target>
+        <target>Verstuur bericht</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8682391187949765694" datatype="html">
+        <source> Your data is only used to answer your message. See the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/privacy&quot;&gt;"/>privacy policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </source>
+        <target> Uw gegevens worden alleen gebruikt om uw bericht te beantwoorden. Raadpleeg het <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/privacy&quot;&gt;"/>privacybeleid<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="1737753151350322492" datatype="html">
         <source><x id="PH" equiv-text="&apos;Message sent successfully&apos;"/></source>
-        <target ><x id="PH" equiv-text="&apos;Bericht succesvol verzonden&apos;"/></target>
+        <target><x id="PH" equiv-text="&apos;Bericht succesvol verzonden&apos;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.ts</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">51</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact-me/contact-me.component.ts</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="947040871436147477" datatype="html">
         <source>Training program</source>
-        <target >Opleidingsprogramma</target>
+        <target>Opleidingsprogramma</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/fastai/fastai.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -184,7 +208,7 @@
       </trans-unit>
       <trans-unit id="5840659889625801537" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Fast AI<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Ateliers Créactifs (10/2024 - 11/2024)</source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Fast AI<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Ateliers Créactifs (10/2024 - 11/2024)</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Fast AI<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Ateliers Créactifs (10/2024 - 11/2024)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/fastai/fastai.component.html</context>
           <context context-type="linenumber">5,6</context>
@@ -192,7 +216,7 @@
       </trans-unit>
       <trans-unit id="1773455741565277431" datatype="html">
         <source> I participated in a training program on Artificial Intelligence organized by Ateliers Créactifs, which focused on building, training, and evaluating AI models. The program emphasized hands-on learning with practical applications, enabling me to understand and apply cutting-edge techniques in machine learning and neural networks. </source>
-        <target > Ik nam deel aan een opleidingsprogramma over Kunstmatige Intelligentie, georganiseerd door Ateliers Créactifs, dat zich richtte op het bouwen, trainen en evalueren van AI-modellen. Het programma legde de nadruk op praktijkgericht leren met concrete toepassingen, waardoor ik geavanceerde technieken in machine learning en neurale netwerken kon begrijpen en toepassen. </target>
+        <target> Ik nam deel aan een opleidingsprogramma over Kunstmatige Intelligentie, georganiseerd door Ateliers Créactifs, dat zich richtte op het bouwen, trainen en evalueren van AI-modellen. Het programma legde de nadruk op praktijkgericht leren met concrete toepassingen, waardoor ik geavanceerde technieken in machine learning en neurale netwerken kon begrijpen en toepassen. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/fastai/fastai.component.html</context>
           <context context-type="linenumber">14,17</context>
@@ -200,7 +224,7 @@
       </trans-unit>
       <trans-unit id="5511270537576755742" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Key Learnings<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> During the training, I gained expertise in managing data pipelines, training machine learning models, and evaluating their performance. I worked on tasks such as preparing datasets, splitting them into training and validation subsets, and creating efficient workflows using DataLoaders. I explored the advantages of transfer learning by using the pre-trained ResNet34 model and fine-tuning it with application-specific data. This approach significantly enhanced the model’s accuracy compared to training a model from scratch. Additionally, I delved into performance evaluation, using precision as a key metric to measure and compare the effectiveness of pre-trained and non-pre-trained models. </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste leerpunten<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Tijdens de opleiding heb ik expertise opgedaan in het beheren van datapijplijnen, het trainen van machine learning-modellen en het evalueren van hun prestaties. Ik werkte aan taken zoals het voorbereiden van datasets, het splitsen ervan in trainings- en validatiesets en het creëren van efficiënte workflows met DataLoaders. Ik onderzocht de voordelen van transfer learning door het gebruik van het voorgetrainde ResNet34-model en het fijn afstemmen ervan met toepassingsspecifieke data. Deze aanpak verhoogde de nauwkeurigheid van het model aanzienlijk in vergelijking met het trainen van een model vanaf nul. Daarnaast verdiepte ik mij in prestatie-evaluatie, waarbij ik precisie gebruikte als belangrijke maatstaf om de effectiviteit van voorgetrainde en niet-voorgetrainde modellen te meten en te vergelijken. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste leerpunten<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Tijdens de opleiding heb ik expertise opgedaan in het beheren van datapijplijnen, het trainen van machine learning-modellen en het evalueren van hun prestaties. Ik werkte aan taken zoals het voorbereiden van datasets, het splitsen ervan in trainings- en validatiesets en het creëren van efficiënte workflows met DataLoaders. Ik onderzocht de voordelen van transfer learning door het gebruik van het voorgetrainde ResNet34-model en het fijn afstemmen ervan met toepassingsspecifieke data. Deze aanpak verhoogde de nauwkeurigheid van het model aanzienlijk in vergelijking met het trainen van een model vanaf nul. Daarnaast verdiepte ik mij in prestatie-evaluatie, waarbij ik precisie gebruikte als belangrijke maatstaf om de effectiviteit van voorgetrainde en niet-voorgetrainde modellen te meten en te vergelijken. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/fastai/fastai.component.html</context>
           <context context-type="linenumber">21,33</context>
@@ -208,7 +232,7 @@
       </trans-unit>
       <trans-unit id="4203912904536177072" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Skills Acquired<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The training equipped me with valuable skills in data manipulation, transfer learning, and performance evaluation, as well as a solid understanding of how to apply pre-trained neural networks to real-world problems. These insights have broadened my expertise in machine learning and prepared me to address practical AI challenges with confidence. </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Verworven vaardigheden<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> De opleiding heeft mij waardevolle vaardigheden bijgebracht in datamanipulatie, transfer learning en prestatie-evaluatie, evenals een goed begrip van het toepassen van voorgetrainde neurale netwerken op reële problemen. Deze inzichten hebben mijn expertise in machine learning verbreed en mij voorbereid om praktische AI-uitdagingen met vertrouwen aan te pakken. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Verworven vaardigheden<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> De opleiding heeft mij waardevolle vaardigheden bijgebracht in datamanipulatie, transfer learning en prestatie-evaluatie, evenals een goed begrip van het toepassen van voorgetrainde neurale netwerken op reële problemen. Deze inzichten hebben mijn expertise in machine learning verbreed en mij voorbereid om praktische AI-uitdagingen met vertrouwen aan te pakken. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/fastai/fastai.component.html</context>
           <context context-type="linenumber">38,43</context>
@@ -216,7 +240,7 @@
       </trans-unit>
       <trans-unit id="6511804992487748930" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Dutch<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Forem (04/2025 - 10/2025)</source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Nederlands<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Forem (04/2025 - 10/2025)</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Nederlands<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Forem (04/2025 - 10/2025)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/forem-dutch/forem-dutch.component.html</context>
           <context context-type="linenumber">5,6</context>
@@ -224,7 +248,7 @@
       </trans-unit>
       <trans-unit id="1426682225239789999" datatype="html">
         <source> I participated in a Dutch language training program at the Forem training center in Mons. I completed three consecutive courses, starting at level A0, without any prior knowledge of Dutch. By the end of the first course, I reached level A1, then progressed to level A2 after the second course, and finally achieved level B1 upon completing the third course. Each level was certified by the Forem through the ELAO testing system. </source>
-        <target > Ik nam deel aan een Nederlandse taalcursus bij het Forem-opleidingscentrum in Bergen. Ik volgde drie opeenvolgende cursussen, beginnend op niveau A0, zonder enige voorkennis van het Nederlands. Aan het einde van de eerste cursus bereikte ik niveau A1, daarna ging ik na de tweede cursus naar niveau A2 en behaalde ik uiteindelijk niveau B1 na het afronden van de derde cursus. Elk niveau werd gecertificeerd door Forem via het ELAO-testsysteem. </target>
+        <target> Ik nam deel aan een Nederlandse taalcursus bij het Forem-opleidingscentrum in Bergen. Ik volgde drie opeenvolgende cursussen, beginnend op niveau A0, zonder enige voorkennis van het Nederlands. Aan het einde van de eerste cursus bereikte ik niveau A1, daarna ging ik na de tweede cursus naar niveau A2 en behaalde ik uiteindelijk niveau B1 na het afronden van de derde cursus. Elk niveau werd gecertificeerd door Forem via het ELAO-testsysteem. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/forem-dutch/forem-dutch.component.html</context>
           <context context-type="linenumber">14,20</context>
@@ -232,7 +256,7 @@
       </trans-unit>
       <trans-unit id="4541414784471219830" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Key Learnings<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Throughout the program, I developed strong skills in understanding and communicating in Dutch. I learned to construct sentences, expand vocabulary, and improve listening, reading, writing, and speaking abilities. The program provided a structured and progressive approach, enabling me to gain confidence in practical, everyday use of the language. </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste leerpunten<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Gedurende het programma heb ik sterke vaardigheden ontwikkeld in het begrijpen en communiceren in het Nederlands. Ik leerde zinnen bouwen, mijn woordenschat uitbreiden en mijn luister-, lees-, schrijf- en spreekvaardigheid verbeteren. Het programma bood een gestructureerde en stapsgewijze aanpak, waardoor ik vertrouwen kreeg in het praktische, dagelijkse gebruik van de taal. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste leerpunten<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Gedurende het programma heb ik sterke vaardigheden ontwikkeld in het begrijpen en communiceren in het Nederlands. Ik leerde zinnen bouwen, mijn woordenschat uitbreiden en mijn luister-, lees-, schrijf- en spreekvaardigheid verbeteren. Het programma bood een gestructureerde en stapsgewijze aanpak, waardoor ik vertrouwen kreeg in het praktische, dagelijkse gebruik van de taal. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/forem-dutch/forem-dutch.component.html</context>
           <context context-type="linenumber">23,29</context>
@@ -240,7 +264,7 @@
       </trans-unit>
       <trans-unit id="4844646604832662644" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Skills Acquired<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> By the end of the training, I acquired certified proficiency in Dutch at level B1. I can now communicate effectively in a variety of professional and social situations, demonstrating a solid foundation in both written and spoken Dutch. </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Verworven vaardigheden<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Aan het einde van de opleiding behaalde ik een gecertificeerd niveau B1 Nederlands. Ik kan nu effectief communiceren in diverse professionele en sociale situaties en toon een solide basis in zowel geschreven als gesproken Nederlands. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Verworven vaardigheden<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Aan het einde van de opleiding behaalde ik een gecertificeerd niveau B1 Nederlands. Ik kan nu effectief communiceren in diverse professionele en sociale situaties en toon een solide basis in zowel geschreven als gesproken Nederlands. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/forem-dutch/forem-dutch.component.html</context>
           <context context-type="linenumber">34,38</context>
@@ -248,7 +272,7 @@
       </trans-unit>
       <trans-unit id="5560057304612443507" datatype="html">
         <source>High School</source>
-        <target >Middelbare school</target>
+        <target>Middelbare school</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/high-school/high-school.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -256,7 +280,7 @@
       </trans-unit>
       <trans-unit id="1668863322066840523" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Saint-Stanislas<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Mons (September 2013 - June 2019)</source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Saint-Stanislas<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Mons (september 2013 - juni 2019)</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Saint-Stanislas<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Mons (september 2013 - juni 2019)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/high-school/high-school.component.html</context>
           <context context-type="linenumber">5,6</context>
@@ -264,7 +288,7 @@
       </trans-unit>
       <trans-unit id="8806157457488458288" datatype="html">
         <source> From 2013 to 2019, I attended Collège Saint-Stanislas in Mons, Belgium, where I completed a rigorous six-year secondary education program and earned my <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>CESS diploma in June 2019<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. </source>
-        <target > Van 2013 tot 2019 volgde ik het Collège Saint-Stanislas in Bergen, België, waar ik een intensief zesjarig secundair onderwijsprogramma afrondde en in juni 2019 mijn <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>CESS-diploma behaalde<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. </target>
+        <target> Van 2013 tot 2019 volgde ik het Collège Saint-Stanislas in Bergen, België, waar ik een intensief zesjarig secundair onderwijsprogramma afrondde en in juni 2019 mijn <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>CESS-diploma behaalde<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/high-school/high-school.component.html</context>
           <context context-type="linenumber">15,19</context>
@@ -272,7 +296,7 @@
       </trans-unit>
       <trans-unit id="1729103781031688865" datatype="html">
         <source> During my studies, I pursued a specialized track that emphasized both linguistic and scientific subjects: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>English Immersion<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: I followed an intensive English immersion program from my third year through to my final year. This included advanced English language courses entirely conducted in English, with no use of French. Vocabulary lists, explanations, and interactions were exclusively in English, fostering complete language immersion. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Advanced Sciences in English Immersion<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: As part of my science track, I studied Physics, Chemistry, and Biology in advanced-level courses taught entirely in English. This allowed me to deepen my knowledge of scientific principles while strengthening my technical vocabulary and communication skills in English. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Latin<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Throughout my six years of secondary school, I studied Latin, building a strong foundation in classical languages and analytical thinking. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Spanish<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: In my final two years, I added Spanish to my curriculum, attending two hours of lessons per week and developing conversational proficiency. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></source>
-        <target > Tijdens mijn studies volgde ik een gespecialiseerd traject met nadruk op zowel taalkundige als wetenschappelijke vakken: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Engelse Immersie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik volgde een intensief Engelse immersieprogramma vanaf mijn derde tot en met mijn laatste jaar. Dit omvatte gevorderde Engelse taallessen die volledig in het Engels werden gegeven, zonder gebruik van het Frans. Woordenschatlijsten, uitleg en interacties waren uitsluitend in het Engels, wat volledige taalonderdompeling bevorderde. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Geavanceerde Wetenschappen in Engelse Immersie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Als onderdeel van mijn wetenschappelijk traject volgde ik Fysica, Chemie en Biologie in gevorderde cursussen die volledig in het Engels werden gegeven. Hierdoor kon ik mijn kennis van wetenschappelijke principes verdiepen en mijn technische woordenschat en communicatieve vaardigheden in het Engels versterken. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Latijn<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Gedurende mijn zes jaar middelbare school studeerde ik Latijn, waarmee ik een sterke basis legde in klassieke talen en analytisch denken. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Spaans<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: In mijn laatste twee jaar voegde ik Spaans toe aan mijn curriculum, met twee uur les per week, waardoor ik een vlotte spreekvaardigheid ontwikkelde. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
+        <target> Tijdens mijn studies volgde ik een gespecialiseerd traject met nadruk op zowel taalkundige als wetenschappelijke vakken: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Engelse Immersie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik volgde een intensief Engelse immersieprogramma vanaf mijn derde tot en met mijn laatste jaar. Dit omvatte gevorderde Engelse taallessen die volledig in het Engels werden gegeven, zonder gebruik van het Frans. Woordenschatlijsten, uitleg en interacties waren uitsluitend in het Engels, wat volledige taalonderdompeling bevorderde. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Geavanceerde Wetenschappen in Engelse Immersie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Als onderdeel van mijn wetenschappelijk traject volgde ik Fysica, Chemie en Biologie in gevorderde cursussen die volledig in het Engels werden gegeven. Hierdoor kon ik mijn kennis van wetenschappelijke principes verdiepen en mijn technische woordenschat en communicatieve vaardigheden in het Engels versterken. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Latijn<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Gedurende mijn zes jaar middelbare school studeerde ik Latijn, waarmee ik een sterke basis legde in klassieke talen en analytisch denken. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Spaans<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: In mijn laatste twee jaar voegde ik Spaans toe aan mijn curriculum, met twee uur les per week, waardoor ik een vlotte spreekvaardigheid ontwikkelde. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/high-school/high-school.component.html</context>
           <context context-type="linenumber">20,56</context>
@@ -280,7 +304,7 @@
       </trans-unit>
       <trans-unit id="8378889434236597819" datatype="html">
         <source> This diverse and challenging curriculum allowed me to develop strong critical thinking, problem-solving, and multilingual communication skills, which continue to serve me well in academic and professional contexts. </source>
-        <target > Dit diverse en uitdagende curriculum stelde mij in staat sterke vaardigheden te ontwikkelen in kritisch denken, probleemoplossing en meertalige communicatie, die mij nog steeds goed van pas komen in academische en professionele contexten. </target>
+        <target> Dit diverse en uitdagende curriculum stelde mij in staat sterke vaardigheden te ontwikkelen in kritisch denken, probleemoplossing en meertalige communicatie, die mij nog steeds goed van pas komen in academische en professionele contexten. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/high-school/high-school.component.html</context>
           <context context-type="linenumber">57,59</context>
@@ -288,7 +312,7 @@
       </trans-unit>
       <trans-unit id="7657832718558123361" datatype="html">
         <source>Internship</source>
-        <target >Stage</target>
+        <target>Stage</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/internship/internship.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -296,7 +320,7 @@
       </trans-unit>
       <trans-unit id="8600709518371070989" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Fullstack Developer at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.etnic.be/&quot;&gt;"/>ETNIC<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Brussels (02/2024 - 05/2024) </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Fullstack Developer bij <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.etnic.be/&quot;&gt;"/>ETNIC<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Brussel (02/2024 - 05/2024) </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Fullstack Developer bij <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.etnic.be/&quot;&gt;"/>ETNIC<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Brussel (02/2024 - 05/2024) </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/internship/internship.component.html</context>
           <context context-type="linenumber">5,7</context>
@@ -304,7 +328,7 @@
       </trans-unit>
       <trans-unit id="1258906427378690192" datatype="html">
         <source> During my internship at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.etnic.be/&quot;&gt;"/>ETNIC<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>&apos;s Innovation Center (R&amp;D department), I worked as a Fullstack Developer to design and develop an internal web application aimed at document management and interactive chatbot integration. The key feature of this application was its ability to act as a Retrieval-Augmented Generation (<x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://en.wikipedia.org/wiki/Retrieval-augmented_generation&quot;&gt;"/>RAG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>) system, allowing users to interactively query and discuss documents stored within the platform. The primary goal was to streamline document-related tasks and enable intuitive access to information, revolutionizing how employees interacted with organizational knowledge. </source>
-        <target > Tijdens mijn stage bij <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.etnic.be/&quot;&gt;"/>ETNIC<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> Innovation Center (R&D-afdeling) werkte ik als Fullstack Developer aan het ontwerpen en ontwikkelen van een interne webapplicatie gericht op documentbeheer en interactieve chatbot-integratie. De belangrijkste functie van deze applicatie was het functioneren als een Retrieval-Augmented Generation (<x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://en.wikipedia.org/wiki/Retrieval-augmented_generation&quot;&gt;"/>RAG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>)-systeem, waarmee gebruikers interactief documenten binnen het platform konden opvragen en bespreken. Het primaire doel was het stroomlijnen van documentgerelateerde taken en het mogelijk maken van intuïtieve toegang tot informatie, waarmee de manier waarop medewerkers met organisatiekennis omgaan werd vernieuwd. </target>
+        <target> Tijdens mijn stage bij <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.etnic.be/&quot;&gt;"/>ETNIC<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> Innovation Center (R&amp;D-afdeling) werkte ik als Fullstack Developer aan het ontwerpen en ontwikkelen van een interne webapplicatie gericht op documentbeheer en interactieve chatbot-integratie. De belangrijkste functie van deze applicatie was het functioneren als een Retrieval-Augmented Generation (<x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://en.wikipedia.org/wiki/Retrieval-augmented_generation&quot;&gt;"/>RAG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>)-systeem, waarmee gebruikers interactief documenten binnen het platform konden opvragen en bespreken. Het primaire doel was het stroomlijnen van documentgerelateerde taken en het mogelijk maken van intuïtieve toegang tot informatie, waarmee de manier waarop medewerkers met organisatiekennis omgaan werd vernieuwd. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/internship/internship.component.html</context>
           <context context-type="linenumber">17,26</context>
@@ -312,7 +336,7 @@
       </trans-unit>
       <trans-unit id="6684284945376092965" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Key Contributions<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Throughout this internship, I collaborated closely with a small team of developers, working from the ground up to build a seamless and user-friendly application. My contributions included: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Frontend Development<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: The user interface is built using <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Angular 17, TypeScript, Angular Material, HTML,<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>SCSS<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, ensuring an intuitive and accessible user experience. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Backend API Implementation<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Developed the backend REST API with <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>FastAPI<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, ensuring robust performance and scalability. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Asynchronous Task Management<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Designed an efficient file upload system using <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Celery<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and Redis to handle long-running tasks asynchronously. This improved the system&apos;s performance and reliability. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Chatbot Integration<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Implemented a conversational AI chatbot using a RAG architecture powered by <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>LangChain, Mistral<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> AI for the generative AI, and vector search. This allowed users to receive contextualized responses based on document content. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Database Management<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Managed data storage with <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>MongoDB Atlas<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> for the main database and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Redis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> for caching and task queuing. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Testing and Quality Assurance<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Wrote and executed tests using <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Pytest<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to ensure code reliability and maintainability. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Containerization and Deployment<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Utilized <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Docker<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> for containerized development, ensuring consistent environments across local and cloud-based systems on <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Azure<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste bijdragen<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Tijdens deze stage werkte ik nauw samen met een klein team van ontwikkelaars, waarbij we vanaf nul een gebruiksvriendelijke applicatie bouwden. Mijn bijdragen omvatten: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Frontend-ontwikkeling<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: De gebruikersinterface is gebouwd met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Angular 17, TypeScript, Angular Material, HTML,<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>SCSS<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, wat zorgt voor een intuïtieve en toegankelijke gebruikerservaring. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Backend API-implementatie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: De backend REST API is ontwikkeld met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>FastAPI<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, voor robuuste prestaties en schaalbaarheid. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Asynchrone taakverwerking<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ontworpen een efficiënt bestand-upload systeem met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Celery<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en Redis om langdurige taken asynchroon te verwerken. Dit verbeterde de prestaties en betrouwbaarheid van het systeem. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Chatbot-integratie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Implementeerde een conversatie-AI-chatbot met een RAG-architectuur, aangedreven door <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>LangChain, Mistral<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> AI voor de generatieve AI en vector search. Hierdoor konden gebruikers contextuele antwoorden ontvangen op basis van documentinhoud. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Databasebeheer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Beheerde gegevensopslag met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>MongoDB Atlas<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> als hoofd-database en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Redis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor caching en taakverdeling. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Testen en kwaliteitsborging<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Schreef en voerde tests uit met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Pytest<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> om codebetrouwbaarheid en onderhoudbaarheid te waarborgen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Containerisatie en uitrol<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Gebruikte <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Docker<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor containerontwikkeling, wat zorgde voor consistente omgevingen op zowel lokale als cloudsystemen op <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Azure<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste bijdragen<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Tijdens deze stage werkte ik nauw samen met een klein team van ontwikkelaars, waarbij we vanaf nul een gebruiksvriendelijke applicatie bouwden. Mijn bijdragen omvatten: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Frontend-ontwikkeling<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: De gebruikersinterface is gebouwd met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Angular 17, TypeScript, Angular Material, HTML,<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>SCSS<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, wat zorgt voor een intuïtieve en toegankelijke gebruikerservaring. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Backend API-implementatie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: De backend REST API is ontwikkeld met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>FastAPI<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, voor robuuste prestaties en schaalbaarheid. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Asynchrone taakverwerking<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ontworpen een efficiënt bestand-upload systeem met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Celery<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en Redis om langdurige taken asynchroon te verwerken. Dit verbeterde de prestaties en betrouwbaarheid van het systeem. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Chatbot-integratie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Implementeerde een conversatie-AI-chatbot met een RAG-architectuur, aangedreven door <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>LangChain, Mistral<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> AI voor de generatieve AI en vector search. Hierdoor konden gebruikers contextuele antwoorden ontvangen op basis van documentinhoud. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Databasebeheer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Beheerde gegevensopslag met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>MongoDB Atlas<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> als hoofd-database en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Redis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor caching en taakverdeling. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Testen en kwaliteitsborging<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Schreef en voerde tests uit met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Pytest<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> om codebetrouwbaarheid en onderhoudbaarheid te waarborgen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Containerisatie en uitrol<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Gebruikte <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Docker<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor containerontwikkeling, wat zorgde voor consistente omgevingen op zowel lokale als cloudsystemen op <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Azure<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/internship/internship.component.html</context>
           <context context-type="linenumber">29,79</context>
@@ -320,7 +344,7 @@
       </trans-unit>
       <trans-unit id="3586380615075346381" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Project Methodology<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We followed the Agile methodology, working in week sprints. The team actively used stories, sprint planning, and retrospectives to ensure iterative progress and clear communication. This collaborative environment helped me gain firsthand experience in professional software development workflows. </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Projectmethodologie<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We volgden de Agile-methodologie en werkten in wekelijkse sprints. Het team gebruikte actief stories, sprintplanning en retrospectives om iteratieve vooruitgang en duidelijke communicatie te waarborgen. Deze samenwerkende omgeving gaf mij praktijkervaring met professionele softwareontwikkelingsprocessen. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Projectmethodologie<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We volgden de Agile-methodologie en werkten in wekelijkse sprints. Het team gebruikte actief stories, sprintplanning en retrospectives om iteratieve vooruitgang en duidelijke communicatie te waarborgen. Deze samenwerkende omgeving gaf mij praktijkervaring met professionele softwareontwikkelingsprocessen. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/internship/internship.component.html</context>
           <context context-type="linenumber">80,86</context>
@@ -328,7 +352,7 @@
       </trans-unit>
       <trans-unit id="2470105241723150868" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Takeaways and Growth<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> This internship was a transformative experience that allowed me to Strengthen my skills in fullstack development by working on a complete project lifecycle. I also explored the integration of generative AI into real-world applications and Deepen my understanding of asynchronous processing and task queues for performance optimization. This project allow me to enhance my teamwork and project management abilities in an Agile environment. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> By the end of the internship, I had gained invaluable insights into designing innovative solutions and integrating cutting-edge technologies into practical use cases </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste inzichten en groei<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Deze stage was een transformerende ervaring die mij in staat stelde mijn vaardigheden in fullstack development te versterken door te werken aan een volledig projecttraject. Ik onderzocht ook de integratie van generatieve AI in reële toepassingen en verdiepte mijn kennis van asynchrone verwerking en taakqueues voor prestatieoptimalisatie. Dit project stelde mij in staat mijn teamwerk- en projectmanagementvaardigheden in een Agile-omgeving te verbeteren. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Aan het einde van de stage had ik waardevolle inzichten verworven in het ontwerpen van innovatieve oplossingen en het integreren van geavanceerde technologieën in praktische use-cases. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste inzichten en groei<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Deze stage was een transformerende ervaring die mij in staat stelde mijn vaardigheden in fullstack development te versterken door te werken aan een volledig projecttraject. Ik onderzocht ook de integratie van generatieve AI in reële toepassingen en verdiepte mijn kennis van asynchrone verwerking en taakqueues voor prestatieoptimalisatie. Dit project stelde mij in staat mijn teamwerk- en projectmanagementvaardigheden in een Agile-omgeving te verbeteren. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Aan het einde van de stage had ik waardevolle inzichten verworven in het ontwerpen van innovatieve oplossingen en het integreren van geavanceerde technologieën in praktische use-cases. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/internship/internship.component.html</context>
           <context context-type="linenumber">89,100</context>
@@ -336,7 +360,7 @@
       </trans-unit>
       <trans-unit id="4594336648164142265" datatype="html">
         <source>Project Engineer</source>
-        <target >Project Engineer</target>
+        <target>Project Engineer</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/project-engineer-technord/project-engineer-technord.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -344,7 +368,7 @@
       </trans-unit>
       <trans-unit id="2455777059098870053" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>MES Project Engineer at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.technord.com/&quot;&gt;"/>Technord<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Mons (03/2026 - Present)</source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>MES Project Engineer bij <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.technord.com/&quot;&gt;"/>Technord<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Mons (03/2026 - heden)</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>MES Project Engineer bij <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.technord.com/&quot;&gt;"/>Technord<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Mons (03/2026 - heden)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/project-engineer-technord/project-engineer-technord.component.html</context>
           <context context-type="linenumber">5,6</context>
@@ -352,7 +376,7 @@
       </trans-unit>
       <trans-unit id="8216057427206690625" datatype="html">
         <source> I joined <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.technord.com/&quot;&gt;"/>Technord<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> as a MES Project Engineer, working within a company specializing in industrial automation and digitalization. My role focuses on the implementation and integration of <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Manufacturing Execution Systems<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> using, helping industrial clients bridge the gap between their production floor operations and IT systems. </source>
-        <target > Ik ben begonnen bij <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.technord.com/&quot;&gt;"/>Technord<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> als MES Project Engineer, binnen een bedrijf dat gespecialiseerd is in industriële automatisering en digitalisering. Mijn rol richt zich op de implementatie en integratie van <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Manufacturing Execution Systems<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, waarmee industriële klanten de kloof tussen hun productieprocessen en IT-systemen kunnen overbruggen. </target>
+        <target> Ik ben begonnen bij <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.technord.com/&quot;&gt;"/>Technord<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> als MES Project Engineer, binnen een bedrijf dat gespecialiseerd is in industriële automatisering en digitalisering. Mijn rol richt zich op de implementatie en integratie van <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Manufacturing Execution Systems<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, waarmee industriële klanten de kloof tussen hun productieprocessen en IT-systemen kunnen overbruggen. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/project-engineer-technord/project-engineer-technord.component.html</context>
           <context context-type="linenumber">15,19</context>
@@ -360,7 +384,7 @@
       </trans-unit>
       <trans-unit id="1125768089746257839" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Key Responsibilities<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Configuration &amp; Parametrization<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Setting up and tailoring to match each client&apos;s specific industrial processes, ensuring the system accurately reflects real production workflows. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Development &amp; Customization<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Developing custom extensions and adaptations within the MES platform to meet requirements that go beyond out-of-the-box capabilities. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Client Deployment<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Deploying MES solutions on-site at industrial facilities, coordinating with clients to ensure smooth integration with existing infrastructure and minimal disruption to production. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Testing &amp; Validation<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Conducting functional tests and validation procedures to guarantee system reliability, data accuracy, and compliance with client specifications before go-live. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste verantwoordelijkheden<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Configuratie & parametrisatie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Opzetten en afstemmen op de specifieke industriële processen van elke klant, zodat het systeem de echte productieprocessen nauwkeurig weerspiegelt. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Ontwikkeling & maatwerk<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ontwikkelen van aangepaste extensies en aanpassingen binnen het MES-platform om te voldoen aan eisen die verder gaan dan de standaardmogelijkheden. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Implementatie bij de klant<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: MES-oplossingen implementeren op locatie bij industriële bedrijven, in overleg met klanten om een soepele integratie met bestaande infrastructuur en minimale verstoring van de productie te waarborgen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Testen & validatie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Functionele testen en validatieprocedures uitvoeren om de betrouwbaarheid van het systeem, de nauwkeurigheid van de gegevens en de naleving van de klantspecificaties vóór livegang te garanderen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste verantwoordelijkheden<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Configuratie &amp; parametrisatie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Opzetten en afstemmen op de specifieke industriële processen van elke klant, zodat het systeem de echte productieprocessen nauwkeurig weerspiegelt. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Ontwikkeling &amp; maatwerk<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ontwikkelen van aangepaste extensies en aanpassingen binnen het MES-platform om te voldoen aan eisen die verder gaan dan de standaardmogelijkheden. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Implementatie bij de klant<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: MES-oplossingen implementeren op locatie bij industriële bedrijven, in overleg met klanten om een soepele integratie met bestaande infrastructuur en minimale verstoring van de productie te waarborgen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Testen &amp; validatie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Functionele testen en validatieprocedures uitvoeren om de betrouwbaarheid van het systeem, de nauwkeurigheid van de gegevens en de naleving van de klantspecificaties vóór livegang te garanderen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/project-engineer-technord/project-engineer-technord.component.html</context>
           <context context-type="linenumber">22,49</context>
@@ -368,7 +392,7 @@
       </trans-unit>
       <trans-unit id="2660421636644089080" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Takeaways and Growth<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> This position marks my first step into the world of industrial software, allowing me to combine my software development background with the realities of manufacturing environments. Working directly with clients on complex deployments has strengthened my ability to understand operational needs, adapt technical solutions accordingly, and deliver reliable systems in demanding contexts. </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste inzichten en groei<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Deze functie markeert mijn eerste stap in de wereld van industriële software, waardoor ik mijn achtergrond in softwareontwikkeling kan combineren met de realiteit van productieomgevingen. Direct werken met klanten aan complexe implementaties heeft mijn vermogen versterkt om operationele behoeften te begrijpen, technische oplossingen daarop af te stemmen en betrouwbare systemen te leveren in veeleisende contexten. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Belangrijkste inzichten en groei<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Deze functie markeert mijn eerste stap in de wereld van industriële software, waardoor ik mijn achtergrond in softwareontwikkeling kan combineren met de realiteit van productieomgevingen. Direct werken met klanten aan complexe implementaties heeft mijn vermogen versterkt om operationele behoeften te begrijpen, technische oplossingen daarop af te stemmen en betrouwbare systemen te leveren in veeleisende contexten. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/project-engineer-technord/project-engineer-technord.component.html</context>
           <context context-type="linenumber">50,55</context>
@@ -376,7 +400,7 @@
       </trans-unit>
       <trans-unit id="8814362341165825077" datatype="html">
         <source>University College</source>
-        <target >Hogeschool</target>
+        <target>Hogeschool</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university-college/university-college.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -384,7 +408,7 @@
       </trans-unit>
       <trans-unit id="3772449172946170492" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Computer Science, specializing in Application Development<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> HELHa Mons (2021 - 2024)</source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Informatica, specialisatie Applicatieontwikkeling<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> HELHa Mons (2021 - 2024)</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Informatica, specialisatie Applicatieontwikkeling<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> HELHa Mons (2021 - 2024)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university-college/university-college.component.html</context>
           <context context-type="linenumber">5,6</context>
@@ -392,7 +416,7 @@
       </trans-unit>
       <trans-unit id="8203259170137752295" datatype="html">
         <source> I completed my Bachelor&apos;s degree in Computer Science, specializing in Application Development, at HELHa in Mons. The program trained me as a Fullstack Developer, equipping me with the ability to work on both frontend and backend systems. However, through my projects and practical experiences, I gained more extensive expertise in backend development, where I excel at designing and managing robust systems. </source>
-        <target > Ik behaalde mijn bachelor in de informatica, specialisatie Applicatieontwikkeling, aan HELHa in Bergen. Het programma leidde mij op tot Fullstack Developer en gaf mij de mogelijkheid om zowel aan frontend- als backendsystemen te werken. Door mijn projecten en praktijkervaring heb ik echter meer uitgebreide expertise opgedaan in backend development, waar ik uitblink in het ontwerpen en beheren van robuuste systemen. </target>
+        <target> Ik behaalde mijn bachelor in de informatica, specialisatie Applicatieontwikkeling, aan HELHa in Bergen. Het programma leidde mij op tot Fullstack Developer en gaf mij de mogelijkheid om zowel aan frontend- als backendsystemen te werken. Door mijn projecten en praktijkervaring heb ik echter meer uitgebreide expertise opgedaan in backend development, waar ik uitblink in het ontwerpen en beheren van robuuste systemen. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university-college/university-college.component.html</context>
           <context context-type="linenumber">15,20</context>
@@ -400,7 +424,7 @@
       </trans-unit>
       <trans-unit id="4849298487564315611" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Notable Projects<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Throughout my studies, I participated in several impactful projects that prepared me for professional challenges: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Web Application and APIs<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: I developed scalable web applications and a mobile application using modern frameworks and tools, integrating APIs and databases into functional, scalable systems. One project used <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Angular<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> for the frontend, <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C# (ASP.NET Core)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> for backend APIs, and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>SQL Server<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> for database management. The other was developed using <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Bootstrap<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> for the frontend part and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Jakarta EE<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to create the backend APIs, These projects involved containerization with <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Docker<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, ensuring smooth deployment and scalability. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Game Development<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: I created video games using <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C++<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>JavaFX<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, exploring graphical rendering, game mechanics, and performance optimization. These projects helped me understand low-level programming and interactive system design. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Mobile Applications<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: I built a mobile application using <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Kotlin<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Android Studio<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, focusing on user experience and seamless integration with backend APIs. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Networks and Systems<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Learned technical architecture and hardware systems, along with network fundamentals. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Websites<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Developed web platforms with <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>PHP<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, leveraging database systems like <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>MySQL<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Amazon SQL<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to ensure efficient data handling and secure user management. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Real-World Scenarios<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Every project followed a complete software development lifecycle, including requirements gathering, design (with UML and wireframes), coding, testing, and deployment. Additionally, I mastered Scrum and Agile methodologies, regularly applying them to project management, ensuring clear communication, iterative progress, and delivery of high-quality results. These projects often required self-learning of new tools and technologies to meet specific objectives. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Opmerkelijke projecten<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Tijdens mijn studie nam ik deel aan verschillende impactvolle projecten die mij voorbereidden op professionele uitdagingen: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Webapplicaties en API's<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik ontwikkelde schaalbare webapplicaties en een mobiele applicatie met moderne frameworks en tools, waarbij ik API's en databases integreerde tot functionele, schaalbare systemen. Eén project gebruikte <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Angular<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor de frontend, <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C# (ASP.NET Core)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor backend-API's en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>SQL Server<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor databasebeheer. Het andere werd ontwikkeld met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Bootstrap<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor het frontend-gedeelte en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Jakarta EE<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> om de backend-API's te creëren. Deze projecten omvatten containerisatie met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Docker<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, wat zorgde voor soepele uitrol en schaalbaarheid. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Game development<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik maakte videogames met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C++<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>JavaFX<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, waarbij ik grafische rendering, spelmechanica en prestatieoptimalisatie onderzocht. Deze projecten hielpen mij laag-niveau programmeren en interactieve systeemontwerpen te begrijpen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Mobiele applicaties<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik bouwde een mobiele applicatie met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Kotlin<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Android Studio<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, met focus op gebruikerservaring en naadloze integratie met backend-API's. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Netwerken en systemen<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Leerde technische architectuur en hardwaresystemen, samen met netwerkfundamenten. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Websites<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ontwikkelde webplatformen met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>PHP<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, gebruikmakend van databasesystemen zoals <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>MySQL<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Amazon SQL<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor efficiënte gegevensverwerking en veilige gebruikersbeheer. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Reële scenario's<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Elk project volgde een volledige softwareontwikkelingscyclus, inclusief requirementsanalyse, ontwerp (met UML en wireframes), coderen, testen en uitrol. Daarnaast beheers ik Scrum en Agile-methodologieën, die ik regelmatig toepaste in projectmanagement, wat zorgde voor duidelijke communicatie, iteratieve vooruitgang en het leveren van hoogwaardige resultaten. Deze projecten vereisten vaak zelfstudie van nieuwe tools en technologieën om specifieke doelstellingen te behalen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Opmerkelijke projecten<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Tijdens mijn studie nam ik deel aan verschillende impactvolle projecten die mij voorbereidden op professionele uitdagingen: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Webapplicaties en API's<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik ontwikkelde schaalbare webapplicaties en een mobiele applicatie met moderne frameworks en tools, waarbij ik API's en databases integreerde tot functionele, schaalbare systemen. Eén project gebruikte <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Angular<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor de frontend, <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C# (ASP.NET Core)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor backend-API's en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>SQL Server<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor databasebeheer. Het andere werd ontwikkeld met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Bootstrap<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor het frontend-gedeelte en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Jakarta EE<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> om de backend-API's te creëren. Deze projecten omvatten containerisatie met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Docker<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, wat zorgde voor soepele uitrol en schaalbaarheid. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Game development<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik maakte videogames met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C++<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>JavaFX<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, waarbij ik grafische rendering, spelmechanica en prestatieoptimalisatie onderzocht. Deze projecten hielpen mij laag-niveau programmeren en interactieve systeemontwerpen te begrijpen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Mobiele applicaties<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik bouwde een mobiele applicatie met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Kotlin<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Android Studio<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, met focus op gebruikerservaring en naadloze integratie met backend-API's. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Netwerken en systemen<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Leerde technische architectuur en hardwaresystemen, samen met netwerkfundamenten. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Websites<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ontwikkelde webplatformen met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>PHP<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, gebruikmakend van databasesystemen zoals <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>MySQL<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Amazon SQL<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> voor efficiënte gegevensverwerking en veilige gebruikersbeheer. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Reële scenario's<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Elk project volgde een volledige softwareontwikkelingscyclus, inclusief requirementsanalyse, ontwerp (met UML en wireframes), coderen, testen en uitrol. Daarnaast beheers ik Scrum en Agile-methodologieën, die ik regelmatig toepaste in projectmanagement, wat zorgde voor duidelijke communicatie, iteratieve vooruitgang en het leveren van hoogwaardige resultaten. Deze projecten vereisten vaak zelfstudie van nieuwe tools en technologieën om specifieke doelstellingen te behalen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university-college/university-college.component.html</context>
           <context context-type="linenumber">25,83</context>
@@ -408,7 +432,7 @@
       </trans-unit>
       <trans-unit id="6592871372856444184" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Academic Focus<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The program offered a mix of technical and theoretical courses that broadened my understanding of computer science: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Software Development and Design<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: I explored design patterns, system architecture, and best practices for robust and maintainable software. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Mathematics and Machine Learning<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: I gained a foundation in analytical problem-solving and data-driven systems. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Technical Systems and Networks<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: I studied the fundamentals of networking, hardware, and operating systems, enabling me to understand how software interacts with underlying infrastructure. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Business and Communication<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Courses in microeconomics, macroeconomics, and English for Computer Scientists enhanced my ability to communicate and collaborate in a professional context. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Academische focus<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Het programma bood een mix van technische en theoretische vakken die mijn begrip van informatica verbreedden: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Softwareontwikkeling en -ontwerp<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik onderzocht ontwerppatronen, systeemarchitectuur en best practices voor robuuste en onderhoudbare software. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Wiskunde en Machine Learning<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik verwierf een basis in analytisch probleemoplossen en data-gedreven systemen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Technische systemen en netwerken<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik bestudeerde de basisprincipes van netwerken, hardware en besturingssystemen, waardoor ik begreep hoe software samenwerkt met de onderliggende infrastructuur. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Bedrijf en communicatie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Vakken in micro-economie, macro-economie en Engels voor informatici verbeterden mijn vermogen om te communiceren en samen te werken in een professionele context. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Academische focus<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Het programma bood een mix van technische en theoretische vakken die mijn begrip van informatica verbreedden: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Softwareontwikkeling en -ontwerp<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik onderzocht ontwerppatronen, systeemarchitectuur en best practices voor robuuste en onderhoudbare software. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Wiskunde en Machine Learning<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik verwierf een basis in analytisch probleemoplossen en data-gedreven systemen. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Technische systemen en netwerken<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Ik bestudeerde de basisprincipes van netwerken, hardware en besturingssystemen, waardoor ik begreep hoe software samenwerkt met de onderliggende infrastructuur. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Bedrijf en communicatie<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Vakken in micro-economie, macro-economie en Engels voor informatici verbeterden mijn vermogen om te communiceren en samen te werken in een professionele context. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university-college/university-college.component.html</context>
           <context context-type="linenumber">84,113</context>
@@ -416,7 +440,7 @@
       </trans-unit>
       <trans-unit id="8499978004916820555" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Final Project (TFE)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> My thesis, titled &quot;Cody: A Web Application Facilitating Documentation Access Using AI&quot;, involved the creation of a Retrieval-Augmented Generation (RAG) system. This project was part of my internship, detailed in its respective section. IT exemplified my ability to combine theoretical knowledge with practical implementation, addressing real-world documentation challenges. It also solidified my skills in fullstack development and collaborative problem-solving. </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Eindwerk (TFE)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Mijn thesis, getiteld "Cody: Een webapplicatie die documentatietoegang faciliteert met behulp van AI", omvatte het creëren van een Retrieval-Augmented Generation (RAG)-systeem. Dit project maakte deel uit van mijn stage, die verder wordt toegelicht in het desbetreffende onderdeel. Het illustreerde mijn vermogen om theoretische kennis te combineren met praktische implementatie, waarbij ik reële documentatie-uitdagingen aanpakte. Het verstevigde ook mijn vaardigheden in fullstack development en samenwerkend probleemoplossen. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Eindwerk (TFE)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Mijn thesis, getiteld "Cody: Een webapplicatie die documentatietoegang faciliteert met behulp van AI", omvatte het creëren van een Retrieval-Augmented Generation (RAG)-systeem. Dit project maakte deel uit van mijn stage, die verder wordt toegelicht in het desbetreffende onderdeel. Het illustreerde mijn vermogen om theoretische kennis te combineren met praktische implementatie, waarbij ik reële documentatie-uitdagingen aanpakte. Het verstevigde ook mijn vaardigheden in fullstack development en samenwerkend probleemoplossen. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university-college/university-college.component.html</context>
           <context context-type="linenumber">114,122</context>
@@ -424,7 +448,7 @@
       </trans-unit>
       <trans-unit id="6832768902254722416" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Personal Growth<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> This program significantly shaped my professional aspirations. I transitioned from mastering the fundamentals of programming to confidently tackling complex projects. Beyond technical expertise, I developed strong skills in project management, teamwork, and problem-solving, which continue to guide my professional journey. </source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Persoonlijke groei<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Dit programma heeft mijn professionele ambities sterk gevormd. Ik maakte de overstap van het beheersen van de basisprincipes van programmeren naar het vol vertrouwen aanpakken van complexe projecten. Naast technische expertise ontwikkelde ik sterke vaardigheden in projectmanagement, teamwork en probleemoplossing, die mij blijven begeleiden in mijn professionele loopbaan. </target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Persoonlijke groei<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Dit programma heeft mijn professionele ambities sterk gevormd. Ik maakte de overstap van het beheersen van de basisprincipes van programmeren naar het vol vertrouwen aanpakken van complexe projecten. Naast technische expertise ontwikkelde ik sterke vaardigheden in projectmanagement, teamwork en probleemoplossing, die mij blijven begeleiden in mijn professionele loopbaan. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university-college/university-college.component.html</context>
           <context context-type="linenumber">126,132</context>
@@ -432,7 +456,7 @@
       </trans-unit>
       <trans-unit id="4371440829475265358" datatype="html">
         <source>University</source>
-        <target >Universiteit</target>
+        <target>Universiteit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university/university.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -440,7 +464,7 @@
       </trans-unit>
       <trans-unit id="7919910521683092549" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Bachelor&apos;s in Computer Science<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Ecole Polytechnique de l&apos;UCLouvain (2019 - 2021)</source>
-        <target ><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Bachelor in de informatica<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Ecole Polytechnique de l'UCLouvain (2019 - 2021)</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Bachelor in de informatica<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Ecole Polytechnique de l'UCLouvain (2019 - 2021)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university/university.component.html</context>
           <context context-type="linenumber">5,6</context>
@@ -448,7 +472,7 @@
       </trans-unit>
       <trans-unit id="71029824548757674" datatype="html">
         <source> After high school, I pursued a Bachelor&apos;s in Computer Science at the École Polytechnique de Louvain in Louvain-la-Neuve, studying there for two years. This program created my understanding of programming, algorithms, and the theoretical foundations of computer science and deepened my passion for new technologies. </source>
-        <target > Na de middelbare school volgde ik een bachelor in de informatica aan de École Polytechnique de Louvain in Louvain-la-Neuve, waar ik twee jaar studeerde. Dit programma vormde mijn begrip van programmeren, algoritmen en de theoretische basis van informatica en verdiepte mijn passie voor nieuwe technologieën. </target>
+        <target> Na de middelbare school volgde ik een bachelor in de informatica aan de École Polytechnique de Louvain in Louvain-la-Neuve, waar ik twee jaar studeerde. Dit programma vormde mijn begrip van programmeren, algoritmen en de theoretische basis van informatica en verdiepte mijn passie voor nieuwe technologieën. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university/university.component.html</context>
           <context context-type="linenumber">15,17</context>
@@ -456,7 +480,7 @@
       </trans-unit>
       <trans-unit id="6134426220919981393" datatype="html">
         <source><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Programming Courses<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Developed strong skills in <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Java<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> through courses and projects, including the creation of a web application using <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python, Flask <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/> HTML<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> or <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Java<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> application with <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Unittest<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> and a quiz application in <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. In my second year, I independently learned <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to complete a team project. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Algorithms and Paradigms<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Studied algorithm design and explored different programming paradigms, including concurrency. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Foundations of Computer Science<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Gained insights into computability, logic, and complexity, as well as the hardware basics of computer science. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Language<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Developed technical communication skills in English for Computer Scientists. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></source>
-        <target ><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Programmeercursussen<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Sterke vaardigheden ontwikkeld in <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Java<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> via cursussen en projecten, waaronder het maken van een webapplicatie met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python, Flask <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/> HTML<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> of een <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Java<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>-applicatie met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Unittest<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en een quizapplicatie in <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. In mijn tweede jaar leerde ik zelfstandig <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> om een groepsproject te voltooien. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Algoritmen en paradigma's<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Bestudeerde algoritmisch ontwerp en verkende verschillende programmeerparadigma's, waaronder gelijktijdigheid. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Grondslagen van informatica<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Inzicht verworven in berekenbaarheid, logica en complexiteit, evenals de hardwarebasis van informatica. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Taal<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Technische communicatievaardigheden ontwikkeld in Engels voor informatici. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
+        <target><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Programmeercursussen<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Sterke vaardigheden ontwikkeld in <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Java<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> via cursussen en projecten, waaronder het maken van een webapplicatie met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python, Flask <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/> HTML<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> of een <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Java<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>-applicatie met <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Unittest<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en een quizapplicatie in <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Python<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. In mijn tweede jaar leerde ik zelfstandig <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>C<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> om een groepsproject te voltooien. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Algoritmen en paradigma's<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Bestudeerde algoritmisch ontwerp en verkende verschillende programmeerparadigma's, waaronder gelijktijdigheid. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Grondslagen van informatica<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Inzicht verworven in berekenbaarheid, logica en complexiteit, evenals de hardwarebasis van informatica. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Taal<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Technische communicatievaardigheden ontwikkeld in Engels voor informatici. <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university/university.component.html</context>
           <context context-type="linenumber">22,46</context>
@@ -464,7 +488,7 @@
       </trans-unit>
       <trans-unit id="1041370303603930254" datatype="html">
         <source> Although I didn’t complete the program, these courses gave me a solid technical foundation, practical experience, and the ability to adapt quickly to new tools and concepts. </source>
-        <target > Hoewel ik het programma niet heb afgerond, hebben deze cursussen mij een sterke technische basis, praktische ervaring en het vermogen gegeven om mij snel aan te passen aan nieuwe tools en concepten. </target>
+        <target> Hoewel ik het programma niet heb afgerond, hebben deze cursussen mij een sterke technische basis, praktische ervaring en het vermogen gegeven om mij snel aan te passen aan nieuwe tools en concepten. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/experiences/university/university.component.html</context>
           <context context-type="linenumber">47,48</context>
@@ -472,7 +496,7 @@
       </trans-unit>
       <trans-unit id="1116582991264944757" datatype="html">
         <source>Hi, it&apos;s <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Antoine<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target >Hoi, ik ben <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Antoine<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target>Hoi, ik ben <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Antoine<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">3,4</context>
@@ -480,199 +504,647 @@
       </trans-unit>
       <trans-unit id="3749332347941418502" datatype="html">
         <source> I&apos;m a <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;mobile-break&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target > Ik ben een <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;mobile-break&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target> Ik ben een <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;mobile-break&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1946262409830155413" datatype="html">
-        <source>A Belgian with a passion for creating programs and web applications.<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b style=&quot;color: var(--main-color);&quot;&gt;"/> At <x id="INTERPOLATION" equiv-text="{{ myAge }}"/>, I am now MES Project Engineer at Technord, where I work on the deployment, integration and customization of Manufacturing Execution Systems for industrial clients. <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> My role allows me to combine my background in application development with my interest in software engineering. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> I also have experience building fullstack applications, developing a RAG system during my internship at ETNIC, and working with technologies such as Docker, SQL, Git, and Agile methodologies. I’m particularly  interested in designing reliable software solutions that address concrete technical and business challenges. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Feel free to explore my projects and get in touch if you&apos;d like to collaborate! </source>
-        <target > Een Belg met een passie voor het ontwikkelen van programma’s en webapplicaties. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b style=&quot;color: var(--main-color);&quot;&gt;"/> Op <x id="INTERPOLATION" equiv-text="{{ myAge }}"/> jaar, ben ik nu MES-projectingenieur bij Technord, waar ik werk aan de implementatie, integratie en aanpassing van Manufacturing Execution Systems voor industriële klanten.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> In deze functie kan ik mijn achtergrond in applicatieontwikkeling combineren met mijn interesse in software-engineering. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Ik heb ook ervaring met het bouwen van full-stack-applicaties, het ontwikkelen van een RAG-systeem tijdens mijn stage bij ETNIC en het werken met technologieën zoals Docker, SQL, Git en Agile-methodologieën. Ik ben vooral geïnteresseerd in het ontwerpen van betrouwbare softwareoplossingen die concrete technische en zakelijke uitdagingen aanpakken.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Bekijk gerust mijn projecten en neem contact op als je wilt samenwerken! </target>
+        <source> A Belgian with a passion for creating programs and web applications. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b style=&quot;color: var(--main-color);&quot;&gt;"/> At <x id="INTERPOLATION" equiv-text="{{ myAge }}"/>, I am now MES Project Engineer at Technord, where I work on the deployment, integration, and customization of Manufacturing Execution Systems for industrial clients. <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> My role allows me to combine my background in application development with my interest in software engineering. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> I also have experience building fullstack applications, developing a RAG system during my internship at ETNIC, and working with technologies such as Docker, SQL, Git, and Agile methodologies. I’m particularly interested in designing reliable software solutions that address concrete technical and business challenges. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Feel free to explore my projects and get in touch if you&apos;d like to collaborate! </source>
+        <target> Een Belg met een passie voor het ontwikkelen van programma’s en webapplicaties. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b style=&quot;color: var(--main-color);&quot;&gt;"/> Op <x id="INTERPOLATION" equiv-text="{{ myAge }}"/> jaar, ben ik nu MES-projectingenieur bij Technord, waar ik werk aan de implementatie, integratie en aanpassing van Manufacturing Execution Systems voor industriële klanten.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> In deze functie kan ik mijn achtergrond in applicatieontwikkeling combineren met mijn interesse in software-engineering. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Ik heb ook ervaring met het bouwen van full-stack-applicaties, het ontwikkelen van een RAG-systeem tijdens mijn stage bij ETNIC en het werken met technologieën zoals Docker, SQL, Git en Agile-methodologieën. Ik ben vooral geïnteresseerd in het ontwerpen van betrouwbare softwareoplossingen die concrete technische en zakelijke uitdagingen aanpakken.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Bekijk gerust mijn projecten en neem contact op als je wilt samenwerken! </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">6,18</context>
+          <context context-type="linenumber">6,19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2015768712607235736" datatype="html">
+      <trans-unit id="home.hire" datatype="html">
         <source>Hire</source>
-        <target >Inhuren</target>
+        <target>Inhuren</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5526640188121435330" datatype="html">
         <source> Contact <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Me<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target > Contact <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Mij<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target> Contact <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Mij<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">72,74</context>
+          <context context-type="linenumber">91,93</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1559494831645074825" datatype="html">
-        <source>It seems that you&apos;re lost in a perpetual 404 black hole. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Let me help guide you out and get you back home.</source>
-        <target >Het lijkt erop dat je verdwaald bent in een eeuwige 404 zwart gat. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Laat mij je helpen de weg terug te vinden naar huis.</target>
+        <source> It seems that you&apos;re lost in a perpetual 404 black hole. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Let me help guide you out and get you back home. </source>
+        <target>Het lijkt erop dat je verdwaald bent in een eeuwige 404 zwart gat. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Laat mij je helpen de weg terug te vinden naar huis.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/not-found/not-found.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">5,7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8364309938383915497" datatype="html">
         <source> Home </source>
-        <target > Home </target>
+        <target> Home </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/not-found/not-found.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8890553633144307762" datatype="html">
         <source>Back</source>
-        <target >Terug</target>
+        <target>Terug</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/not-found/not-found.component.html</context>
-          <context context-type="linenumber">9,10</context>
+          <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5542267978337217357" datatype="html">
         <source>HELP ME OUT</source>
-        <target >HELP MIJ</target>
+        <target>HELP MIJ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/not-found/not-found.component.html</context>
-          <context context-type="linenumber">11,12</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.title" datatype="html">
+        <source>Privacy Policy</source>
+        <target>Privacybeleid</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.subtitle" datatype="html">
+        <source>How your personal data is handled</source>
+        <target>Hoe er met uw persoonsgegevens wordt omgegaan</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.updated" datatype="html">
+        <source>Last updated:</source>
+        <target>Laatst bijgewerkt:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.close" datatype="html">
+        <source>Back to the portfolio</source>
+        <target>Terug naar de portfolio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.controller.title" datatype="html">
+        <source>1. Who is responsible for your data</source>
+        <target>1. Wie is verantwoordelijk voor uw gegevens</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.controller.intro" datatype="html">
+        <source>This website is a personal portfolio. The data controller within the meaning of the General Data Protection Regulation (GDPR, Regulation (EU) 2016/679) is:</source>
+        <target>Deze website is een persoonlijke portfolio. De verwerkingsverantwoordelijke in de zin van de Algemene Verordening Gegevensbescherming (AVG, Verordening (EU) 2016/679) is:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.controller.country" datatype="html">
+        <source>Belgium</source>
+        <target>België</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.s1.email" datatype="html">
+        <source>Email : </source>
+        <target>E-mail: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.title" datatype="html">
+        <source>2. What data is collected and why</source>
+        <target>2. Welke gegevens worden verzameld en waarom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.col.context" datatype="html">
+        <source>Context</source>
+        <target>Context</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.col.data" datatype="html">
+        <source>Data</source>
+        <target>Gegevens</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.col.purpose" datatype="html">
+        <source>Purpose</source>
+        <target>Doel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.col.basis" datatype="html">
+        <source>Legal basis</source>
+        <target>Rechtsgrond</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">31,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.form.context" datatype="html">
+        <source>Contact form</source>
+        <target>Contactformulier</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.form.data" datatype="html">
+        <source>Name, email address, phone number (optional), subject and message</source>
+        <target>Naam, e-mailadres, telefoonnummer (optioneel), onderwerp en bericht</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.form.purpose" datatype="html">
+        <source>Reading and answering your message</source>
+        <target>Uw bericht lezen en beantwoorden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.form.basis" datatype="html">
+        <source>Legitimate interest in answering requests sent to me, and steps taken at your request (Art. 6.1.f and 6.1.b GDPR)</source>
+        <target>Gerechtvaardigd belang om aan mij gerichte verzoeken te beantwoorden, en maatregelen op uw verzoek (art. 6.1.f en 6.1.b AVG)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">39,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.visit.context" datatype="html">
+        <source>Visiting the website</source>
+        <target>Bezoek aan de website</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.visit.data" datatype="html">
+        <source>IP address, date and time, requested pages, browser and device information (technical server logs)</source>
+        <target>IP-adres, datum en tijd, opgevraagde pagina&apos;s, browser- en apparaatinformatie (technische serverlogs)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.visit.purpose" datatype="html">
+        <source>Delivering the site, security, fixing errors</source>
+        <target>De site leveren, beveiliging, fouten verhelpen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.visit.basis" datatype="html">
+        <source>Legitimate interest in running a secure website (Art. 6.1.f GDPR)</source>
+        <target>Gerechtvaardigd belang om een beveiligde website te beheren (art. 6.1.f AVG)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.data.note" datatype="html">
+        <source>The phone number is optional. Only fill in what you are comfortable sharing. I do not use your data for marketing, profiling or automated decision-making, and I never sell it.</source>
+        <target>Het telefoonnummer is optioneel. Vul alleen in wat u wilt delen. Ik gebruik uw gegevens niet voor marketing, profilering of geautomatiseerde besluitvorming, en ik verkoop ze nooit.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">50,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.cookies.title" datatype="html">
+        <source>3. Cookies and tracking</source>
+        <target>3. Cookies en tracking</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.cookies.text" datatype="html">
+        <source>This website does not set any cookies of its own and does not use analytics, advertising or tracking tools. For this reason, no cookie banner is displayed.</source>
+        <target>Deze website plaatst geen eigen cookies en gebruikt geen analyse-, advertentie- of trackingtools. Daarom wordt er geen cookiebanner weergegeven.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.title" datatype="html">
+        <source>4. Who else receives data</source>
+        <target>4. Wie ontvangt nog meer gegevens</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.intro" datatype="html">
+        <source>To run this website, I rely on the following service providers. They only process data needed for the service they provide.</source>
+        <target>Om deze website te laten werken, doe ik een beroep op de volgende dienstverleners. Zij verwerken enkel de gegevens die nodig zijn voor de dienst die ze leveren.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">58,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.hosting.label" datatype="html">
+        <source>Hosting (Hostinger) : </source>
+        <target>Hosting (Hostinger): </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.hosting.text" datatype="html">
+        <source>serves the website and keeps technical server logs.</source>
+        <target>levert de website uit en bewaart technische serverlogs.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.emailjs.label" datatype="html">
+        <source>Email service : </source>
+        <target>E-mailservice: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.emailjs.text" datatype="html">
+        <source>when you submit the contact form, the external service <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.emailjs.com/&quot;&gt;"/>Email Js<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> forwards the content of your message to my mailbox.</source>
+        <target>wanneer u het contactformulier verstuurt, stuurt de externe dienst <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.emailjs.com/&quot;&gt;"/>Email Js<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> de inhoud van uw bericht door naar mijn mailbox.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.mail.label" datatype="html">
+        <source>My email provider (Google Gmail) : </source>
+        <target>Mijn e-mailprovider (Google Gmail): </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.mail.text" datatype="html">
+        <source>receives the forwarded message and stores it in my mailbox.</source>
+        <target>ontvangt het doorgestuurde bericht en bewaart het in mijn mailbox.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.github.label" datatype="html">
+        <source>GitHub : </source>
+        <target>GitHub: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.github.text" datatype="html">
+        <source>the &quot;Projects&quot; section loads my public repositories directly from GitHub&apos;s servers, which means your browser contacts GitHub (and its image servers) when the section is displayed.</source>
+        <target>de sectie &quot;Projecten&quot; laadt mijn publieke repositories rechtstreeks van de servers van GitHub, wat betekent dat uw browser contact opneemt met GitHub (en de beeldservers ervan) wanneer de sectie wordt weergegeven.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.fonts.label" datatype="html">
+        <source>Google Fonts and icon providers : </source>
+        <target>Google Fonts en iconenproviders: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.fonts.text" datatype="html">
+        <source>fonts and icons (Google Fonts, Boxicons) are loaded from external servers when a page is displayed.</source>
+        <target>lettertypes en iconen (Google Fonts, Boxicons) worden van externe servers geladen wanneer een pagina wordt weergegeven.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">64,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.recipients.transfer" datatype="html">
+        <source>Whenever your browser loads a resource from one of these third parties, your IP address is necessarily transmitted to them. Some of these providers are located outside the European Economic Area (notably in the United States). In that case, the transfer relies on the safeguards provided by the GDPR, such as an adequacy decision or standard contractual clauses.</source>
+        <target>Telkens wanneer uw browser een bron van een van deze derden laadt, wordt uw IP-adres noodzakelijkerwijs aan hen doorgegeven. Sommige van deze providers zijn gevestigd buiten de Europese Economische Ruimte (met name in de Verenigde Staten). In dat geval berust de doorgifte op de waarborgen waarin de AVG voorziet, zoals een adequaatheidsbesluit of standaardcontractbepalingen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">66,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.retention.title" datatype="html">
+        <source>5. How long data is kept</source>
+        <target>5. Hoe lang gegevens worden bewaard</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.retention.messages.label" datatype="html">
+        <source>Contact messages : </source>
+        <target>Contactberichten: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.retention.messages.text" datatype="html">
+        <source>kept as long as needed to answer you and follow up on the conversation, then deleted at most 12 months after our last exchange.</source>
+        <target>bewaard zolang nodig is om u te antwoorden en het gesprek op te volgen, en uiterlijk 12 maanden na onze laatste uitwisseling verwijderd.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.retention.logs.label" datatype="html">
+        <source>Server logs : </source>
+        <target>Serverlogs: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.retention.logs.text" datatype="html">
+        <source>kept by the hosting provider for a limited period, according to its own retention policy.</source>
+        <target>door de hostingprovider voor een beperkte periode bewaard, volgens zijn eigen bewaarbeleid.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">72,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.title" datatype="html">
+        <source>6. Your rights</source>
+        <target>6. Uw rechten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.intro" datatype="html">
+        <source>You have the right to:</source>
+        <target>U hebt het recht om:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">77,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.access" datatype="html">
+        <source>access the personal data I hold about you</source>
+        <target>toegang te krijgen tot de persoonsgegevens die ik over u bewaar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">79,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.rectify" datatype="html">
+        <source>have inaccurate data corrected</source>
+        <target>onjuiste gegevens te laten corrigeren</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">80,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.erase" datatype="html">
+        <source>have your data erased</source>
+        <target>uw gegevens te laten wissen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.restrict" datatype="html">
+        <source>restrict or object to the processing of your data</source>
+        <target>de verwerking van uw gegevens te beperken of u ertegen te verzetten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.portability" datatype="html">
+        <source>receive your data in a portable format</source>
+        <target>uw gegevens in een overdraagbaar formaat te ontvangen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">83,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.exercise" datatype="html">
+        <source>To exercise these rights, send me an email at <x id="START_TAG_APP_PROTECTED_EMAIL" ctype="x-app_protected_email" equiv-text="&lt;app-protected-email&gt;"/><x id="CLOSE_TAG_APP_PROTECTED_EMAIL" ctype="x-app_protected_email" equiv-text="&lt;/app-protected-email&gt;"/>. I will answer within one month. I may ask you to confirm your identity before acting on your request.</source>
+        <target>Om deze rechten uit te oefenen, stuurt u mij een e-mail naar <x id="START_TAG_APP_PROTECTED_EMAIL" ctype="x-app_protected_email" equiv-text="&lt;app-protected-email&gt;"/><x id="CLOSE_TAG_APP_PROTECTED_EMAIL" ctype="x-app_protected_email" equiv-text="&lt;/app-protected-email&gt;"/>. Ik antwoord binnen één maand. Ik kan u vragen uw identiteit te bevestigen voordat ik gevolg geef aan uw verzoek.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.contact.form" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/&quot; fragment=&quot;contact&quot;&gt;"/>Use the contact form<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/&quot; fragment=&quot;contact&quot;&gt;"/>Gebruik het contactformulier<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.rights.complaint" datatype="html">
+        <source>If you believe your rights are not respected, you can lodge a complaint with the Belgian Data Protection Authority:</source>
+        <target>Als u meent dat uw rechten niet worden gerespecteerd, kunt u een klacht indienen bij de Belgische Gegevensbeschermingsautoriteit:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.security.title" datatype="html">
+        <source>7. Security</source>
+        <target>7. Beveiliging</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.security.text" datatype="html">
+        <source>The website is served over HTTPS and I limit access to the mailbox that receives messages to myself. No system is perfectly secure, but I take reasonable measures to protect the data entrusted to me.</source>
+        <target>De website wordt via HTTPS geleverd en ik beperk de toegang tot de mailbox die de berichten ontvangt tot mezelf. Geen enkel systeem is volledig veilig, maar ik neem redelijke maatregelen om de aan mij toevertrouwde gegevens te beschermen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">92,94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.changes.title" datatype="html">
+        <source>8. Changes to this policy</source>
+        <target>8. Wijzigingen in dit beleid</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">95,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy.changes.text" datatype="html">
+        <source>I may update this policy, for example when I add or remove a service. The date at the top of this page indicates the latest version.</source>
+        <target>Ik kan dit beleid bijwerken, bijvoorbeeld wanneer ik een dienst toevoeg of verwijder. De datum bovenaan deze pagina geeft de laatste versie aan.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">96,98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="187187500641108332" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="{{ project.name }}"/></source>
-        <target ><x id="INTERPOLATION" equiv-text="{{ project.name }}"/></target>
+        <target><x id="INTERPOLATION" equiv-text="{{ project.name }}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
           <context context-type="linenumber">5,6</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">6,7</context>
+          <context context-type="linenumber">6,8</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/projects.component.html</context>
-          <context context-type="linenumber">9,10</context>
+          <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="493135676263039396" datatype="html">
         <source>LIVE</source>
-        <target >LIVE</target>
+        <target>LIVE</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">23,24</context>
+          <context context-type="linenumber">28,29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8050186188435535866" datatype="html">
         <source><x id="START_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;svg class=&quot;live-icon&quot; width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot;&gt;"/><x id="START_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="START_TAG__SVG_POLYLINE" ctype="x-_svg_polyline" equiv-text="&lt;polyline points=&quot;15,3 21,3 21,9&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_POLYLINE" ctype="x-_svg_polyline" equiv-text="&lt;polyline points=&quot;15,3 21,3 21,9&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="START_TAG__SVG_LINE" ctype="x-_svg_line" equiv-text="&lt;line x1=&quot;10&quot; y1=&quot;14&quot; x2=&quot;21&quot; y2=&quot;3&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot;  stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_LINE" ctype="x-_svg_line" equiv-text="&lt;line x1=&quot;10&quot; y1=&quot;14&quot; x2=&quot;21&quot; y2=&quot;3&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot;  stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;/svg&gt;"/> Check it out! </source>
-        <target ><x id="START_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;svg class=&quot;live-icon&quot; width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot;&gt;"/><x id="START_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="START_TAG__SVG_POLYLINE" ctype="x-_svg_polyline" equiv-text="&lt;polyline points=&quot;15,3 21,3 21,9&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_POLYLINE" ctype="x-_svg_polyline" equiv-text="&lt;polyline points=&quot;15,3 21,3 21,9&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="START_TAG__SVG_LINE" ctype="x-_svg_line" equiv-text="&lt;line x1=&quot;10&quot; y1=&quot;14&quot; x2=&quot;21&quot; y2=&quot;3&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot;  stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_LINE" ctype="x-_svg_line" equiv-text="&lt;line x1=&quot;10&quot; y1=&quot;14&quot; x2=&quot;21&quot; y2=&quot;3&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot;  stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;/svg&gt;"/> Bekijk het!</target>
+        <target><x id="START_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;svg class=&quot;live-icon&quot; width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot;&gt;"/><x id="START_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="START_TAG__SVG_POLYLINE" ctype="x-_svg_polyline" equiv-text="&lt;polyline points=&quot;15,3 21,3 21,9&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_POLYLINE" ctype="x-_svg_polyline" equiv-text="&lt;polyline points=&quot;15,3 21,3 21,9&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"/><x id="START_TAG__SVG_LINE" ctype="x-_svg_line" equiv-text="&lt;line x1=&quot;10&quot; y1=&quot;14&quot; x2=&quot;21&quot; y2=&quot;3&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot;  stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_LINE" ctype="x-_svg_line" equiv-text="&lt;line x1=&quot;10&quot; y1=&quot;14&quot; x2=&quot;21&quot; y2=&quot;3&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot;  stroke-linejoin=&quot;round&quot;/&gt;"/><x id="CLOSE_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;/svg&gt;"/> Bekijk het!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">26,32</context>
+          <context context-type="linenumber">31,37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8284181653012147098" datatype="html">
         <source>Technical Analysis</source>
-        <target >Technische analyse</target>
+        <target>Technische analyse</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">36,38</context>
+          <context context-type="linenumber">42,44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1494947065237817959" datatype="html">
         <source> View on GitHub </source>
-        <target > Bekijk op GitHub </target>
+        <target> Bekijk op GitHub </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1616250945945379783" datatype="html">
         <source>Created:</source>
-        <target >Aangemaakt:</target>
+        <target>Aangemaakt:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">49,50</context>
+          <context context-type="linenumber">55,56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2147989808397253699" datatype="html">
         <source>Last Updated:</source>
-        <target >Laatst bijgewerkt:</target>
+        <target>Laatst bijgewerkt:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">56,57</context>
+          <context context-type="linenumber">62,63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7634975438452127654" datatype="html">
         <source>Size:</source>
-        <target >Grootte:</target>
+        <target>Grootte:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">63,64</context>
+          <context context-type="linenumber">69,70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8766543515727166681" datatype="html">
         <source>Status:</source>
-        <target >Status:</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
-          <context context-type="linenumber">68,69</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2604780094687357894" datatype="html">
-        <source>Languages Used</source>
-        <target >Gebruikte talen</target>
+        <target>Status:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
           <context context-type="linenumber">74,75</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="2604780094687357894" datatype="html">
+        <source>Languages Used</source>
+        <target>Gebruikte talen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/projects/project-card/project-card.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3280790651295326430" datatype="html">
         <source>Loading projects...</source>
-        <target >Projecten laden...</target>
+        <target>Projecten laden...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/projects.component.html</context>
-          <context context-type="linenumber">5,6</context>
+          <context context-type="linenumber">6,7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7934833136974560675" datatype="html">
         <source>Retry</source>
-        <target >Opnieuw proberen</target>
+        <target>Opnieuw proberen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/projects.component.html</context>
-          <context context-type="linenumber">10,11</context>
+          <context context-type="linenumber">13,14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2322901515718455720" datatype="html">
         <source>No previous projects to show</source>
-        <target >Geen eerdere projecten om te tonen</target>
+        <target>Geen eerdere projecten om te tonen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/projects.component.html</context>
-          <context context-type="linenumber">31,33</context>
+          <context context-type="linenumber">35,36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7904229603454050472" datatype="html">
         <source>No more projects to show</source>
-        <target >Geen verdere projecten om te tonen</target>
+        <target>Geen verdere projecten om te tonen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/projects.component.html</context>
-          <context context-type="linenumber">61,62</context>
+          <context context-type="linenumber">65,66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2108321263268848003" datatype="html">
         <source>No projects found.</source>
-        <target >Geen projecten gevonden.</target>
+        <target>Geen projecten gevonden.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/projects/projects.component.html</context>
-          <context context-type="linenumber">66,67</context>
+          <context context-type="linenumber">72,73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1949800099101277248" datatype="html">
         <source>Languages</source>
-        <target >Talen</target>
+        <target>Talen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/skills/skills.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -680,7 +1152,7 @@
       </trans-unit>
       <trans-unit id="4557438498768073243" datatype="html">
         <source>Tools &amp; Methodologies</source>
-        <target >Tools & methodologieën</target>
+        <target>Tools &amp; methodologieën</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/skills/skills.component.html</context>
           <context context-type="linenumber">206,207</context>

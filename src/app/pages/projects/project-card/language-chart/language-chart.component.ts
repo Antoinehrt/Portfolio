@@ -14,7 +14,7 @@ Chart.register(...registerables);
 })
 export class LanguageChartComponent implements OnChanges, AfterViewInit {
     @Input()
-    languages: { name: string; color: string }[] = [];
+    languages: { name: string; color: string; percentage?: number }[] = [];
 
     @ViewChild('chartCanvas', {static: false})
     chartCanvas!: ElementRef<HTMLCanvasElement>;
@@ -42,7 +42,7 @@ export class LanguageChartComponent implements OnChanges, AfterViewInit {
         const canvas = this.chartCanvas?.nativeElement;
         if (!canvas) return;
 
-        const percentages = this.languages.map(() => Math.floor(Math.random() * 100));
+        const percentages = this.languages.map(l => l.percentage ?? 0);
 
         if (this.chart) {
             this.chart.destroy();
