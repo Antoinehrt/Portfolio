@@ -49,12 +49,14 @@ jobs:
             - name: Check deploy folder
               run: ls -R deploy | head -50
 
-            - name: Deploy via FTP
-              uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-              with:
-                  server: ${{ secrets.FTP_IP }}
-                  username: ${{ secrets.FTP_USERNAME }}
-                  password: ${{ secrets.FTP_PASSWORD }}
-                  local-dir: ./deploy/
-                  server-dir: ./test/
-                  log-level: verbose
+            -   name: Deploy via FTP
+                uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+                with:
+                    server: ${{ secrets.FTP_IP }}
+                    username: ${{ secrets.FTP_USERNAME }}
+                    password: ${{ secrets.FTP_PASSWORD }}
+                    protocol: ftps
+                    security: loose
+                    local-dir: ./deploy/
+                    server-dir: ./test/
+                    log-level: verbose
