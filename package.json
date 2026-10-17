@@ -7,7 +7,7 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "fetch:projects": "node --env-file=.env scripts/fetch-projects.mjs",
+        "fetch:projects": "node --env-file-if-exists=.env scripts/fetch-projects.mjs",
         "prebuild": "npm run fetch:projects"
     },
     "private": true,

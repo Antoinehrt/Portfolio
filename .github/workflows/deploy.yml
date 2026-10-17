@@ -34,8 +34,10 @@ jobs:
                   };
                   EOF
 
-            - name: Build
-              run: npm run build -- --configuration production
+            -   name: Build
+                run: npm run build -- --configuration production
+                env:
+                    GH_TOKEN: ${{ secrets.GH_PAT }}
 
             - name: Restructure output for Hostinger
               run: |
