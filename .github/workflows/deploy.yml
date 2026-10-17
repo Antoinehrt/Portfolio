@@ -44,11 +44,11 @@ jobs:
                   cp -r dist/portfolio/browser/fr-BE deploy/fr
                   cp -r dist/portfolio/browser/nl-BE deploy/nl
 
-            - name: Deploy via FTP
-              uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-              with:
-                  server: ${{ secrets.FTP_IP }}
-                  username: ${{ secrets.FTP_USERNAME }}
-                  password: ${{ secrets.FTP_PASSWORD }}
-                  local-dir: ./deploy/
-                  server-dir: ./
+#            - name: Deploy via FTP
+#              uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+#              with:
+#                  server: ${{ secrets.FTP_IP }}
+#                  username: ${{ secrets.FTP_USERNAME }}
+#                  password: ${{ secrets.FTP_PASSWORD }}
+#                  local-dir: ./deploy/
+#                  server-dir: ./
