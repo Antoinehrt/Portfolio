@@ -63,7 +63,7 @@ The Projects section is generated **at build time** from my pinned GitHub reposi
 2. Create a `.env` file at the project root:
 
 ```bash
-GITHUB_TOKEN=github_pat_xxxxxxxxxxxxxxxx
+GH_TOKEN=github_pat_xxxxxxxxxxxxxxxx
 ```
 
 ## Projects data
@@ -75,7 +75,7 @@ npm run fetch:projects
 ```
 
 - It runs automatically before `npm run build` (`prebuild` hook). It does **not** run with `ng build` or `ng serve`: use the npm scripts, or run `npm run fetch:projects` manually.
-- Without `GITHUB_TOKEN`, the script keeps the existing `projects.json` and exits normally, so CI or other contributors can still build.
+- Without `GH_TOKEN`, the script keeps the existing `projects.json` and exits normally, so CI or other contributors can still build.
 - `projects.json` is committed: only public data.
 - Update the list of projects by re-running the script, then commit the result.
 

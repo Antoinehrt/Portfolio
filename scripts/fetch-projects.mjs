@@ -1,16 +1,15 @@
-// Récupère les dépôts épinglés GitHub AU BUILD et écrit un JSON statique.
-// Le token n'est lu que depuis l'environnement de TA machine : il n'est jamais embarqué dans l'app.
+
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {dirname} from 'node:path';
 
 const LOGIN = 'Antoinehrt';
 const OUT = 'src/assets/data/projects.json';
 const DEFAULT_IMAGE = 'assets/img/logos/default_project_icon.png';
-const TOKEN = process.env.GITHUB_TOKEN;
+const TOKEN = process.env.GH_TOKEN;
 
 if (!TOKEN) {
     const exists = await readFile(OUT).then(() => true, () => false);
-    console.warn(`[projects] GITHUB_TOKEN absent : ${exists ? 'on garde le fichier existant' : 'aucun fichier généré'}.`);
+    console.warn(`[projects] GH_TOKEN absent : ${exists ? 'on garde le fichier existant' : 'aucun fichier généré'}.`);
     process.exit(exists ? 0 : 1);
 }
 
