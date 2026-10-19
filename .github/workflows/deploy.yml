@@ -58,5 +58,5 @@ jobs:
                     protocol: ftps
                     security: loose
                     local-dir: ./deploy/
-                    server-dir: ./test/
+                    server-dir: ./public_html/test/
                     log-level: verbose
